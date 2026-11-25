@@ -4,6 +4,20 @@ Each version's section is that release's notes: `tools/build/notes.py` puts it i
 updating, known issues, reporting) for the GitHub release. A section has a summary paragraph, `### Changes` (each with
 its issue, #N), `### Tested` (what was run from the packages before publishing) and optionally `### Known issues`.
 
+## 0.2.0
+
+**Adds a Texture compression setting (Settings > Graphics) for cards without ASTC.** Choose Automatic, BC1 + BC3,
+BC1 + BC2, BC7 or Off to trade graphics memory for sharpness.
+
+### Changes
+
+- **Texture compression setting (`MKW_TEX_COMPRESSION`)**: new BC3 and BC2 compute encoders, a menu row and test
+  coverage. The default, Automatic, keeps the previous behaviour (BC1 for opaque textures, BC7 for the rest).
+
+### Tested
+
+- Built the Windows packages from this workflow and ran the game with each compression option.
+
 ## 0.1.18
 
 **A fix for the silent exit 0xC0000409 on Windows 11 right after the game starts (#751, #762, #702), and DLSS and
