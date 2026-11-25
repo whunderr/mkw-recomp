@@ -1,0 +1,567 @@
+diff --git a/i18n/ui/ca.po b/i18n/ui/ca.po
+index 558238b..f73bbb3 100644
+--- a/i18n/ui/ca.po
++++ b/i18n/ui/ca.po
+@@ -262,6 +262,17 @@ msgid ""
+ "next start."
+ msgstr ""
+ 
++msgctxt "UI_MENU_TEX_PRESSURE"
++msgid "Free idle textures"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_PRESSURE_DESC"
++msgid ""
++"When graphics memory is almost full, frees the textures that have not been used for a while, so "
++"the memory does not fill up and stay full (stutter after a long session). Automatic: on for "
++"graphics cards with 6 GB or more, off for the rest. Applies at the next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "Distància de detall"
+diff --git a/i18n/ui/de.po b/i18n/ui/de.po
+index f3f067a..befb150 100644
+--- a/i18n/ui/de.po
++++ b/i18n/ui/de.po
+@@ -263,6 +263,17 @@ msgid ""
+ "next start."
+ msgstr ""
+ 
++msgctxt "UI_MENU_TEX_PRESSURE"
++msgid "Free idle textures"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_PRESSURE_DESC"
++msgid ""
++"When graphics memory is almost full, frees the textures that have not been used for a while, so "
++"the memory does not fill up and stay full (stutter after a long session). Automatic: on for "
++"graphics cards with 6 GB or more, off for the rest. Applies at the next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "Detailweite"
+diff --git a/i18n/ui/es-419.po b/i18n/ui/es-419.po
+index 63a61f8..0a2f0fa 100644
+--- a/i18n/ui/es-419.po
++++ b/i18n/ui/es-419.po
+@@ -262,6 +262,17 @@ msgid ""
+ "next start."
+ msgstr ""
+ 
++msgctxt "UI_MENU_TEX_PRESSURE"
++msgid "Free idle textures"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_PRESSURE_DESC"
++msgid ""
++"When graphics memory is almost full, frees the textures that have not been used for a while, so "
++"the memory does not fill up and stay full (stutter after a long session). Automatic: on for "
++"graphics cards with 6 GB or more, off for the rest. Applies at the next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "Distancia de detalle"
+diff --git a/i18n/ui/es.po b/i18n/ui/es.po
+index 17aff93..cb792de 100644
+--- a/i18n/ui/es.po
++++ b/i18n/ui/es.po
+@@ -262,6 +262,17 @@ msgid ""
+ "next start."
+ msgstr ""
+ 
++msgctxt "UI_MENU_TEX_PRESSURE"
++msgid "Free idle textures"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_PRESSURE_DESC"
++msgid ""
++"When graphics memory is almost full, frees the textures that have not been used for a while, so "
++"the memory does not fill up and stay full (stutter after a long session). Automatic: on for "
++"graphics cards with 6 GB or more, off for the rest. Applies at the next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "Distancia de detalle"
+diff --git a/i18n/ui/eu.po b/i18n/ui/eu.po
+index 4d5a63c..17dbeb0 100644
+--- a/i18n/ui/eu.po
++++ b/i18n/ui/eu.po
+@@ -264,6 +264,17 @@ msgid ""
+ "next start."
+ msgstr ""
+ 
++msgctxt "UI_MENU_TEX_PRESSURE"
++msgid "Free idle textures"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_PRESSURE_DESC"
++msgid ""
++"When graphics memory is almost full, frees the textures that have not been used for a while, so "
++"the memory does not fill up and stay full (stutter after a long session). Automatic: on for "
++"graphics cards with 6 GB or more, off for the rest. Applies at the next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "Xehetasun-distantzia"
+diff --git a/i18n/ui/fr.po b/i18n/ui/fr.po
+index b40223e..c42138d 100644
+--- a/i18n/ui/fr.po
++++ b/i18n/ui/fr.po
+@@ -264,6 +264,17 @@ msgid ""
+ "next start."
+ msgstr ""
+ 
++msgctxt "UI_MENU_TEX_PRESSURE"
++msgid "Free idle textures"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_PRESSURE_DESC"
++msgid ""
++"When graphics memory is almost full, frees the textures that have not been used for a while, so "
++"the memory does not fill up and stay full (stutter after a long session). Automatic: on for "
++"graphics cards with 6 GB or more, off for the rest. Applies at the next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "Distance des détails"
+diff --git a/i18n/ui/gl.po b/i18n/ui/gl.po
+index 25133c7..6b7d394 100644
+--- a/i18n/ui/gl.po
++++ b/i18n/ui/gl.po
+@@ -262,6 +262,17 @@ msgid ""
+ "next start."
+ msgstr ""
+ 
++msgctxt "UI_MENU_TEX_PRESSURE"
++msgid "Free idle textures"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_PRESSURE_DESC"
++msgid ""
++"When graphics memory is almost full, frees the textures that have not been used for a while, so "
++"the memory does not fill up and stay full (stutter after a long session). Automatic: on for "
++"graphics cards with 6 GB or more, off for the rest. Applies at the next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "Distancia de detalle"
+diff --git a/i18n/ui/it.po b/i18n/ui/it.po
+index 77b6744..70f8689 100644
+--- a/i18n/ui/it.po
++++ b/i18n/ui/it.po
+@@ -263,6 +263,17 @@ msgid ""
+ "next start."
+ msgstr ""
+ 
++msgctxt "UI_MENU_TEX_PRESSURE"
++msgid "Free idle textures"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_PRESSURE_DESC"
++msgid ""
++"When graphics memory is almost full, frees the textures that have not been used for a while, so "
++"the memory does not fill up and stay full (stutter after a long session). Automatic: on for "
++"graphics cards with 6 GB or more, off for the rest. Applies at the next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "Distanza dettagli"
+diff --git a/i18n/ui/ja.po b/i18n/ui/ja.po
+index 2538652..13e4969 100644
+--- a/i18n/ui/ja.po
++++ b/i18n/ui/ja.po
+@@ -240,6 +240,17 @@ msgid ""
+ "next start."
+ msgstr ""
+ 
++msgctxt "UI_MENU_TEX_PRESSURE"
++msgid "Free idle textures"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_PRESSURE_DESC"
++msgid ""
++"When graphics memory is almost full, frees the textures that have not been used for a while, so "
++"the memory does not fill up and stay full (stutter after a long session). Automatic: on for "
++"graphics cards with 6 GB or more, off for the rest. Applies at the next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "描画距離"
+diff --git a/i18n/ui/ko.po b/i18n/ui/ko.po
+index 3d129ca..ec688d9 100644
+--- a/i18n/ui/ko.po
++++ b/i18n/ui/ko.po
+@@ -245,6 +245,17 @@ msgid ""
+ "next start."
+ msgstr ""
+ 
++msgctxt "UI_MENU_TEX_PRESSURE"
++msgid "Free idle textures"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_PRESSURE_DESC"
++msgid ""
++"When graphics memory is almost full, frees the textures that have not been used for a while, so "
++"the memory does not fill up and stay full (stutter after a long session). Automatic: on for "
++"graphics cards with 6 GB or more, off for the rest. Applies at the next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "디테일 거리"
+diff --git a/i18n/ui/mkw.pot b/i18n/ui/mkw.pot
+index b4097c5..4575feb 100644
+--- a/i18n/ui/mkw.pot
++++ b/i18n/ui/mkw.pot
+@@ -236,6 +236,17 @@ msgid ""
+ "next start."
+ msgstr ""
+ 
++msgctxt "UI_MENU_TEX_PRESSURE"
++msgid "Free idle textures"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_PRESSURE_DESC"
++msgid ""
++"When graphics memory is almost full, frees the textures that have not been used for a while, so the "
++"memory does not fill up and stay full (stutter after a long session). Automatic: on for graphics cards "
++"with 6 GB or more, off for the rest. Applies at the next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr ""
+diff --git a/i18n/ui/nl.po b/i18n/ui/nl.po
+index 4983279..5448bef 100644
+--- a/i18n/ui/nl.po
++++ b/i18n/ui/nl.po
+@@ -264,6 +264,17 @@ msgid ""
+ "next start."
+ msgstr ""
+ 
++msgctxt "UI_MENU_TEX_PRESSURE"
++msgid "Free idle textures"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_PRESSURE_DESC"
++msgid ""
++"When graphics memory is almost full, frees the textures that have not been used for a while, so "
++"the memory does not fill up and stay full (stutter after a long session). Automatic: on for "
++"graphics cards with 6 GB or more, off for the rest. Applies at the next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "Detailafstand"
+diff --git a/i18n/ui/pl.po b/i18n/ui/pl.po
+index 00795c1..a9000fa 100644
+--- a/i18n/ui/pl.po
++++ b/i18n/ui/pl.po
+@@ -261,6 +261,17 @@ msgid ""
+ "next start."
+ msgstr ""
+ 
++msgctxt "UI_MENU_TEX_PRESSURE"
++msgid "Free idle textures"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_PRESSURE_DESC"
++msgid ""
++"When graphics memory is almost full, frees the textures that have not been used for a while, so "
++"the memory does not fill up and stay full (stutter after a long session). Automatic: on for "
++"graphics cards with 6 GB or more, off for the rest. Applies at the next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "Zasięg detali"
+diff --git a/i18n/ui/pt-BR.po b/i18n/ui/pt-BR.po
+index 25f857c..ee181a8 100644
+--- a/i18n/ui/pt-BR.po
++++ b/i18n/ui/pt-BR.po
+@@ -261,6 +261,17 @@ msgid ""
+ "next start."
+ msgstr ""
+ 
++msgctxt "UI_MENU_TEX_PRESSURE"
++msgid "Free idle textures"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_PRESSURE_DESC"
++msgid ""
++"When graphics memory is almost full, frees the textures that have not been used for a while, so "
++"the memory does not fill up and stay full (stutter after a long session). Automatic: on for "
++"graphics cards with 6 GB or more, off for the rest. Applies at the next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "Distância de detalhe"
+diff --git a/i18n/ui/pt.po b/i18n/ui/pt.po
+index 2214564..ae9da37 100644
+--- a/i18n/ui/pt.po
++++ b/i18n/ui/pt.po
+@@ -262,6 +262,17 @@ msgid ""
+ "next start."
+ msgstr ""
+ 
++msgctxt "UI_MENU_TEX_PRESSURE"
++msgid "Free idle textures"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_PRESSURE_DESC"
++msgid ""
++"When graphics memory is almost full, frees the textures that have not been used for a while, so "
++"the memory does not fill up and stay full (stutter after a long session). Automatic: on for "
++"graphics cards with 6 GB or more, off for the rest. Applies at the next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "Distância de detalhe"
+diff --git a/i18n/ui/ru.po b/i18n/ui/ru.po
+index b067612..9a4747a 100644
+--- a/i18n/ui/ru.po
++++ b/i18n/ui/ru.po
+@@ -261,6 +261,17 @@ msgid ""
+ "next start."
+ msgstr ""
+ 
++msgctxt "UI_MENU_TEX_PRESSURE"
++msgid "Free idle textures"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_PRESSURE_DESC"
++msgid ""
++"When graphics memory is almost full, frees the textures that have not been used for a while, so "
++"the memory does not fill up and stay full (stutter after a long session). Automatic: on for "
++"graphics cards with 6 GB or more, off for the rest. Applies at the next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "Дальность детализации"
+diff --git a/i18n/ui/th.po b/i18n/ui/th.po
+index 00acf40..7e49761 100644
+--- a/i18n/ui/th.po
++++ b/i18n/ui/th.po
+@@ -254,6 +254,17 @@ msgid ""
+ "next start."
+ msgstr ""
+ 
++msgctxt "UI_MENU_TEX_PRESSURE"
++msgid "Free idle textures"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_PRESSURE_DESC"
++msgid ""
++"When graphics memory is almost full, frees the textures that have not been used for a while, so "
++"the memory does not fill up and stay full (stutter after a long session). Automatic: on for "
++"graphics cards with 6 GB or more, off for the rest. Applies at the next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "ระยะรายละเอียด"
+diff --git a/i18n/ui/tr.po b/i18n/ui/tr.po
+index ec6ed81..2d1c2cc 100644
+--- a/i18n/ui/tr.po
++++ b/i18n/ui/tr.po
+@@ -259,6 +259,17 @@ msgid ""
+ "next start."
+ msgstr ""
+ 
++msgctxt "UI_MENU_TEX_PRESSURE"
++msgid "Free idle textures"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_PRESSURE_DESC"
++msgid ""
++"When graphics memory is almost full, frees the textures that have not been used for a while, so "
++"the memory does not fill up and stay full (stutter after a long session). Automatic: on for "
++"graphics cards with 6 GB or more, off for the rest. Applies at the next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "Ayrıntı mesafesi"
+diff --git a/i18n/ui/uk.po b/i18n/ui/uk.po
+index b183d09..2984b2e 100644
+--- a/i18n/ui/uk.po
++++ b/i18n/ui/uk.po
+@@ -261,6 +261,17 @@ msgid ""
+ "next start."
+ msgstr ""
+ 
++msgctxt "UI_MENU_TEX_PRESSURE"
++msgid "Free idle textures"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_PRESSURE_DESC"
++msgid ""
++"When graphics memory is almost full, frees the textures that have not been used for a while, so "
++"the memory does not fill up and stay full (stutter after a long session). Automatic: on for "
++"graphics cards with 6 GB or more, off for the rest. Applies at the next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "Дальність деталей"
+diff --git a/i18n/ui/zh-Hans.po b/i18n/ui/zh-Hans.po
+index 0579cf4..b34fe10 100644
+--- a/i18n/ui/zh-Hans.po
++++ b/i18n/ui/zh-Hans.po
+@@ -237,6 +237,17 @@ msgid ""
+ "next start."
+ msgstr ""
+ 
++msgctxt "UI_MENU_TEX_PRESSURE"
++msgid "Free idle textures"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_PRESSURE_DESC"
++msgid ""
++"When graphics memory is almost full, frees the textures that have not been used for a while, so "
++"the memory does not fill up and stay full (stutter after a long session). Automatic: on for "
++"graphics cards with 6 GB or more, off for the rest. Applies at the next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "细节距离"
+diff --git a/i18n/ui/zh-Hant.po b/i18n/ui/zh-Hant.po
+index ce08aa7..2093965 100644
+--- a/i18n/ui/zh-Hant.po
++++ b/i18n/ui/zh-Hant.po
+@@ -237,6 +237,17 @@ msgid ""
+ "next start."
+ msgstr ""
+ 
++msgctxt "UI_MENU_TEX_PRESSURE"
++msgid "Free idle textures"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_PRESSURE_DESC"
++msgid ""
++"When graphics memory is almost full, frees the textures that have not been used for a while, so "
++"the memory does not fill up and stay full (stutter after a long session). Automatic: on for "
++"graphics cards with 6 GB or more, off for the rest. Applies at the next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "細節距離"
+diff --git a/runtime/core/base/cfg.c b/runtime/core/base/cfg.c
+index cea3d80..b630098 100644
+--- a/runtime/core/base/cfg.c
++++ b/runtime/core/base/cfg.c
+@@ -102,6 +102,7 @@ static const CfgRow rows[] = {
+     // how the ASTC textures are stored on a GPU without ASTC (gfx/vk/tex/vk_astc.c vk_tex_compression): BC1 for the opaque
+     // ones and BC7 for the rest (auto), BC3 or BC2 for the rest, BC7 for all, or RGBA8 uncompressed (off)
+     S("TEX_COMPRESSION", "graphics", "auto", "auto|bc3|bc2|bc7|off", RESTART),
++    S("TEX_PRESSURE", "graphics", "auto", "auto|1|0", RESTART),
+     S("DETAIL_DISTANCE", "graphics", "2", "1|1.5|2|3|4", RESTART),
+     S("SHADOW_SIZE", "graphics", "console", "console|1024|2048|3072|4096", RESTART),
+     // Sound, Controls, Menu
+@@ -348,7 +349,6 @@ static const CfgRow rows[] = {
+     K("TEMPORAL_KART_DEPTH"),
+     K("TEMPORAL_NGX"),
+     K("TEX_OVERWRITTEN"),
+-    K("TEX_PRESSURE"),
+     K("TEX_RELEASED_MIB"),
+     K("TRACE_UBO"),
+     K("TRACE_UBO_OUT"),
+diff --git a/runtime/gfx/nvn/host/ui_text.h b/runtime/gfx/nvn/host/ui_text.h
+index 5d662e3..5c5d6c1 100644
+--- a/runtime/gfx/nvn/host/ui_text.h
++++ b/runtime/gfx/nvn/host/ui_text.h
+@@ -70,6 +70,7 @@ typedef enum {
+     UI_MENU_TEX_QUALITY, UI_MENU_TEX_QUALITY_DESC, UI_MENU_TEX_QUALITY_FULL, UI_MENU_TEX_QUALITY_HALF,
+     UI_MENU_TEX_QUALITY_QUARTER,
+     UI_MENU_TEX_COMPRESSION, UI_MENU_TEX_COMPRESSION_DESC,
++    UI_MENU_TEX_PRESSURE, UI_MENU_TEX_PRESSURE_DESC,
+     UI_MENU_DETAIL, UI_MENU_DETAIL_DESC, UI_MENU_DETAIL_LOW, UI_MENU_DETAIL_MEDIUM, UI_MENU_DETAIL_CONSOLE,
+     UI_MENU_DETAIL_HIGH, UI_MENU_DETAIL_ULTRA,
+     UI_MENU_SHADOW, UI_MENU_SHADOW_DESC,
+diff --git a/runtime/gfx/vk/tex/vk_tex_pressure.c b/runtime/gfx/vk/tex/vk_tex_pressure.c
+index 0debecc..aa51cda 100644
+--- a/runtime/gfx/vk/tex/vk_tex_pressure.c
++++ b/runtime/gfx/vk/tex/vk_tex_pressure.c
+@@ -25,27 +25,46 @@
+ // GPU frames from 17-19 to 47-50 ms on a GTX 1050 Ti, as the game asked for them again within frames and each one
+ // was made and uploaded anew. MKW_TEX_PRESSURE=<submits> sets that line (default 1800, ~10 s at ~3 submits a frame),
+ // 0 turns it off, "ab" switches it with the A/B blocks.
+-// Off unless set: on a GTX 1050 Ti (windows prsC, 23/11/2026, 25 min of races) the textures outside VRAM were never
++// On by default on a discrete GPU with PRESSURE_AUTO_MIB or more of video memory (8 GB cards: #747, #481 reports of the
++// memory filling to the top and never coming back, with stutter), and only acts past PRESSURE_HIGH % of the budget;
++// MKW_TEX_PRESSURE=0 turns it off. Off elsewhere unless set: on a GTX 1050 Ti (windows prsC, 23/11/2026, 25 min of races) the textures outside VRAM were never
+ // idle enough to go (all 7.9 GB it evicted were in VRAM; they came and went with the game, 31-476 MiB), and the frame rate
+ // held at 23-26 fps from start to end; the runs without it (prsA, prsB) slowed only on that PC's disk (pipeline
+ // cache writes of 29-370 s).
+ #define PRESSURE_EVERY 8
++#define PRESSURE_AUTO_MIB 6144   // the video memory (device-local heaps) from which a discrete GPU has it on by default
+ #define PRESSURE_HIGH 90
+ #define PRESSURE_LOW 80
+ #define PRESSURE_RETRY 600   // submits before scanning again after a pass that could not reach PRESSURE_LOW
+ #define PRESSURE_SETTLE 64   // after one that did: the images go once the parts sent are done, and VMA counts them
+                              // until then (a pass 8 submits later would evict again for the same bytes)
+ 
++static int big_discrete(const VkCtx *c) {
++    if (c->props.deviceType != VK_PHYSICAL_DEVICE_TYPE_DISCRETE_GPU) return 0;
++    uint64_t vram = 0;
++    for (uint32_t h = 0; h < c->mem_props.memoryHeapCount; h++)
++        if (c->mem_props.memoryHeaps[h].flags & VK_MEMORY_HEAP_DEVICE_LOCAL_BIT) vram += c->mem_props.memoryHeaps[h].size;
++    return (vram >> 20) >= PRESSURE_AUTO_MIB;
++}
++
+ static uint32_t idle_line(int *mode) {
+     static int m = -1;
+-    static uint32_t line;
++    static uint32_t line = 1800;
+     if (m < 0) {
++        VkCtx *c = vk_ctx();
++        if (!c) {   // the device is not up yet: ask again at the next call
++            *mode = 0;
++            return line;
++        }
+         const char *e = cfg_get("MKW_TEX_PRESSURE");
+-        m = rt_knob("TEX_PRESSURE", "0");   // off by default: no gain measured yet (header)
+-        long v = e && *e && m == 1 ? strtol(e, NULL, 10) : 0;
++        int unset = !e || !*e || !strcmp(e, "auto");   // the menu's Automatic
++        int by_default = unset && big_discrete(c);
++        m = unset ? by_default : !strcmp(e, "ab") ? 2 : strcmp(e, "0") != 0;   // on by default from 6 GiB of VRAM
++        long v = !unset && m == 1 ? strtol(e, NULL, 10) : 0;
+         line = v > 1 ? (uint32_t)v : 1800;
+-        rt_log("vk: VRAM pressure eviction %s (MKW_TEX_PRESSURE: idle %u submits, past %d%% of the budget down to %d%%)",
+-               !m ? "off" : m == 2 ? "in the B blocks" : "on", line, PRESSURE_HIGH, PRESSURE_LOW);
++        rt_log("vk: VRAM pressure eviction %s%s (MKW_TEX_PRESSURE: idle %u submits, past %d%% of the budget down to %d%%)",
++               !m ? "off" : m == 2 ? "in the B blocks" : "on", by_default && m == 1 ? " by default" : "", line,
++               PRESSURE_HIGH, PRESSURE_LOW);
+     }
+     *mode = m;
+     return line;
+diff --git a/runtime/ui/menu/settings_tabs.cpp b/runtime/ui/menu/settings_tabs.cpp
+index b7ba53c..d2a6d3a 100644
+--- a/runtime/ui/menu/settings_tabs.cpp
++++ b/runtime/ui/menu/settings_tabs.cpp
+@@ -403,6 +403,11 @@ static void tab_graphics(float scale) {
+         const char *names[5] = {menu_text(UI_MENU_AUTO), "BC1 + BC3", "BC1 + BC2", "BC7", menu_text(UI_MENU_OFF)};
+         opt_choice_list("MKW_TEX_COMPRESSION", UI_MENU_TEX_COMPRESSION, vals, names, 5, UI_MENU_TEX_COMPRESSION_DESC);
+     }
++    {   // frees the textures idle for a while when video memory runs low (gfx/vk/tex/vk_tex_pressure.c)
++        static const char *const vals[] = {"auto", "1", "0"};
++        const char *names[3] = {menu_text(UI_MENU_AUTO), menu_text(UI_MENU_ON), menu_text(UI_MENU_OFF)};
++        opt_choice_list("MKW_TEX_PRESSURE", UI_MENU_TEX_PRESSURE, vals, names, 3, UI_MENU_TEX_PRESSURE_DESC);
++    }
+     {   // the game's LODDistanceRatio (sdk/fs/romfs_res.c), 2 on the console
+         static const char *const vals[] = {"1", "1.5", "2", "3", "4"};
+         const char *names[5] = {menu_text(UI_MENU_DETAIL_LOW), menu_text(UI_MENU_DETAIL_MEDIUM),

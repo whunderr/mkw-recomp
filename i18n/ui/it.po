@@ -263,6 +263,17 @@ msgid ""
 "next start."
 msgstr ""
 
+msgctxt "UI_MENU_TEX_PRESSURE"
+msgid "Free idle textures"
+msgstr ""
+
+msgctxt "UI_MENU_TEX_PRESSURE_DESC"
+msgid ""
+"When graphics memory is almost full, frees the textures that have not been used for a while, so "
+"the memory does not fill up and stay full (stutter after a long session). Automatic: on for "
+"graphics cards with 6 GB or more, off for the rest. Applies at the next start."
+msgstr ""
+
 msgctxt "UI_MENU_DETAIL"
 msgid "Detail distance"
 msgstr "Distanza dettagli"

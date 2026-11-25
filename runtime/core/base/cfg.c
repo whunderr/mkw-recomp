@@ -102,6 +102,7 @@ static const CfgRow rows[] = {
     // how the ASTC textures are stored on a GPU without ASTC (gfx/vk/tex/vk_astc.c vk_tex_compression): BC1 for the opaque
     // ones and BC7 for the rest (auto), BC3 or BC2 for the rest, BC7 for all, or RGBA8 uncompressed (off)
     S("TEX_COMPRESSION", "graphics", "auto", "auto|bc3|bc2|bc7|off", RESTART),
+    S("TEX_PRESSURE", "graphics", "auto", "auto|1|0", RESTART),
     S("DETAIL_DISTANCE", "graphics", "2", "1|1.5|2|3|4", RESTART),
     S("SHADOW_SIZE", "graphics", "console", "console|1024|2048|3072|4096", RESTART),
     // Sound, Controls, Menu
@@ -348,7 +349,6 @@ static const CfgRow rows[] = {
     K("TEMPORAL_KART_DEPTH"),
     K("TEMPORAL_NGX"),
     K("TEX_OVERWRITTEN"),
-    K("TEX_PRESSURE"),
     K("TEX_RELEASED_MIB"),
     K("TRACE_UBO"),
     K("TRACE_UBO_OUT"),

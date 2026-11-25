@@ -403,6 +403,11 @@ static void tab_graphics(float scale) {
         const char *names[5] = {menu_text(UI_MENU_AUTO), "BC1 + BC3", "BC1 + BC2", "BC7", menu_text(UI_MENU_OFF)};
         opt_choice_list("MKW_TEX_COMPRESSION", UI_MENU_TEX_COMPRESSION, vals, names, 5, UI_MENU_TEX_COMPRESSION_DESC);
     }
+    {   // frees the textures idle for a while when video memory runs low (gfx/vk/tex/vk_tex_pressure.c)
+        static const char *const vals[] = {"auto", "1", "0"};
+        const char *names[3] = {menu_text(UI_MENU_AUTO), menu_text(UI_MENU_ON), menu_text(UI_MENU_OFF)};
+        opt_choice_list("MKW_TEX_PRESSURE", UI_MENU_TEX_PRESSURE, vals, names, 3, UI_MENU_TEX_PRESSURE_DESC);
+    }
     {   // the game's LODDistanceRatio (sdk/fs/romfs_res.c), 2 on the console
         static const char *const vals[] = {"1", "1.5", "2", "3", "4"};
         const char *names[5] = {menu_text(UI_MENU_DETAIL_LOW), menu_text(UI_MENU_DETAIL_MEDIUM),
