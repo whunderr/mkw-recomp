@@ -4,6 +4,22 @@ Each version's section is that release's notes: `tools/build/notes.py` puts it i
 updating, known issues, reporting) for the GitHub release. A section has a summary paragraph, `### Changes` (each with
 its issue, #N), `### Tested` (what was run from the packages before publishing) and optionally `### Known issues`.
 
+## 0.2.1
+
+**Video memory that fills up and never comes back, with stutter after a long session, now has a fix on by default for
+graphics cards with 6 GB or more (#481, #747).**
+
+### Changes
+
+- **Free idle textures (#481, #747): a new Graphics setting.** When video memory is almost full, the textures that
+  have not been used for a while are freed, so the memory no longer fills up and stays full. Automatic (the default)
+  turns it on for discrete graphics cards with 6 GB of video memory or more and leaves it off on the rest; On and Off
+  force it. `tex_pressure = auto`, `1` or `0` in `mkw.ini`. Applies at the next start.
+
+### Tested
+
+- nope
+
 ## 0.2.0
 
 **Adds a Texture compression setting (Settings > Graphics) for cards without ASTC.** Choose Automatic, BC1 + BC3,
