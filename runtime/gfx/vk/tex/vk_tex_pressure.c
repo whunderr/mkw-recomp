@@ -25,27 +25,46 @@
 // GPU frames from 17-19 to 47-50 ms on a GTX 1050 Ti, as the game asked for them again within frames and each one
 // was made and uploaded anew. MKW_TEX_PRESSURE=<submits> sets that line (default 1800, ~10 s at ~3 submits a frame),
 // 0 turns it off, "ab" switches it with the A/B blocks.
-// Off unless set: on a GTX 1050 Ti (windows prsC, 23/11/2026, 25 min of races) the textures outside VRAM were never
+// On by default on a discrete GPU with PRESSURE_AUTO_MIB or more of video memory (8 GB cards: #747, #481 reports of the
+// memory filling to the top and never coming back, with stutter), and only acts past PRESSURE_HIGH % of the budget;
+// MKW_TEX_PRESSURE=0 turns it off. Off elsewhere unless set: on a GTX 1050 Ti (windows prsC, 23/11/2026, 25 min of races) the textures outside VRAM were never
 // idle enough to go (all 7.9 GB it evicted were in VRAM; they came and went with the game, 31-476 MiB), and the frame rate
 // held at 23-26 fps from start to end; the runs without it (prsA, prsB) slowed only on that PC's disk (pipeline
 // cache writes of 29-370 s).
 #define PRESSURE_EVERY 8
+#define PRESSURE_AUTO_MIB 6144   // the video memory (device-local heaps) from which a discrete GPU has it on by default
 #define PRESSURE_HIGH 90
 #define PRESSURE_LOW 80
 #define PRESSURE_RETRY 600   // submits before scanning again after a pass that could not reach PRESSURE_LOW
 #define PRESSURE_SETTLE 64   // after one that did: the images go once the parts sent are done, and VMA counts them
                              // until then (a pass 8 submits later would evict again for the same bytes)
 
+static int big_discrete(const VkCtx *c) {
+    if (c->props.deviceType != VK_PHYSICAL_DEVICE_TYPE_DISCRETE_GPU) return 0;
+    uint64_t vram = 0;
+    for (uint32_t h = 0; h < c->mem_props.memoryHeapCount; h++)
+        if (c->mem_props.memoryHeaps[h].flags & VK_MEMORY_HEAP_DEVICE_LOCAL_BIT) vram += c->mem_props.memoryHeaps[h].size;
+    return (vram >> 20) >= PRESSURE_AUTO_MIB;
+}
+
 static uint32_t idle_line(int *mode) {
     static int m = -1;
-    static uint32_t line;
+    static uint32_t line = 1800;
     if (m < 0) {
+        VkCtx *c = vk_ctx();
+        if (!c) {   // the device is not up yet: ask again at the next call
+            *mode = 0;
+            return line;
+        }
         const char *e = cfg_get("MKW_TEX_PRESSURE");
-        m = rt_knob("TEX_PRESSURE", "0");   // off by default: no gain measured yet (header)
-        long v = e && *e && m == 1 ? strtol(e, NULL, 10) : 0;
+        int unset = !e || !*e;
+        int by_default = unset && big_discrete(c);
+        m = rt_knob("TEX_PRESSURE", by_default ? "1" : "0");   // on by default from 6 GiB of VRAM on a discrete GPU
+        long v = !unset && m == 1 ? strtol(e, NULL, 10) : 0;
         line = v > 1 ? (uint32_t)v : 1800;
-        rt_log("vk: VRAM pressure eviction %s (MKW_TEX_PRESSURE: idle %u submits, past %d%% of the budget down to %d%%)",
-               !m ? "off" : m == 2 ? "in the B blocks" : "on", line, PRESSURE_HIGH, PRESSURE_LOW);
+        rt_log("vk: VRAM pressure eviction %s%s (MKW_TEX_PRESSURE: idle %u submits, past %d%% of the budget down to %d%%)",
+               !m ? "off" : m == 2 ? "in the B blocks" : "on", by_default && m == 1 ? " by default" : "", line,
+               PRESSURE_HIGH, PRESSURE_LOW);
     }
     *mode = m;
     return line;
