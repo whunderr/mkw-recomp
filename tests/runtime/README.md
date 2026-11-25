@@ -5,6 +5,7 @@ Pieces of `runtime/` built alone: audio, controllers, memory caps, settings and 
 | File | What it checks |
 |---|---|
 | `test_ui_text.py` | The menu's text catalogs (`i18n/`): the English template has every id of `ui_text.h`, each `.po` is up to date with it, and each translation keeps the English's printf conversions in order (a swapped `%s`/`%d` would make printf read the wrong argument) |
+| `test_tex_compression.py` | The Texture compression setting (`MKW_TEX_COMPRESSION`): the settings table, the reader in `vk_astc.c` and the menu row agree on its values, and the BC3 and BC2 encoders' embedded SPIR-V matches their sources |
 | `test_switch2.py` | The Switch 2 controllers' Bluetooth LE protocol (`runtime/input/switch2_proto.h`): mkw-neo's test (`t_switch2.c`, reports recorded from real Joy-Con 2s) built against our copy |
 | `test_cfg.py` | `cfg.c` keeps one table: every key once, one row per line, the key-only rows in order (a key missing from the list made the menu's `HDR` setting drop as unknown, #168) |
 | `test_cfg_bool.py` | `cfg_bool` (`cfg.c`), built alone with stubbed table lookups: `off`, `false`, `no` are false and `on`, `true`, `yes` true in any case, other numbers true, an unknown word gives the row's default |

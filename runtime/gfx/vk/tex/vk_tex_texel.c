@@ -201,6 +201,8 @@ static int decoded_block(VkFormat f, uint32_t *bw, uint32_t *bpb) {
     switch (f) {
     case VK_FORMAT_R8G8B8A8_UNORM: case VK_FORMAT_R8G8B8A8_SRGB: *bw = 1, *bpb = 4; return 1;
     case VK_FORMAT_BC1_RGB_UNORM_BLOCK: case VK_FORMAT_BC1_RGB_SRGB_BLOCK: *bw = 4, *bpb = 8; return 1;
+    case VK_FORMAT_BC2_UNORM_BLOCK: case VK_FORMAT_BC2_SRGB_BLOCK:
+    case VK_FORMAT_BC3_UNORM_BLOCK: case VK_FORMAT_BC3_SRGB_BLOCK:
     case VK_FORMAT_BC7_UNORM_BLOCK: case VK_FORMAT_BC7_SRGB_BLOCK: *bw = 4, *bpb = 16; return 1;
     default: return 0;
     }

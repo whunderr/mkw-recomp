@@ -432,6 +432,9 @@ int vk_astc_mode(void);                 // decided once per device (logged); VK_
 int vk_astc_native(VkFormat astc_fmt);  // 1: images of this ASTC format are created as such and get the raw blocks
 int vk_astc_gpu(void);                  // 1: ASTC images decoded to RGBA8 by the compute decoder (vk_astc_record)
 int vk_astc_bc7(void);                  // 1: and encoded again as BC7 (MKW_ASTC_BC7, default on): 1 byte a texel, not 4
+enum { VK_TEXCOMP_AUTO, VK_TEXCOMP_BC3, VK_TEXCOMP_BC2, VK_TEXCOMP_BC7, VK_TEXCOMP_OFF };
+int vk_tex_compression(void);          // MKW_TEX_COMPRESSION (Settings > Graphics): a VK_TEXCOMP_* (vk_astc.c)
+int vk_astc_alt(void);                 // 3: the textures with alpha are encoded as BC3, 4: as BC2 (instead of BC7); 0: BC7
 // One image region decoded from raw blocks: tight rows of 16-byte blocks at byte src of the source buffer (slices one
 // after the other), w x h texels and slices deep, written at offset of level / layer; lw x lh, that level's size (for
 // the BC7 copy's extent in whole blocks; 0: the region's own).

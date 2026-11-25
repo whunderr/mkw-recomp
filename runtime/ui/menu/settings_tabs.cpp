@@ -398,6 +398,11 @@ static void tab_graphics(float scale) {
     }
     static const UiTextId texq[] = {UI_MENU_TEX_QUALITY_FULL, UI_MENU_TEX_QUALITY_HALF, UI_MENU_TEX_QUALITY_QUARTER};
     opt_choice("MKW_TEX_QUALITY", UI_MENU_TEX_QUALITY, texq, 3, UI_MENU_TEX_QUALITY_DESC);
+    {   // how the ASTC textures are stored on a card without ASTC (gfx/vk/tex/vk_astc.c vk_tex_compression)
+        static const char *const vals[] = {"auto", "bc3", "bc2", "bc7", "off"};
+        const char *names[5] = {menu_text(UI_MENU_AUTO), "BC1 + BC3", "BC1 + BC2", "BC7", menu_text(UI_MENU_OFF)};
+        opt_choice_list("MKW_TEX_COMPRESSION", UI_MENU_TEX_COMPRESSION, vals, names, 5, UI_MENU_TEX_COMPRESSION_DESC);
+    }
     {   // the game's LODDistanceRatio (sdk/fs/romfs_res.c), 2 on the console
         static const char *const vals[] = {"1", "1.5", "2", "3", "4"};
         const char *names[5] = {menu_text(UI_MENU_DETAIL_LOW), menu_text(UI_MENU_DETAIL_MEDIUM),

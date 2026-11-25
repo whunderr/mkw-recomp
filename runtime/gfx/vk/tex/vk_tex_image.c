@@ -508,10 +508,13 @@ Tex *create_tex(const tex_t *t, const TexKey *k, int defer_init) {
     // image 0.0039 -> 0.0063 from the game's (bca5), no GPU fault at the default 768 MiB of tiles. run-race41 hung
     // the GPU with it and MKW_SPARSE_MIB=1024 (31/10/2026).
     static int bc1_on = -1;
-    if (bc1_on < 0) bc1_on = !cfg_get("MKW_ASTC_BC1") || !*cfg_get("MKW_ASTC_BC1") || atoi(cfg_get("MKW_ASTC_BC1"));
+    if (bc1_on < 0) {
+        bc1_on = !cfg_get("MKW_ASTC_BC1") || !*cfg_get("MKW_ASTC_BC1") || atoi(cfg_get("MKW_ASTC_BC1"));
+        if (vk_tex_compression() == VK_TEXCOMP_BC7) bc1_on = 0;   // Settings > Graphics > Texture compression: BC7 only
+    }
     if (f.astc_bc7 && bc1_on) {
         // why an image stays BC7, counted (bc1-t, 08/11/2026: texture memory as without BC1)
-        static volatile int32_t why[6], alpha_one;   // BC1, 4096 or more, no CPU storage, GPU-only, sparse, alpha
+        static volatile int32_t why[6], alpha_one, alt_n;   // BC1, 4096 or more, no CPU storage, GPU-only, sparse, alpha
         static volatile int64_t alpha_ns;            // the decodes' time (the replay thread's, at image creation)
         int w = d->width >= 4096 || d->height >= 4096 ? 1 : !t->mem ? 2 : nvn_gpu_only(k->addr) ? 3
               : d->flags & NVN_TEXTURE_FLAGS_SPARSE ? 4 : !astc_opaque(t->mem, t->L.size) ? 5 : 0;
@@ -523,14 +526,24 @@ Tex *create_tex(const tex_t *t, const TexKey *k, int defer_init) {
         if (!w) {
             f.astc_bc7 = 2;
             f.vk = f.astc_srgb ? VK_FORMAT_BC1_RGB_SRGB_BLOCK : VK_FORMAT_BC1_RGB_UNORM_BLOCK;
+        } else if (w == 5) {
+            // Alpha, and nothing else that keeps an image BC7 (sparse arrays and the images the GPU fills must match the
+            // BC7 they are copied from): BC3 or BC2 when Texture compression asks for it (vk_tex_compression).
+            int alt = vk_astc_alt();
+            if (alt) {
+                f.astc_bc7 = (uint8_t)alt;
+                f.vk = alt == 3 ? (f.astc_srgb ? VK_FORMAT_BC3_SRGB_BLOCK : VK_FORMAT_BC3_UNORM_BLOCK)
+                                : (f.astc_srgb ? VK_FORMAT_BC2_SRGB_BLOCK : VK_FORMAT_BC2_UNORM_BLOCK);
+                plat_inc32(&alt_n);
+            }
         }
         plat_inc32(&why[w]);
         int32_t all = 0;
         for (int i = 0; i < 6; i++) all += why[i];
         if (all % 256 == 0)
             rt_log("vk: ASTC BC1 (MKW_ASTC_BC1): %d of %d images; BC7 for 4096+ %d, no CPU storage %d, GPU-only %d, "
-                   "sparse %d, alpha %d (BC1 for alpha 1 decoded in every texel %d, %.0f ms decoding)", why[0], all,
-                   why[1], why[2], why[3], why[4], why[5], alpha_one, alpha_ns / 1e6);
+                   "sparse %d, alpha %d (BC1 for alpha 1 decoded in every texel %d, %.0f ms decoding; BC3 or BC2 for alpha %d)", why[0],
+                   all, why[1], why[2], why[3], why[4], why[5], alpha_one, alpha_ns / 1e6, alt_n);
     }
     if (!tex_vk_format_supported(&f)) {
         log_limited(&n_unsupported, "texture format %#x: VkFormat %d lacks features %#x", d->format, (int)f.vk, (unsigned)f.need);

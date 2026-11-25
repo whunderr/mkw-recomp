@@ -1,0 +1,2026 @@
+diff --git a/i18n/ui/ca.po b/i18n/ui/ca.po
+index e85295b..558238b 100644
+--- a/i18n/ui/ca.po
++++ b/i18n/ui/ca.po
+@@ -249,6 +249,19 @@ msgctxt "UI_MENU_TEX_QUALITY_QUARTER"
+ msgid "Quarter"
+ msgstr "Baixa"
+ 
++msgctxt "UI_MENU_TEX_COMPRESSION"
++msgid "Texture compression"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_COMPRESSION_DESC"
++msgid ""
++"How the game's textures are kept in graphics memory on a card without ASTC (most PC cards). "
++"Automatic: BC1 for opaque textures and BC7 for those with transparency. BC1 + BC3 and BC1 + BC2 "
++"use BC3 or BC2 for the transparent ones instead: the same memory as BC7. BC7 skips BC1 and gives "
++"every texture BC7. Off keeps full-size textures: the most memory and the sharpest. Applies at the "
++"next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "Distància de detall"
+diff --git a/i18n/ui/de.po b/i18n/ui/de.po
+index b117e3d..f3f067a 100644
+--- a/i18n/ui/de.po
++++ b/i18n/ui/de.po
+@@ -250,6 +250,19 @@ msgctxt "UI_MENU_TEX_QUALITY_QUARTER"
+ msgid "Quarter"
+ msgstr "Viertel"
+ 
++msgctxt "UI_MENU_TEX_COMPRESSION"
++msgid "Texture compression"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_COMPRESSION_DESC"
++msgid ""
++"How the game's textures are kept in graphics memory on a card without ASTC (most PC cards). "
++"Automatic: BC1 for opaque textures and BC7 for those with transparency. BC1 + BC3 and BC1 + BC2 "
++"use BC3 or BC2 for the transparent ones instead: the same memory as BC7. BC7 skips BC1 and gives "
++"every texture BC7. Off keeps full-size textures: the most memory and the sharpest. Applies at the "
++"next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "Detailweite"
+diff --git a/i18n/ui/es-419.po b/i18n/ui/es-419.po
+index b8616f7..63a61f8 100644
+--- a/i18n/ui/es-419.po
++++ b/i18n/ui/es-419.po
+@@ -249,6 +249,19 @@ msgctxt "UI_MENU_TEX_QUALITY_QUARTER"
+ msgid "Quarter"
+ msgstr "Baja"
+ 
++msgctxt "UI_MENU_TEX_COMPRESSION"
++msgid "Texture compression"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_COMPRESSION_DESC"
++msgid ""
++"How the game's textures are kept in graphics memory on a card without ASTC (most PC cards). "
++"Automatic: BC1 for opaque textures and BC7 for those with transparency. BC1 + BC3 and BC1 + BC2 "
++"use BC3 or BC2 for the transparent ones instead: the same memory as BC7. BC7 skips BC1 and gives "
++"every texture BC7. Off keeps full-size textures: the most memory and the sharpest. Applies at the "
++"next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "Distancia de detalle"
+diff --git a/i18n/ui/es.po b/i18n/ui/es.po
+index a31ec75..17aff93 100644
+--- a/i18n/ui/es.po
++++ b/i18n/ui/es.po
+@@ -249,6 +249,19 @@ msgctxt "UI_MENU_TEX_QUALITY_QUARTER"
+ msgid "Quarter"
+ msgstr "Baja"
+ 
++msgctxt "UI_MENU_TEX_COMPRESSION"
++msgid "Texture compression"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_COMPRESSION_DESC"
++msgid ""
++"How the game's textures are kept in graphics memory on a card without ASTC (most PC cards). "
++"Automatic: BC1 for opaque textures and BC7 for those with transparency. BC1 + BC3 and BC1 + BC2 "
++"use BC3 or BC2 for the transparent ones instead: the same memory as BC7. BC7 skips BC1 and gives "
++"every texture BC7. Off keeps full-size textures: the most memory and the sharpest. Applies at the "
++"next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "Distancia de detalle"
+diff --git a/i18n/ui/eu.po b/i18n/ui/eu.po
+index 3cf5858..4d5a63c 100644
+--- a/i18n/ui/eu.po
++++ b/i18n/ui/eu.po
+@@ -251,6 +251,19 @@ msgctxt "UI_MENU_TEX_QUALITY_QUARTER"
+ msgid "Quarter"
+ msgstr "Laurdena"
+ 
++msgctxt "UI_MENU_TEX_COMPRESSION"
++msgid "Texture compression"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_COMPRESSION_DESC"
++msgid ""
++"How the game's textures are kept in graphics memory on a card without ASTC (most PC cards). "
++"Automatic: BC1 for opaque textures and BC7 for those with transparency. BC1 + BC3 and BC1 + BC2 "
++"use BC3 or BC2 for the transparent ones instead: the same memory as BC7. BC7 skips BC1 and gives "
++"every texture BC7. Off keeps full-size textures: the most memory and the sharpest. Applies at the "
++"next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "Xehetasun-distantzia"
+diff --git a/i18n/ui/fr.po b/i18n/ui/fr.po
+index c75c7f0..b40223e 100644
+--- a/i18n/ui/fr.po
++++ b/i18n/ui/fr.po
+@@ -251,6 +251,19 @@ msgctxt "UI_MENU_TEX_QUALITY_QUARTER"
+ msgid "Quarter"
+ msgstr "Quart"
+ 
++msgctxt "UI_MENU_TEX_COMPRESSION"
++msgid "Texture compression"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_COMPRESSION_DESC"
++msgid ""
++"How the game's textures are kept in graphics memory on a card without ASTC (most PC cards). "
++"Automatic: BC1 for opaque textures and BC7 for those with transparency. BC1 + BC3 and BC1 + BC2 "
++"use BC3 or BC2 for the transparent ones instead: the same memory as BC7. BC7 skips BC1 and gives "
++"every texture BC7. Off keeps full-size textures: the most memory and the sharpest. Applies at the "
++"next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "Distance des détails"
+diff --git a/i18n/ui/gl.po b/i18n/ui/gl.po
+index 3568bbb..25133c7 100644
+--- a/i18n/ui/gl.po
++++ b/i18n/ui/gl.po
+@@ -249,6 +249,19 @@ msgctxt "UI_MENU_TEX_QUALITY_QUARTER"
+ msgid "Quarter"
+ msgstr "Baixa"
+ 
++msgctxt "UI_MENU_TEX_COMPRESSION"
++msgid "Texture compression"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_COMPRESSION_DESC"
++msgid ""
++"How the game's textures are kept in graphics memory on a card without ASTC (most PC cards). "
++"Automatic: BC1 for opaque textures and BC7 for those with transparency. BC1 + BC3 and BC1 + BC2 "
++"use BC3 or BC2 for the transparent ones instead: the same memory as BC7. BC7 skips BC1 and gives "
++"every texture BC7. Off keeps full-size textures: the most memory and the sharpest. Applies at the "
++"next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "Distancia de detalle"
+diff --git a/i18n/ui/it.po b/i18n/ui/it.po
+index 85bb91a..77b6744 100644
+--- a/i18n/ui/it.po
++++ b/i18n/ui/it.po
+@@ -250,6 +250,19 @@ msgctxt "UI_MENU_TEX_QUALITY_QUARTER"
+ msgid "Quarter"
+ msgstr "Un quarto"
+ 
++msgctxt "UI_MENU_TEX_COMPRESSION"
++msgid "Texture compression"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_COMPRESSION_DESC"
++msgid ""
++"How the game's textures are kept in graphics memory on a card without ASTC (most PC cards). "
++"Automatic: BC1 for opaque textures and BC7 for those with transparency. BC1 + BC3 and BC1 + BC2 "
++"use BC3 or BC2 for the transparent ones instead: the same memory as BC7. BC7 skips BC1 and gives "
++"every texture BC7. Off keeps full-size textures: the most memory and the sharpest. Applies at the "
++"next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "Distanza dettagli"
+diff --git a/i18n/ui/ja.po b/i18n/ui/ja.po
+index a837554..2538652 100644
+--- a/i18n/ui/ja.po
++++ b/i18n/ui/ja.po
+@@ -227,6 +227,19 @@ msgctxt "UI_MENU_TEX_QUALITY_QUARTER"
+ msgid "Quarter"
+ msgstr "1/4"
+ 
++msgctxt "UI_MENU_TEX_COMPRESSION"
++msgid "Texture compression"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_COMPRESSION_DESC"
++msgid ""
++"How the game's textures are kept in graphics memory on a card without ASTC (most PC cards). "
++"Automatic: BC1 for opaque textures and BC7 for those with transparency. BC1 + BC3 and BC1 + BC2 "
++"use BC3 or BC2 for the transparent ones instead: the same memory as BC7. BC7 skips BC1 and gives "
++"every texture BC7. Off keeps full-size textures: the most memory and the sharpest. Applies at the "
++"next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "描画距離"
+diff --git a/i18n/ui/ko.po b/i18n/ui/ko.po
+index 8266b21..3d129ca 100644
+--- a/i18n/ui/ko.po
++++ b/i18n/ui/ko.po
+@@ -232,6 +232,19 @@ msgctxt "UI_MENU_TEX_QUALITY_QUARTER"
+ msgid "Quarter"
+ msgstr "4분의 1"
+ 
++msgctxt "UI_MENU_TEX_COMPRESSION"
++msgid "Texture compression"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_COMPRESSION_DESC"
++msgid ""
++"How the game's textures are kept in graphics memory on a card without ASTC (most PC cards). "
++"Automatic: BC1 for opaque textures and BC7 for those with transparency. BC1 + BC3 and BC1 + BC2 "
++"use BC3 or BC2 for the transparent ones instead: the same memory as BC7. BC7 skips BC1 and gives "
++"every texture BC7. Off keeps full-size textures: the most memory and the sharpest. Applies at the "
++"next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "디테일 거리"
+diff --git a/i18n/ui/mkw.pot b/i18n/ui/mkw.pot
+index 8fd4b32..b4097c5 100644
+--- a/i18n/ui/mkw.pot
++++ b/i18n/ui/mkw.pot
+@@ -223,6 +223,19 @@ msgctxt "UI_MENU_TEX_QUALITY_QUARTER"
+ msgid "Quarter"
+ msgstr ""
+ 
++msgctxt "UI_MENU_TEX_COMPRESSION"
++msgid "Texture compression"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_COMPRESSION_DESC"
++msgid ""
++"How the game's textures are kept in graphics memory on a card without ASTC (most PC cards). "
++"Automatic: BC1 for opaque textures and BC7 for those with transparency. BC1 + BC3 and BC1 + BC2 "
++"use BC3 or BC2 for the transparent ones instead: the same memory as BC7. BC7 skips BC1 and gives "
++"every texture BC7. Off keeps full-size textures: the most memory and the sharpest. Applies at the "
++"next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr ""
+diff --git a/i18n/ui/nl.po b/i18n/ui/nl.po
+index fdb3c7c..4983279 100644
+--- a/i18n/ui/nl.po
++++ b/i18n/ui/nl.po
+@@ -251,6 +251,19 @@ msgctxt "UI_MENU_TEX_QUALITY_QUARTER"
+ msgid "Quarter"
+ msgstr "Kwart"
+ 
++msgctxt "UI_MENU_TEX_COMPRESSION"
++msgid "Texture compression"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_COMPRESSION_DESC"
++msgid ""
++"How the game's textures are kept in graphics memory on a card without ASTC (most PC cards). "
++"Automatic: BC1 for opaque textures and BC7 for those with transparency. BC1 + BC3 and BC1 + BC2 "
++"use BC3 or BC2 for the transparent ones instead: the same memory as BC7. BC7 skips BC1 and gives "
++"every texture BC7. Off keeps full-size textures: the most memory and the sharpest. Applies at the "
++"next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "Detailafstand"
+diff --git a/i18n/ui/pl.po b/i18n/ui/pl.po
+index 2ef74db..00795c1 100644
+--- a/i18n/ui/pl.po
++++ b/i18n/ui/pl.po
+@@ -248,6 +248,19 @@ msgctxt "UI_MENU_TEX_QUALITY_QUARTER"
+ msgid "Quarter"
+ msgstr "Ćwierć"
+ 
++msgctxt "UI_MENU_TEX_COMPRESSION"
++msgid "Texture compression"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_COMPRESSION_DESC"
++msgid ""
++"How the game's textures are kept in graphics memory on a card without ASTC (most PC cards). "
++"Automatic: BC1 for opaque textures and BC7 for those with transparency. BC1 + BC3 and BC1 + BC2 "
++"use BC3 or BC2 for the transparent ones instead: the same memory as BC7. BC7 skips BC1 and gives "
++"every texture BC7. Off keeps full-size textures: the most memory and the sharpest. Applies at the "
++"next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "Zasięg detali"
+diff --git a/i18n/ui/pt-BR.po b/i18n/ui/pt-BR.po
+index 747bdca..25f857c 100644
+--- a/i18n/ui/pt-BR.po
++++ b/i18n/ui/pt-BR.po
+@@ -248,6 +248,19 @@ msgctxt "UI_MENU_TEX_QUALITY_QUARTER"
+ msgid "Quarter"
+ msgstr "Quarto"
+ 
++msgctxt "UI_MENU_TEX_COMPRESSION"
++msgid "Texture compression"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_COMPRESSION_DESC"
++msgid ""
++"How the game's textures are kept in graphics memory on a card without ASTC (most PC cards). "
++"Automatic: BC1 for opaque textures and BC7 for those with transparency. BC1 + BC3 and BC1 + BC2 "
++"use BC3 or BC2 for the transparent ones instead: the same memory as BC7. BC7 skips BC1 and gives "
++"every texture BC7. Off keeps full-size textures: the most memory and the sharpest. Applies at the "
++"next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "Distância de detalhe"
+diff --git a/i18n/ui/pt.po b/i18n/ui/pt.po
+index 8ce9ad9..2214564 100644
+--- a/i18n/ui/pt.po
++++ b/i18n/ui/pt.po
+@@ -249,6 +249,19 @@ msgctxt "UI_MENU_TEX_QUALITY_QUARTER"
+ msgid "Quarter"
+ msgstr "Quarto"
+ 
++msgctxt "UI_MENU_TEX_COMPRESSION"
++msgid "Texture compression"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_COMPRESSION_DESC"
++msgid ""
++"How the game's textures are kept in graphics memory on a card without ASTC (most PC cards). "
++"Automatic: BC1 for opaque textures and BC7 for those with transparency. BC1 + BC3 and BC1 + BC2 "
++"use BC3 or BC2 for the transparent ones instead: the same memory as BC7. BC7 skips BC1 and gives "
++"every texture BC7. Off keeps full-size textures: the most memory and the sharpest. Applies at the "
++"next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "Distância de detalhe"
+diff --git a/i18n/ui/ru.po b/i18n/ui/ru.po
+index 6c6586a..b067612 100644
+--- a/i18n/ui/ru.po
++++ b/i18n/ui/ru.po
+@@ -248,6 +248,19 @@ msgctxt "UI_MENU_TEX_QUALITY_QUARTER"
+ msgid "Quarter"
+ msgstr "Четверть"
+ 
++msgctxt "UI_MENU_TEX_COMPRESSION"
++msgid "Texture compression"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_COMPRESSION_DESC"
++msgid ""
++"How the game's textures are kept in graphics memory on a card without ASTC (most PC cards). "
++"Automatic: BC1 for opaque textures and BC7 for those with transparency. BC1 + BC3 and BC1 + BC2 "
++"use BC3 or BC2 for the transparent ones instead: the same memory as BC7. BC7 skips BC1 and gives "
++"every texture BC7. Off keeps full-size textures: the most memory and the sharpest. Applies at the "
++"next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "Дальность детализации"
+diff --git a/i18n/ui/th.po b/i18n/ui/th.po
+index 6019e9f..00acf40 100644
+--- a/i18n/ui/th.po
++++ b/i18n/ui/th.po
+@@ -241,6 +241,19 @@ msgctxt "UI_MENU_TEX_QUALITY_QUARTER"
+ msgid "Quarter"
+ msgstr "หนึ่งในสี่"
+ 
++msgctxt "UI_MENU_TEX_COMPRESSION"
++msgid "Texture compression"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_COMPRESSION_DESC"
++msgid ""
++"How the game's textures are kept in graphics memory on a card without ASTC (most PC cards). "
++"Automatic: BC1 for opaque textures and BC7 for those with transparency. BC1 + BC3 and BC1 + BC2 "
++"use BC3 or BC2 for the transparent ones instead: the same memory as BC7. BC7 skips BC1 and gives "
++"every texture BC7. Off keeps full-size textures: the most memory and the sharpest. Applies at the "
++"next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "ระยะรายละเอียด"
+diff --git a/i18n/ui/tr.po b/i18n/ui/tr.po
+index d5fb584..ec6ed81 100644
+--- a/i18n/ui/tr.po
++++ b/i18n/ui/tr.po
+@@ -246,6 +246,19 @@ msgctxt "UI_MENU_TEX_QUALITY_QUARTER"
+ msgid "Quarter"
+ msgstr "Çeyrek"
+ 
++msgctxt "UI_MENU_TEX_COMPRESSION"
++msgid "Texture compression"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_COMPRESSION_DESC"
++msgid ""
++"How the game's textures are kept in graphics memory on a card without ASTC (most PC cards). "
++"Automatic: BC1 for opaque textures and BC7 for those with transparency. BC1 + BC3 and BC1 + BC2 "
++"use BC3 or BC2 for the transparent ones instead: the same memory as BC7. BC7 skips BC1 and gives "
++"every texture BC7. Off keeps full-size textures: the most memory and the sharpest. Applies at the "
++"next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "Ayrıntı mesafesi"
+diff --git a/i18n/ui/uk.po b/i18n/ui/uk.po
+index 6a44e6d..b183d09 100644
+--- a/i18n/ui/uk.po
++++ b/i18n/ui/uk.po
+@@ -248,6 +248,19 @@ msgctxt "UI_MENU_TEX_QUALITY_QUARTER"
+ msgid "Quarter"
+ msgstr "Чверть"
+ 
++msgctxt "UI_MENU_TEX_COMPRESSION"
++msgid "Texture compression"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_COMPRESSION_DESC"
++msgid ""
++"How the game's textures are kept in graphics memory on a card without ASTC (most PC cards). "
++"Automatic: BC1 for opaque textures and BC7 for those with transparency. BC1 + BC3 and BC1 + BC2 "
++"use BC3 or BC2 for the transparent ones instead: the same memory as BC7. BC7 skips BC1 and gives "
++"every texture BC7. Off keeps full-size textures: the most memory and the sharpest. Applies at the "
++"next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "Дальність деталей"
+diff --git a/i18n/ui/zh-Hans.po b/i18n/ui/zh-Hans.po
+index 80940ca..0579cf4 100644
+--- a/i18n/ui/zh-Hans.po
++++ b/i18n/ui/zh-Hans.po
+@@ -224,6 +224,19 @@ msgctxt "UI_MENU_TEX_QUALITY_QUARTER"
+ msgid "Quarter"
+ msgstr "四分之一"
+ 
++msgctxt "UI_MENU_TEX_COMPRESSION"
++msgid "Texture compression"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_COMPRESSION_DESC"
++msgid ""
++"How the game's textures are kept in graphics memory on a card without ASTC (most PC cards). "
++"Automatic: BC1 for opaque textures and BC7 for those with transparency. BC1 + BC3 and BC1 + BC2 "
++"use BC3 or BC2 for the transparent ones instead: the same memory as BC7. BC7 skips BC1 and gives "
++"every texture BC7. Off keeps full-size textures: the most memory and the sharpest. Applies at the "
++"next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "细节距离"
+diff --git a/i18n/ui/zh-Hant.po b/i18n/ui/zh-Hant.po
+index 19906d7..ce08aa7 100644
+--- a/i18n/ui/zh-Hant.po
++++ b/i18n/ui/zh-Hant.po
+@@ -224,6 +224,19 @@ msgctxt "UI_MENU_TEX_QUALITY_QUARTER"
+ msgid "Quarter"
+ msgstr "四分之一"
+ 
++msgctxt "UI_MENU_TEX_COMPRESSION"
++msgid "Texture compression"
++msgstr ""
++
++msgctxt "UI_MENU_TEX_COMPRESSION_DESC"
++msgid ""
++"How the game's textures are kept in graphics memory on a card without ASTC (most PC cards). "
++"Automatic: BC1 for opaque textures and BC7 for those with transparency. BC1 + BC3 and BC1 + BC2 "
++"use BC3 or BC2 for the transparent ones instead: the same memory as BC7. BC7 skips BC1 and gives "
++"every texture BC7. Off keeps full-size textures: the most memory and the sharpest. Applies at the "
++"next start."
++msgstr ""
++
+ msgctxt "UI_MENU_DETAIL"
+ msgid "Detail distance"
+ msgstr "細節距離"
+diff --git a/runtime/core/base/cfg.c b/runtime/core/base/cfg.c
+index 42300cb..cea3d80 100644
+--- a/runtime/core/base/cfg.c
++++ b/runtime/core/base/cfg.c
+@@ -99,6 +99,9 @@ static const CfgRow rows[] = {
+     S("QUALITY", "graphics", "console", "low|medium|console|high|ultra|custom", RESTART),   // the menu's presets; nothing reads it
+     S("ANISO", "graphics", "game", "game|2|4|8|16", RESTART),
+     S("TEX_QUALITY", "graphics", "full", "full|half|quarter", RESTART),
++    // how the ASTC textures are stored on a GPU without ASTC (gfx/vk/tex/vk_astc.c vk_tex_compression): BC1 for the opaque
++    // ones and BC7 for the rest (auto), BC3 or BC2 for the rest, BC7 for all, or RGBA8 uncompressed (off)
++    S("TEX_COMPRESSION", "graphics", "auto", "auto|bc3|bc2|bc7|off", RESTART),
+     S("DETAIL_DISTANCE", "graphics", "2", "1|1.5|2|3|4", RESTART),
+     S("SHADOW_SIZE", "graphics", "console", "console|1024|2048|3072|4096", RESTART),
+     // Sound, Controls, Menu
+diff --git a/runtime/gfx/nvn/host/ui_text.h b/runtime/gfx/nvn/host/ui_text.h
+index ddb91d9..5d662e3 100644
+--- a/runtime/gfx/nvn/host/ui_text.h
++++ b/runtime/gfx/nvn/host/ui_text.h
+@@ -69,6 +69,7 @@ typedef enum {
+     UI_MENU_ANISO, UI_MENU_ANISO_DESC, UI_MENU_ANISO_GAME,
+     UI_MENU_TEX_QUALITY, UI_MENU_TEX_QUALITY_DESC, UI_MENU_TEX_QUALITY_FULL, UI_MENU_TEX_QUALITY_HALF,
+     UI_MENU_TEX_QUALITY_QUARTER,
++    UI_MENU_TEX_COMPRESSION, UI_MENU_TEX_COMPRESSION_DESC,
+     UI_MENU_DETAIL, UI_MENU_DETAIL_DESC, UI_MENU_DETAIL_LOW, UI_MENU_DETAIL_MEDIUM, UI_MENU_DETAIL_CONSOLE,
+     UI_MENU_DETAIL_HIGH, UI_MENU_DETAIL_ULTRA,
+     UI_MENU_SHADOW, UI_MENU_SHADOW_DESC,
+diff --git a/runtime/gfx/nvn/tex/tex.h b/runtime/gfx/nvn/tex/tex.h
+index f75ddba..013daba 100644
+--- a/runtime/gfx/nvn/tex/tex.h
++++ b/runtime/gfx/nvn/tex/tex.h
+@@ -70,7 +70,7 @@ typedef struct TexVkFormat {
+     uint8_t astc_bw, astc_bh;     // nonzero: ASTC decoded into vk (RGBA8, same colour space) by vk_astc.c or tex_astc.c;
+                                   // zero for native ASTC (vk == ideal, raw blocks as for BC)
+     uint8_t astc_srgb;
+-    uint8_t astc_bc7;             // the decoded texels are encoded again as BC7 (vk is BC7: vk_astc_bc7)
++    uint8_t astc_bc7;             // the decoded texels are encoded again: 1 BC7 (vk is BC7: vk_astc_bc7), 2 BC1, 3 BC3, 4 BC2
+     uint8_t depth, stencil;       // aspect flags of depth / stencil formats
+     const char *note;             // why a fallback or an expansion was chosen; NULL when the mapping is direct
+     const char *reason;           // unmapped formats only: why there is no Vulkan format
+diff --git a/runtime/gfx/vk/device/vk.h b/runtime/gfx/vk/device/vk.h
+index 3bd3333..9effb72 100644
+--- a/runtime/gfx/vk/device/vk.h
++++ b/runtime/gfx/vk/device/vk.h
+@@ -432,6 +432,9 @@ int vk_astc_mode(void);                 // decided once per device (logged); VK_
+ int vk_astc_native(VkFormat astc_fmt);  // 1: images of this ASTC format are created as such and get the raw blocks
+ int vk_astc_gpu(void);                  // 1: ASTC images decoded to RGBA8 by the compute decoder (vk_astc_record)
+ int vk_astc_bc7(void);                  // 1: and encoded again as BC7 (MKW_ASTC_BC7, default on): 1 byte a texel, not 4
++enum { VK_TEXCOMP_AUTO, VK_TEXCOMP_BC3, VK_TEXCOMP_BC2, VK_TEXCOMP_BC7, VK_TEXCOMP_OFF };
++int vk_tex_compression(void);          // MKW_TEX_COMPRESSION (Settings > Graphics): a VK_TEXCOMP_* (vk_astc.c)
++int vk_astc_alt(void);                 // 3: the textures with alpha are encoded as BC3, 4: as BC2 (instead of BC7); 0: BC7
+ // One image region decoded from raw blocks: tight rows of 16-byte blocks at byte src of the source buffer (slices one
+ // after the other), w x h texels and slices deep, written at offset of level / layer; lw x lh, that level's size (for
+ // the BC7 copy's extent in whole blocks; 0: the region's own).
+diff --git a/runtime/gfx/vk/spv/README.md b/runtime/gfx/vk/spv/README.md
+index 5b44b30..fe1663a 100644
+--- a/runtime/gfx/vk/spv/README.md
++++ b/runtime/gfx/vk/spv/README.md
+@@ -4,10 +4,10 @@ SPIR-V of the runtime's own shaders, generated by `tools/shaders/embed_spv.py` f
+ 
+ | File | What it is |
+ |---|---|
+-| `*_spv.h` | Embedded SPIR-V of `runtime/shaders/` (`astc_decode`, `bc1_encode`, `bc7_encode`, `clk_busy`, `fg_flow`, `fg_luma`, `fg_median`, `fg_synth`, `fsr_easu`, `fsr_rcas`, `hdr_fullscreen`, `hdr_ui`, `mesh_compact`, `solid`); generated, not edited |
++| `*_spv.h` | Embedded SPIR-V of `runtime/shaders/` (`astc_decode`, `bc1_encode`, `bc2_encode`, `bc3_encode`, `bc7_encode`, `clk_busy`, `fg_flow`, `fg_luma`, `fg_median`, `fg_synth`, `fsr_easu`, `fsr_rcas`, `hdr_fullscreen`, `hdr_ui`, `mesh_compact`, `solid`); generated, not edited |
+ | `tmp_mv_spv.h` | `shaders/temporal/tmp_mv.comp`: the temporal upscalers' camera motion vectors and R32F depth (`exec/vk_temporal.c`) |
+ | `fg_hud_spv.h` | `shaders/framegen/fg_hud.comp`: the game frame's HUD over the made frames of DLSS-G and FSR 3.1 (`device/vk_framegen.c`) |
+ | `of_luma_spv.h`, `of_mv_spv.h` | Optional hardware optical-flow inputs and packed-vector conversion (`device/vk_oflow.c`, `device/vk_framegen.c`) |
+ | `tmp_cas_spv.h` | `shaders/temporal/tmp_cas.comp`: contrast adaptive sharpening of the upscaler's picture (`exec/vk_temporal.c`) |
+ | `ffx_game_field_spv.h` | Production StillTie kernel derived from AMD FidelityFX-SDK 2.4.0; regenerate with `uv run tools/ffx/builder/build.py`, then copy its verified `out/include` header explicitly |
+-| `*_spv.h` | Embedded SPIR-V of `runtime/shaders/` (`astc_decode`, `bc1_encode`, `bc7_encode`, `clk_busy`, `fg_flow`, `fg_luma`, `fg_median`, `fg_synth`, `fsr_easu`, `fsr_rcas`, `hdr_fullscreen`, `hdr_ui`, `mesh_compact`, `mirror_base`, `mirror_merge`, `solid`); generated, not edited |
++| `*_spv.h` | Embedded SPIR-V of `runtime/shaders/` (`astc_decode`, `bc1_encode`, `bc2_encode`, `bc3_encode`, `bc7_encode`, `clk_busy`, `fg_flow`, `fg_luma`, `fg_median`, `fg_synth`, `fsr_easu`, `fsr_rcas`, `hdr_fullscreen`, `hdr_ui`, `mesh_compact`, `mirror_base`, `mirror_merge`, `solid`); generated, not edited |
+diff --git a/runtime/gfx/vk/spv/bc2_encode_spv.h b/runtime/gfx/vk/spv/bc2_encode_spv.h
+new file mode 100644
+index 0000000..a25acc2
+--- /dev/null
++++ b/runtime/gfx/vk/spv/bc2_encode_spv.h
+@@ -0,0 +1,371 @@
++// Generated by tools/shaders/embed_spv.py from runtime/shaders/texture/bc2_encode.comp; do not edit.
++// source sha256 7089ac966d80169e07d134ae56570d361bc5f3b0a2d1249e24ef5f33c2cf5368
++#pragma once
++#include <stdint.h>
++static const uint32_t bc2_encode_spv[] = {
++    0x07230203, 0x00010600, 0x000d000b, 0x00000681, 0x00000000, 0x00020011, 0x00000001, 0x0006000b,
++    0x00000001, 0x4c534c47, 0x6474732e, 0x3035342e, 0x00000000, 0x0003000e, 0x00000000, 0x00000001,
++    0x0009000f, 0x00000005, 0x00000004, 0x6e69616d, 0x00000000, 0x00000039, 0x0000004c, 0x00000290,
++    0x000002d7, 0x00060010, 0x00000004, 0x00000011, 0x00000008, 0x00000008, 0x00000001, 0x00050048,
++    0x00000037, 0x00000000, 0x00000023, 0x00000000, 0x00050048, 0x00000037, 0x00000001, 0x00000023,
++    0x00000004, 0x00050048, 0x00000037, 0x00000002, 0x00000023, 0x00000008, 0x00050048, 0x00000037,
++    0x00000003, 0x00000023, 0x0000000c, 0x00050048, 0x00000037, 0x00000004, 0x00000023, 0x00000010,
++    0x00050048, 0x00000037, 0x00000005, 0x00000023, 0x00000014, 0x00030047, 0x00000037, 0x00000002,
++    0x00040047, 0x00000049, 0x00000006, 0x00000004, 0x00040048, 0x0000004a, 0x00000000, 0x00000018,
++    0x00050048, 0x0000004a, 0x00000000, 0x00000023, 0x00000000, 0x00030047, 0x0000004a, 0x00000002,
++    0x00040047, 0x0000004c, 0x00000022, 0x00000000, 0x00040047, 0x0000004c, 0x00000021, 0x00000000,
++    0x00040047, 0x00000290, 0x0000000b, 0x0000001c, 0x00040047, 0x000002d4, 0x00000006, 0x00000010,
++    0x00040048, 0x000002d5, 0x00000000, 0x00000019, 0x00050048, 0x000002d5, 0x00000000, 0x00000023,
++    0x00000000, 0x00030047, 0x000002d5, 0x00000002, 0x00040047, 0x000002d7, 0x00000022, 0x00000000,
++    0x00040047, 0x000002d7, 0x00000021, 0x00000001, 0x00030047, 0x00000364, 0x00000018, 0x00020013,
++    0x00000002, 0x00030021, 0x00000003, 0x00000002, 0x00040015, 0x00000006, 0x00000020, 0x00000000,
++    0x00040020, 0x00000007, 0x00000007, 0x00000006, 0x00030016, 0x00000008, 0x00000020, 0x00040017,
++    0x00000009, 0x00000008, 0x00000004, 0x00040017, 0x00000010, 0x00000008, 0x00000003, 0x00040020,
++    0x00000011, 0x00000007, 0x00000010, 0x0004002b, 0x00000006, 0x0000001a, 0x00000010, 0x0004001c,
++    0x0000001b, 0x00000010, 0x0000001a, 0x00040020, 0x0000001c, 0x00000007, 0x0000001b, 0x0004001c,
++    0x0000001d, 0x00000006, 0x0000001a, 0x00040020, 0x0000001e, 0x00000007, 0x0000001d, 0x00040017,
++    0x0000002b, 0x00000006, 0x00000002, 0x0004001c, 0x00000030, 0x00000008, 0x0000001a, 0x00040020,
++    0x00000031, 0x00000007, 0x00000030, 0x0008001e, 0x00000037, 0x00000006, 0x00000006, 0x00000006,
++    0x00000006, 0x00000006, 0x00000006, 0x00040020, 0x00000038, 0x00000009, 0x00000037, 0x0004003b,
++    0x00000038, 0x00000039, 0x00000009, 0x00040015, 0x0000003a, 0x00000020, 0x00000001, 0x0004002b,
++    0x0000003a, 0x0000003b, 0x00000002, 0x00040020, 0x0000003c, 0x00000009, 0x00000006, 0x0004002b,
++    0x00000006, 0x0000003f, 0x00000001, 0x0004002b, 0x0000003a, 0x00000043, 0x00000003, 0x0003001d,
++    0x00000049, 0x00000006, 0x0003001e, 0x0000004a, 0x00000049, 0x00040020, 0x0000004b, 0x0000000c,
++    0x0000004a, 0x0004003b, 0x0000004b, 0x0000004c, 0x0000000c, 0x0004002b, 0x0000003a, 0x0000004d,
++    0x00000000, 0x00040020, 0x0000005c, 0x0000000c, 0x00000006, 0x0004002b, 0x00000006, 0x00000060,
++    0x000000ff, 0x0004002b, 0x0000003a, 0x00000064, 0x00000008, 0x0004002b, 0x0000003a, 0x00000069,
++    0x00000010, 0x0004002b, 0x0000003a, 0x0000006e, 0x00000018, 0x00040017, 0x00000074, 0x00000006,
++    0x00000003, 0x0004002b, 0x00000008, 0x00000078, 0x41f80000, 0x0004002b, 0x00000008, 0x00000079,
++    0x427c0000, 0x0006002c, 0x00000010, 0x0000007a, 0x00000078, 0x00000079, 0x00000078, 0x0004002b,
++    0x00000008, 0x0000007c, 0x437f0000, 0x0004002b, 0x00000008, 0x00000080, 0x00000000, 0x0006002c,
++    0x00000010, 0x00000081, 0x00000080, 0x00000080, 0x00000080, 0x0004002b, 0x00000006, 0x00000084,
++    0x00000000, 0x0004002b, 0x0000003a, 0x00000087, 0x0000000b, 0x0004002b, 0x0000003a, 0x0000008b,
++    0x00000005, 0x0004002b, 0x00000006, 0x0000008e, 0x00000002, 0x0004002b, 0x00000006, 0x00000099,
++    0x0000003f, 0x0004002b, 0x00000006, 0x0000009c, 0x0000001f, 0x0004002b, 0x00000006, 0x000000b9,
++    0x00000004, 0x0004001c, 0x000000ba, 0x00000010, 0x000000b9, 0x00040020, 0x000000bb, 0x00000007,
++    0x000000ba, 0x0004002b, 0x00000008, 0x000000bf, 0x40000000, 0x00040020, 0x000000ce, 0x00000007,
++    0x00000008, 0x00020014, 0x000000d7, 0x0004002b, 0x00000008, 0x000000da, 0x4e6e6b28, 0x0004002b,
++    0x0000003a, 0x000000f8, 0x00000001, 0x0004002b, 0x00000008, 0x0000011e, 0x3d800000, 0x00040018,
++    0x00000121, 0x00000010, 0x00000003, 0x0006002c, 0x00000121, 0x00000124, 0x00000081, 0x00000081,
++    0x00000081, 0x0004002b, 0x00000008, 0x00000144, 0x3f800000, 0x0006002c, 0x00000010, 0x00000145,
++    0x00000144, 0x00000144, 0x00000144, 0x0004002b, 0x0000003a, 0x0000014e, 0x00000006, 0x0004002b,
++    0x00000008, 0x00000157, 0x358637bd, 0x0004002b, 0x00000008, 0x00000161, 0x3f13b646, 0x0006002c,
++    0x00000010, 0x00000162, 0x00000161, 0x00000161, 0x00000161, 0x0004002b, 0x00000008, 0x00000168,
++    0xce6e6b28, 0x0004001c, 0x000001b7, 0x00000008, 0x000000b9, 0x0004002b, 0x00000008, 0x000001b8,
++    0x3f2aaaab, 0x0004002b, 0x00000008, 0x000001b9, 0x3eaaaaab, 0x0007002c, 0x000001b7, 0x000001ba,
++    0x00000144, 0x00000080, 0x000001b8, 0x000001b9, 0x00040020, 0x000001be, 0x00000007, 0x000001b7,
++    0x0004002b, 0x00000008, 0x000001ef, 0x38d1b717, 0x00040020, 0x0000026b, 0x00000007, 0x0000002b,
++    0x0005002c, 0x0000002b, 0x0000026d, 0x00000084, 0x00000084, 0x0004002b, 0x00000006, 0x0000027c,
++    0x00000008, 0x0004002b, 0x00000006, 0x0000027e, 0x00000011, 0x0004002b, 0x00000006, 0x00000281,
++    0x00000007, 0x00040020, 0x0000028f, 0x00000001, 0x00000074, 0x0004003b, 0x0000028f, 0x00000290,
++    0x00000001, 0x00040020, 0x00000291, 0x00000001, 0x00000006, 0x0004002b, 0x0000003a, 0x0000029b,
++    0x00000004, 0x0004002b, 0x00000006, 0x000002ba, 0x00000003, 0x00040017, 0x000002d3, 0x00000006,
++    0x00000004, 0x0003001d, 0x000002d4, 0x000002d3, 0x0003001e, 0x000002d5, 0x000002d4, 0x00040020,
++    0x000002d6, 0x0000000c, 0x000002d5, 0x0004003b, 0x000002d6, 0x000002d7, 0x0000000c, 0x00040020,
++    0x000002f1, 0x0000000c, 0x000002d3, 0x0006002c, 0x00000010, 0x0000066e, 0x0000007c, 0x0000007c,
++    0x0000007c, 0x0004002b, 0x00000008, 0x00000672, 0x3df8f8fa, 0x0004002b, 0x00000008, 0x00000673,
++    0x3e7cfcfe, 0x0006002c, 0x00000010, 0x00000674, 0x00000672, 0x00000673, 0x00000672, 0x0006002c,
++    0x00000010, 0x00000675, 0x000001b9, 0x000001b9, 0x000001b9, 0x00050036, 0x00000002, 0x00000004,
++    0x00000000, 0x00000003, 0x000200f8, 0x00000005, 0x0004003b, 0x000000bb, 0x00000578, 0x00000007,
++    0x0004003b, 0x000000bb, 0x000004c5, 0x00000007, 0x0004003b, 0x0000001e, 0x00000358, 0x00000007,
++    0x0004003b, 0x0000001c, 0x00000359, 0x00000007, 0x0004003b, 0x0000001e, 0x0000035c, 0x00000007,
++    0x0005003b, 0x000001be, 0x00000364, 0x00000007, 0x000001ba, 0x0004003b, 0x0000001e, 0x00000370,
++    0x00000007, 0x0004003b, 0x0000001c, 0x00000371, 0x00000007, 0x0004003b, 0x0000001e, 0x00000374,
++    0x00000007, 0x0004003b, 0x0000026b, 0x00000326, 0x00000007, 0x0004003b, 0x0000001c, 0x000002c7,
++    0x00000007, 0x0004003b, 0x00000031, 0x000002cc, 0x00000007, 0x0004003b, 0x00000031, 0x000002e6,
++    0x00000007, 0x0004003b, 0x0000001c, 0x000002e9, 0x00000007, 0x000300f7, 0x000002f4, 0x00000000,
++    0x000300fb, 0x00000084, 0x000002f5, 0x000200f8, 0x000002f5, 0x00050041, 0x00000291, 0x00000292,
++    0x00000290, 0x00000084, 0x0004003d, 0x00000006, 0x00000293, 0x00000292, 0x00050041, 0x00000291,
++    0x00000295, 0x00000290, 0x0000003f, 0x0004003d, 0x00000006, 0x00000296, 0x00000295, 0x00050041,
++    0x00000291, 0x00000298, 0x00000290, 0x0000008e, 0x0004003d, 0x00000006, 0x00000299, 0x00000298,
++    0x00050041, 0x0000003c, 0x0000029c, 0x00000039, 0x0000029b, 0x0004003d, 0x00000006, 0x0000029d,
++    0x0000029c, 0x000500ae, 0x000000d7, 0x0000029e, 0x00000293, 0x0000029d, 0x000400a8, 0x000000d7,
++    0x0000029f, 0x0000029e, 0x000300f7, 0x000002a1, 0x00000000, 0x000400fa, 0x0000029f, 0x000002a0,
++    0x000002a1, 0x000200f8, 0x000002a0, 0x00050084, 0x00000006, 0x000002a5, 0x00000296, 0x0000029d,
++    0x00050041, 0x0000003c, 0x000002a6, 0x00000039, 0x0000008b, 0x0004003d, 0x00000006, 0x000002a7,
++    0x000002a6, 0x000500ae, 0x000000d7, 0x000002a8, 0x000002a5, 0x000002a7, 0x000200f9, 0x000002a1,
++    0x000200f8, 0x000002a1, 0x000700f5, 0x000000d7, 0x000002a9, 0x0000029e, 0x000002f5, 0x000002a8,
++    0x000002a0, 0x000300f7, 0x000002ab, 0x00000000, 0x000400fa, 0x000002a9, 0x000002aa, 0x000002ab,
++    0x000200f8, 0x000002aa, 0x000200f9, 0x000002f4, 0x000200f8, 0x000002ab, 0x000200f9, 0x000002ae,
++    0x000200f8, 0x000002ae, 0x000700f5, 0x00000006, 0x0000060e, 0x00000084, 0x000002ab, 0x000002d2,
++    0x000002af, 0x000500b0, 0x000000d7, 0x000002b4, 0x0000060e, 0x0000001a, 0x000400f6, 0x000002b0,
++    0x000002af, 0x00000000, 0x000400fa, 0x000002b4, 0x000002af, 0x000002b0, 0x000200f8, 0x000002af,
++    0x00050084, 0x00000006, 0x000002b8, 0x00000293, 0x000000b9, 0x000500c7, 0x00000006, 0x000002bb,
++    0x0000060e, 0x000002ba, 0x00050080, 0x00000006, 0x000002bc, 0x000002b8, 0x000002bb, 0x00050084,
++    0x00000006, 0x000002be, 0x00000296, 0x000000b9, 0x000500c2, 0x00000006, 0x000002c0, 0x0000060e,
++    0x0000003b, 0x00050080, 0x00000006, 0x000002c1, 0x000002be, 0x000002c0, 0x00050041, 0x0000003c,
++    0x000002fe, 0x00000039, 0x0000003b, 0x0004003d, 0x00000006, 0x000002ff, 0x000002fe, 0x00050082,
++    0x00000006, 0x00000300, 0x000002ff, 0x0000003f, 0x0007000c, 0x00000006, 0x00000301, 0x00000001,
++    0x00000026, 0x000002bc, 0x00000300, 0x00050041, 0x0000003c, 0x00000303, 0x00000039, 0x00000043,
++    0x0004003d, 0x00000006, 0x00000304, 0x00000303, 0x00050082, 0x00000006, 0x00000305, 0x00000304,
++    0x0000003f, 0x0007000c, 0x00000006, 0x00000306, 0x00000001, 0x00000026, 0x000002c1, 0x00000305,
++    0x00050041, 0x0000003c, 0x00000307, 0x00000039, 0x0000004d, 0x0004003d, 0x00000006, 0x00000308,
++    0x00000307, 0x00050084, 0x00000006, 0x0000030c, 0x00000299, 0x00000304, 0x00050080, 0x00000006,
++    0x0000030e, 0x0000030c, 0x00000306, 0x00050084, 0x00000006, 0x00000311, 0x0000030e, 0x000002ff,
++    0x00050080, 0x00000006, 0x00000312, 0x00000308, 0x00000311, 0x00050080, 0x00000006, 0x00000314,
++    0x00000312, 0x00000301, 0x00060041, 0x0000005c, 0x00000315, 0x0000004c, 0x0000004d, 0x00000314,
++    0x0004003d, 0x00000006, 0x00000316, 0x00000315, 0x000500c7, 0x00000006, 0x00000318, 0x00000316,
++    0x00000060, 0x00040070, 0x00000008, 0x00000319, 0x00000318, 0x000500c2, 0x00000006, 0x0000031b,
++    0x00000316, 0x00000064, 0x000500c7, 0x00000006, 0x0000031c, 0x0000031b, 0x00000060, 0x00040070,
++    0x00000008, 0x0000031d, 0x0000031c, 0x000500c2, 0x00000006, 0x0000031f, 0x00000316, 0x00000069,
++    0x000500c7, 0x00000006, 0x00000320, 0x0000031f, 0x00000060, 0x00040070, 0x00000008, 0x00000321,
++    0x00000320, 0x000500c2, 0x00000006, 0x00000323, 0x00000316, 0x0000006e, 0x00040070, 0x00000008,
++    0x00000324, 0x00000323, 0x00070050, 0x00000009, 0x00000325, 0x00000319, 0x0000031d, 0x00000321,
++    0x00000324, 0x0008004f, 0x00000010, 0x000002ca, 0x00000325, 0x00000325, 0x00000000, 0x00000001,
++    0x00000002, 0x00050041, 0x00000011, 0x000002cb, 0x000002c7, 0x0000060e, 0x0003003e, 0x000002cb,
++    0x000002ca, 0x00050041, 0x000000ce, 0x000002d0, 0x000002cc, 0x0000060e, 0x0003003e, 0x000002d0,
++    0x00000324, 0x00050080, 0x00000006, 0x000002d2, 0x0000060e, 0x000000f8, 0x000200f9, 0x000002ae,
++    0x000200f8, 0x000002b0, 0x00050041, 0x0000003c, 0x000002d8, 0x00000039, 0x000000f8, 0x0004003d,
++    0x00000006, 0x000002d9, 0x000002d8, 0x00050041, 0x0000003c, 0x000002db, 0x00000039, 0x0000008b,
++    0x0004003d, 0x00000006, 0x000002dc, 0x000002db, 0x00050084, 0x00000006, 0x000002dd, 0x00000299,
++    0x000002dc, 0x00050080, 0x00000006, 0x000002de, 0x000002d9, 0x000002dd, 0x00050084, 0x00000006,
++    0x000002e2, 0x00000296, 0x0000029d, 0x00050080, 0x00000006, 0x000002e3, 0x000002de, 0x000002e2,
++    0x00050080, 0x00000006, 0x000002e5, 0x000002e3, 0x00000293, 0x0004003d, 0x00000030, 0x000002e7,
++    0x000002cc, 0x0003003e, 0x000002e6, 0x000002e7, 0x0003003e, 0x00000326, 0x0000026d, 0x000200f9,
++    0x0000032a, 0x000200f8, 0x0000032a, 0x000700f5, 0x00000006, 0x0000060f, 0x00000084, 0x000002b0,
++    0x00000341, 0x0000032e, 0x000500b0, 0x000000d7, 0x0000032d, 0x0000060f, 0x0000001a, 0x000400f6,
++    0x00000342, 0x0000032e, 0x00000000, 0x000400fa, 0x0000032d, 0x0000032e, 0x00000342, 0x000200f8,
++    0x0000032e, 0x000500c2, 0x00000006, 0x00000330, 0x0000060f, 0x00000043, 0x00050041, 0x000000ce,
++    0x00000332, 0x000002e6, 0x0000060f, 0x0004003d, 0x00000008, 0x00000333, 0x00000332, 0x0004006d,
++    0x00000006, 0x00000334, 0x00000333, 0x00050080, 0x00000006, 0x00000335, 0x00000334, 0x0000027c,
++    0x00050086, 0x00000006, 0x00000336, 0x00000335, 0x0000027e, 0x000500c7, 0x00000006, 0x00000338,
++    0x0000060f, 0x00000281, 0x00050084, 0x00000006, 0x00000339, 0x000000b9, 0x00000338, 0x000500c4,
++    0x00000006, 0x0000033a, 0x00000336, 0x00000339, 0x00050041, 0x00000007, 0x0000033b, 0x00000326,
++    0x00000330, 0x0004003d, 0x00000006, 0x0000033c, 0x0000033b, 0x000500c5, 0x00000006, 0x0000033d,
++    0x0000033c, 0x0000033a, 0x0003003e, 0x0000033b, 0x0000033d, 0x00050080, 0x00000006, 0x00000341,
++    0x0000060f, 0x000000f8, 0x000200f9, 0x0000032a, 0x000200f8, 0x00000342, 0x0004003d, 0x0000002b,
++    0x00000343, 0x00000326, 0x0004003d, 0x0000001b, 0x000002ea, 0x000002c7, 0x0003003e, 0x000002e9,
++    0x000002ea, 0x0003003e, 0x00000364, 0x000001ba, 0x000200f9, 0x0000037a, 0x000200f8, 0x0000037a,
++    0x000700f5, 0x00000010, 0x00000611, 0x00000081, 0x00000342, 0x00000383, 0x0000037e, 0x000700f5,
++    0x00000006, 0x00000610, 0x00000084, 0x00000342, 0x00000386, 0x0000037e, 0x000500b0, 0x000000d7,
++    0x0000037d, 0x00000610, 0x0000001a, 0x000400f6, 0x00000387, 0x0000037e, 0x00000000, 0x000400fa,
++    0x0000037d, 0x0000037e, 0x00000387, 0x000200f8, 0x0000037e, 0x00050041, 0x00000011, 0x00000380,
++    0x000002e9, 0x00000610, 0x0004003d, 0x00000010, 0x00000381, 0x00000380, 0x00050081, 0x00000010,
++    0x00000383, 0x00000611, 0x00000381, 0x00050080, 0x00000006, 0x00000386, 0x00000610, 0x000000f8,
++    0x000200f9, 0x0000037a, 0x000200f8, 0x00000387, 0x0005008e, 0x00000010, 0x00000389, 0x00000611,
++    0x0000011e, 0x000200f9, 0x0000038a, 0x000200f8, 0x0000038a, 0x000700f5, 0x00000121, 0x00000654,
++    0x00000124, 0x00000387, 0x000003a1, 0x0000038e, 0x000700f5, 0x00000006, 0x00000612, 0x00000084,
++    0x00000387, 0x000003a4, 0x0000038e, 0x000500b0, 0x000000d7, 0x0000038d, 0x00000612, 0x0000001a,
++    0x000400f6, 0x000003a5, 0x0000038e, 0x00000000, 0x000400fa, 0x0000038d, 0x0000038e, 0x000003a5,
++    0x000200f8, 0x0000038e, 0x00050041, 0x00000011, 0x00000390, 0x000002e9, 0x00000612, 0x0004003d,
++    0x00000010, 0x00000391, 0x00000390, 0x00050083, 0x00000010, 0x00000393, 0x00000391, 0x00000389,
++    0x00050093, 0x00000121, 0x00000396, 0x00000393, 0x00000393, 0x00050051, 0x00000010, 0x00000398,
++    0x00000654, 0x00000000, 0x00050051, 0x00000010, 0x00000399, 0x00000396, 0x00000000, 0x00050081,
++    0x00000010, 0x0000039a, 0x00000398, 0x00000399, 0x00050051, 0x00000010, 0x0000039b, 0x00000654,
++    0x00000001, 0x00050051, 0x00000010, 0x0000039c, 0x00000396, 0x00000001, 0x00050081, 0x00000010,
++    0x0000039d, 0x0000039b, 0x0000039c, 0x00050051, 0x00000010, 0x0000039e, 0x00000654, 0x00000002,
++    0x00050051, 0x00000010, 0x0000039f, 0x00000396, 0x00000002, 0x00050081, 0x00000010, 0x000003a0,
++    0x0000039e, 0x0000039f, 0x00060050, 0x00000121, 0x000003a1, 0x0000039a, 0x0000039d, 0x000003a0,
++    0x00050080, 0x00000006, 0x000003a4, 0x00000612, 0x000000f8, 0x000200f9, 0x0000038a, 0x000200f8,
++    0x000003a5, 0x000200f9, 0x000003a6, 0x000200f8, 0x000003a6, 0x000700f5, 0x00000010, 0x00000619,
++    0x00000145, 0x000003a5, 0x00000655, 0x000003ba, 0x000700f5, 0x0000003a, 0x00000613, 0x0000004d,
++    0x000003a5, 0x000003bc, 0x000003ba, 0x000500b1, 0x000000d7, 0x000003a9, 0x00000613, 0x0000014e,
++    0x000400f6, 0x000003bd, 0x000003ba, 0x00000000, 0x000400fa, 0x000003a9, 0x000003aa, 0x000003bd,
++    0x000200f8, 0x000003aa, 0x00050091, 0x00000010, 0x000003ad, 0x00000654, 0x00000619, 0x0006000c,
++    0x00000008, 0x000003af, 0x00000001, 0x00000042, 0x000003ad, 0x000500ba, 0x000000d7, 0x000003b1,
++    0x000003af, 0x00000157, 0x000300f7, 0x000003b8, 0x00000000, 0x000400fa, 0x000003b1, 0x000003b2,
++    0x000003b7, 0x000200f8, 0x000003b2, 0x00060050, 0x00000010, 0x000003b5, 0x000003af, 0x000003af,
++    0x000003af, 0x00050088, 0x00000010, 0x000003b6, 0x000003ad, 0x000003b5, 0x000200f9, 0x000003b8,
++    0x000200f8, 0x000003b7, 0x000200f9, 0x000003b8, 0x000200f8, 0x000003b8, 0x000700f5, 0x00000010,
++    0x00000655, 0x000003b6, 0x000003b2, 0x00000162, 0x000003b7, 0x000200f9, 0x000003ba, 0x000200f8,
++    0x000003ba, 0x00050080, 0x0000003a, 0x000003bc, 0x00000613, 0x000000f8, 0x000200f9, 0x000003a6,
++    0x000200f8, 0x000003bd, 0x000200f9, 0x000003be, 0x000200f8, 0x000003be, 0x000700f5, 0x00000008,
++    0x0000061b, 0x000000da, 0x000003bd, 0x000003cc, 0x000003c2, 0x000700f5, 0x00000008, 0x0000061a,
++    0x00000168, 0x000003bd, 0x000003cf, 0x000003c2, 0x000700f5, 0x00000006, 0x00000614, 0x00000084,
++    0x000003bd, 0x000003d2, 0x000003c2, 0x000500b0, 0x000000d7, 0x000003c1, 0x00000614, 0x0000001a,
++    0x000400f6, 0x000003d3, 0x000003c2, 0x00000000, 0x000400fa, 0x000003c1, 0x000003c2, 0x000003d3,
++    0x000200f8, 0x000003c2, 0x00050041, 0x00000011, 0x000003c4, 0x000002e9, 0x00000614, 0x0004003d,
++    0x00000010, 0x000003c5, 0x000003c4, 0x00050083, 0x00000010, 0x000003c7, 0x000003c5, 0x00000389,
++    0x00050094, 0x00000008, 0x000003c9, 0x000003c7, 0x00000619, 0x0007000c, 0x00000008, 0x000003cc,
++    0x00000001, 0x00000025, 0x0000061b, 0x000003c9, 0x0007000c, 0x00000008, 0x000003cf, 0x00000001,
++    0x00000028, 0x0000061a, 0x000003c9, 0x00050080, 0x00000006, 0x000003d2, 0x00000614, 0x000000f8,
++    0x000200f9, 0x000003be, 0x000200f8, 0x000003d3, 0x0005008e, 0x00000010, 0x000003d7, 0x00000619,
++    0x0000061a, 0x00050081, 0x00000010, 0x000003d8, 0x00000389, 0x000003d7, 0x0008000c, 0x00000010,
++    0x000003db, 0x00000001, 0x0000002b, 0x000003d8, 0x00000081, 0x0000066e, 0x00050085, 0x00000010,
++    0x00000495, 0x000003db, 0x00000674, 0x0006000c, 0x00000010, 0x00000496, 0x00000001, 0x00000001,
++    0x00000495, 0x0008000c, 0x00000010, 0x00000497, 0x00000001, 0x0000002b, 0x00000496, 0x00000081,
++    0x0000007a, 0x0004006d, 0x00000074, 0x00000498, 0x00000497, 0x00050051, 0x00000006, 0x0000049a,
++    0x00000498, 0x00000000, 0x000500c4, 0x00000006, 0x0000049b, 0x0000049a, 0x00000087, 0x00050051,
++    0x00000006, 0x0000049d, 0x00000498, 0x00000001, 0x000500c4, 0x00000006, 0x0000049e, 0x0000049d,
++    0x0000008b, 0x000500c5, 0x00000006, 0x0000049f, 0x0000049b, 0x0000049e, 0x00050051, 0x00000006,
++    0x000004a1, 0x00000498, 0x00000002, 0x000500c5, 0x00000006, 0x000004a2, 0x0000049f, 0x000004a1,
++    0x0005008e, 0x00000010, 0x000003e0, 0x00000619, 0x0000061b, 0x00050081, 0x00000010, 0x000003e1,
++    0x00000389, 0x000003e0, 0x0008000c, 0x00000010, 0x000003e4, 0x00000001, 0x0000002b, 0x000003e1,
++    0x00000081, 0x0000066e, 0x00050085, 0x00000010, 0x000004a9, 0x000003e4, 0x00000674, 0x0006000c,
++    0x00000010, 0x000004aa, 0x00000001, 0x00000001, 0x000004a9, 0x0008000c, 0x00000010, 0x000004ab,
++    0x00000001, 0x0000002b, 0x000004aa, 0x00000081, 0x0000007a, 0x0004006d, 0x00000074, 0x000004ac,
++    0x000004ab, 0x00050051, 0x00000006, 0x000004ae, 0x000004ac, 0x00000000, 0x000500c4, 0x00000006,
++    0x000004af, 0x000004ae, 0x00000087, 0x00050051, 0x00000006, 0x000004b1, 0x000004ac, 0x00000001,
++    0x000500c4, 0x00000006, 0x000004b2, 0x000004b1, 0x0000008b, 0x000500c5, 0x00000006, 0x000004b3,
++    0x000004af, 0x000004b2, 0x00050051, 0x00000006, 0x000004b5, 0x000004ac, 0x00000002, 0x000500c5,
++    0x00000006, 0x000004b6, 0x000004b3, 0x000004b5, 0x000500b0, 0x000000d7, 0x000004bb, 0x000004a2,
++    0x000004b6, 0x000600a9, 0x00000006, 0x00000677, 0x000004bb, 0x000004a2, 0x000004b6, 0x000600a9,
++    0x00000006, 0x00000678, 0x000004bb, 0x000004b6, 0x000004a2, 0x0003003e, 0x00000359, 0x000002ea,
++    0x000500c2, 0x00000006, 0x00000510, 0x00000678, 0x00000087, 0x000500c2, 0x00000006, 0x00000512,
++    0x00000678, 0x0000008b, 0x000500c7, 0x00000006, 0x00000513, 0x00000512, 0x00000099, 0x000500c7,
++    0x00000006, 0x00000515, 0x00000678, 0x0000009c, 0x00050084, 0x00000006, 0x00000519, 0x00000510,
++    0x00000060, 0x00050086, 0x00000006, 0x0000051a, 0x00000519, 0x0000009c, 0x00040070, 0x00000008,
++    0x0000051b, 0x0000051a, 0x00050084, 0x00000006, 0x0000051e, 0x00000513, 0x00000060, 0x00050086,
++    0x00000006, 0x0000051f, 0x0000051e, 0x00000099, 0x00040070, 0x00000008, 0x00000520, 0x0000051f,
++    0x00050084, 0x00000006, 0x00000523, 0x00000515, 0x00000060, 0x00050086, 0x00000006, 0x00000524,
++    0x00000523, 0x0000009c, 0x00040070, 0x00000008, 0x00000525, 0x00000524, 0x00060050, 0x00000010,
++    0x00000526, 0x0000051b, 0x00000520, 0x00000525, 0x000500c2, 0x00000006, 0x0000052b, 0x00000677,
++    0x00000087, 0x000500c2, 0x00000006, 0x0000052d, 0x00000677, 0x0000008b, 0x000500c7, 0x00000006,
++    0x0000052e, 0x0000052d, 0x00000099, 0x000500c7, 0x00000006, 0x00000530, 0x00000677, 0x0000009c,
++    0x00050084, 0x00000006, 0x00000534, 0x0000052b, 0x00000060, 0x00050086, 0x00000006, 0x00000535,
++    0x00000534, 0x0000009c, 0x00040070, 0x00000008, 0x00000536, 0x00000535, 0x00050084, 0x00000006,
++    0x00000539, 0x0000052e, 0x00000060, 0x00050086, 0x00000006, 0x0000053a, 0x00000539, 0x00000099,
++    0x00040070, 0x00000008, 0x0000053b, 0x0000053a, 0x00050084, 0x00000006, 0x0000053e, 0x00000530,
++    0x00000060, 0x00050086, 0x00000006, 0x0000053f, 0x0000053e, 0x0000009c, 0x00040070, 0x00000008,
++    0x00000540, 0x0000053f, 0x00060050, 0x00000010, 0x00000541, 0x00000536, 0x0000053b, 0x00000540,
++    0x0005008e, 0x00000010, 0x000004d6, 0x00000526, 0x000000bf, 0x00050081, 0x00000010, 0x000004d8,
++    0x000004d6, 0x00000541, 0x00050085, 0x00000010, 0x000004da, 0x000004d8, 0x00000675, 0x0005008e,
++    0x00000010, 0x000004dd, 0x00000541, 0x000000bf, 0x00050081, 0x00000010, 0x000004de, 0x00000526,
++    0x000004dd, 0x00050085, 0x00000010, 0x000004e0, 0x000004de, 0x00000675, 0x00070050, 0x000000ba,
++    0x000004e1, 0x00000526, 0x00000541, 0x000004da, 0x000004e0, 0x0003003e, 0x000004c5, 0x000004e1,
++    0x000200f9, 0x000004e2, 0x000200f8, 0x000004e2, 0x000700f5, 0x00000008, 0x0000061f, 0x00000080,
++    0x000003d3, 0x00000506, 0x00000507, 0x000700f5, 0x00000006, 0x0000061e, 0x00000084, 0x000003d3,
++    0x00000509, 0x00000507, 0x000500b0, 0x000000d7, 0x000004e5, 0x0000061e, 0x0000001a, 0x000400f6,
++    0x0000050a, 0x00000507, 0x00000000, 0x000400fa, 0x000004e5, 0x000004e6, 0x0000050a, 0x000200f8,
++    0x000004e6, 0x000200f9, 0x000004e7, 0x000200f8, 0x000004e7, 0x000700f5, 0x00000008, 0x00000650,
++    0x000000da, 0x000004e6, 0x00000679, 0x000004eb, 0x000700f5, 0x00000006, 0x0000064f, 0x00000084,
++    0x000004e6, 0x0000067a, 0x000004eb, 0x000700f5, 0x00000006, 0x0000064d, 0x00000084, 0x000004e6,
++    0x000004ff, 0x000004eb, 0x000500b0, 0x000000d7, 0x000004ea, 0x0000064d, 0x000000b9, 0x000400f6,
++    0x00000500, 0x000004eb, 0x00000000, 0x000400fa, 0x000004ea, 0x000004eb, 0x00000500, 0x000200f8,
++    0x000004eb, 0x00050041, 0x00000011, 0x000004ed, 0x000004c5, 0x0000064d, 0x0004003d, 0x00000010,
++    0x000004ee, 0x000004ed, 0x00050041, 0x00000011, 0x000004f0, 0x00000359, 0x0000061e, 0x0004003d,
++    0x00000010, 0x000004f1, 0x000004f0, 0x00050083, 0x00000010, 0x000004f2, 0x000004ee, 0x000004f1,
++    0x00050094, 0x00000008, 0x000004f5, 0x000004f2, 0x000004f2, 0x000500b8, 0x000000d7, 0x000004f8,
++    0x000004f5, 0x00000650, 0x000600a9, 0x00000008, 0x00000679, 0x000004f8, 0x000004f5, 0x00000650,
++    0x000600a9, 0x00000006, 0x0000067a, 0x000004f8, 0x0000064d, 0x0000064f, 0x00050080, 0x00000006,
++    0x000004ff, 0x0000064d, 0x000000f8, 0x000200f9, 0x000004e7, 0x000200f8, 0x00000500, 0x00050041,
++    0x00000007, 0x00000503, 0x0000035c, 0x0000061e, 0x0003003e, 0x00000503, 0x0000064f, 0x00050081,
++    0x00000008, 0x00000506, 0x0000061f, 0x00000650, 0x000200f9, 0x00000507, 0x000200f8, 0x00000507,
++    0x00050080, 0x00000006, 0x00000509, 0x0000061e, 0x000000f8, 0x000200f9, 0x000004e2, 0x000200f8,
++    0x0000050a, 0x0004003d, 0x0000001d, 0x000003ef, 0x0000035c, 0x0003003e, 0x00000358, 0x000003ef,
++    0x000200f9, 0x000003f0, 0x000200f8, 0x000003f0, 0x000700f5, 0x00000010, 0x00000629, 0x00000081,
++    0x0000050a, 0x0000041a, 0x000003f4, 0x000700f5, 0x00000010, 0x00000628, 0x00000081, 0x0000050a,
++    0x00000412, 0x000003f4, 0x000700f5, 0x00000008, 0x00000623, 0x00000080, 0x0000050a, 0x0000040b,
++    0x000003f4, 0x000700f5, 0x00000008, 0x00000622, 0x00000080, 0x0000050a, 0x00000405, 0x000003f4,
++    0x000700f5, 0x00000008, 0x00000621, 0x00000080, 0x0000050a, 0x000003fe, 0x000003f4, 0x000700f5,
++    0x00000006, 0x00000620, 0x00000084, 0x0000050a, 0x0000041d, 0x000003f4, 0x000500b0, 0x000000d7,
++    0x000003f3, 0x00000620, 0x0000001a, 0x000400f6, 0x0000041e, 0x000003f4, 0x00000000, 0x000400fa,
++    0x000003f3, 0x000003f4, 0x0000041e, 0x000200f8, 0x000003f4, 0x00050041, 0x00000007, 0x000003f6,
++    0x00000358, 0x00000620, 0x0004003d, 0x00000006, 0x000003f7, 0x000003f6, 0x00050041, 0x000000ce,
++    0x000003f8, 0x00000364, 0x000003f7, 0x0004003d, 0x00000008, 0x000003f9, 0x000003f8, 0x0008000c,
++    0x00000008, 0x000003fe, 0x00000001, 0x00000032, 0x000003f9, 0x000003f9, 0x00000621, 0x00050083,
++    0x00000008, 0x00000400, 0x00000144, 0x000003f9, 0x0008000c, 0x00000008, 0x00000405, 0x00000001,
++    0x00000032, 0x00000400, 0x00000400, 0x00000622, 0x0008000c, 0x00000008, 0x0000040b, 0x00000001,
++    0x00000032, 0x000003f9, 0x00000400, 0x00000623, 0x00050041, 0x00000011, 0x0000040e, 0x000002e9,
++    0x00000620, 0x0004003d, 0x00000010, 0x0000040f, 0x0000040e, 0x0005008e, 0x00000010, 0x00000410,
++    0x0000040f, 0x000003f9, 0x00050081, 0x00000010, 0x00000412, 0x00000628, 0x00000410, 0x0004003d,
++    0x00000010, 0x00000417, 0x0000040e, 0x0005008e, 0x00000010, 0x00000418, 0x00000417, 0x00000400,
++    0x00050081, 0x00000010, 0x0000041a, 0x00000629, 0x00000418, 0x00050080, 0x00000006, 0x0000041d,
++    0x00000620, 0x000000f8, 0x000200f9, 0x000003f0, 0x000200f8, 0x0000041e, 0x00050085, 0x00000008,
++    0x00000424, 0x00000623, 0x00000623, 0x0004007f, 0x00000008, 0x00000676, 0x00000424, 0x0008000c,
++    0x00000008, 0x00000425, 0x00000001, 0x00000032, 0x00000621, 0x00000622, 0x00000676, 0x0006000c,
++    0x00000008, 0x00000427, 0x00000001, 0x00000004, 0x00000425, 0x000500ba, 0x000000d7, 0x00000428,
++    0x00000427, 0x000001ef, 0x000500ab, 0x000000d7, 0x0000042b, 0x00000678, 0x00000677, 0x000500a7,
++    0x000000d7, 0x0000042c, 0x00000428, 0x0000042b, 0x000300f7, 0x00000472, 0x00000000, 0x000400fa,
++    0x0000042c, 0x0000042d, 0x00000472, 0x000200f8, 0x0000042d, 0x0005008e, 0x00000010, 0x00000430,
++    0x00000628, 0x00000622, 0x0005008e, 0x00000010, 0x00000433, 0x00000629, 0x00000623, 0x00050083,
++    0x00000010, 0x00000434, 0x00000430, 0x00000433, 0x00060050, 0x00000010, 0x00000436, 0x00000425,
++    0x00000425, 0x00000425, 0x00050088, 0x00000010, 0x00000437, 0x00000434, 0x00000436, 0x0005008e,
++    0x00000010, 0x0000043a, 0x00000629, 0x00000621, 0x0005008e, 0x00000010, 0x0000043d, 0x00000628,
++    0x00000623, 0x00050083, 0x00000010, 0x0000043e, 0x0000043a, 0x0000043d, 0x00050088, 0x00000010,
++    0x00000441, 0x0000043e, 0x00000436, 0x0008000c, 0x00000010, 0x00000445, 0x00000001, 0x0000002b,
++    0x00000437, 0x00000081, 0x0000066e, 0x00050085, 0x00000010, 0x00000548, 0x00000445, 0x00000674,
++    0x0006000c, 0x00000010, 0x00000549, 0x00000001, 0x00000001, 0x00000548, 0x0008000c, 0x00000010,
++    0x0000054a, 0x00000001, 0x0000002b, 0x00000549, 0x00000081, 0x0000007a, 0x0004006d, 0x00000074,
++    0x0000054b, 0x0000054a, 0x00050051, 0x00000006, 0x0000054d, 0x0000054b, 0x00000000, 0x000500c4,
++    0x00000006, 0x0000054e, 0x0000054d, 0x00000087, 0x00050051, 0x00000006, 0x00000550, 0x0000054b,
++    0x00000001, 0x000500c4, 0x00000006, 0x00000551, 0x00000550, 0x0000008b, 0x000500c5, 0x00000006,
++    0x00000552, 0x0000054e, 0x00000551, 0x00050051, 0x00000006, 0x00000554, 0x0000054b, 0x00000002,
++    0x000500c5, 0x00000006, 0x00000555, 0x00000552, 0x00000554, 0x0008000c, 0x00000010, 0x0000044a,
++    0x00000001, 0x0000002b, 0x00000441, 0x00000081, 0x0000066e, 0x00050085, 0x00000010, 0x0000055c,
++    0x0000044a, 0x00000674, 0x0006000c, 0x00000010, 0x0000055d, 0x00000001, 0x00000001, 0x0000055c,
++    0x0008000c, 0x00000010, 0x0000055e, 0x00000001, 0x0000002b, 0x0000055d, 0x00000081, 0x0000007a,
++    0x0004006d, 0x00000074, 0x0000055f, 0x0000055e, 0x00050051, 0x00000006, 0x00000561, 0x0000055f,
++    0x00000000, 0x000500c4, 0x00000006, 0x00000562, 0x00000561, 0x00000087, 0x00050051, 0x00000006,
++    0x00000564, 0x0000055f, 0x00000001, 0x000500c4, 0x00000006, 0x00000565, 0x00000564, 0x0000008b,
++    0x000500c5, 0x00000006, 0x00000566, 0x00000562, 0x00000565, 0x00050051, 0x00000006, 0x00000568,
++    0x0000055f, 0x00000002, 0x000500c5, 0x00000006, 0x00000569, 0x00000566, 0x00000568, 0x000500b0,
++    0x000000d7, 0x0000056e, 0x00000555, 0x00000569, 0x000600a9, 0x00000006, 0x0000067b, 0x0000056e,
++    0x00000555, 0x00000569, 0x000600a9, 0x00000006, 0x0000067c, 0x0000056e, 0x00000569, 0x00000555,
++    0x000500ab, 0x000000d7, 0x00000453, 0x0000067c, 0x0000067b, 0x000300f7, 0x0000045b, 0x00000000,
++    0x000400fa, 0x00000453, 0x00000454, 0x0000045a, 0x000200f8, 0x00000454, 0x0003003e, 0x00000371,
++    0x000002ea, 0x000500c2, 0x00000006, 0x000005c3, 0x0000067c, 0x00000087, 0x000500c2, 0x00000006,
++    0x000005c5, 0x0000067c, 0x0000008b, 0x000500c7, 0x00000006, 0x000005c6, 0x000005c5, 0x00000099,
++    0x000500c7, 0x00000006, 0x000005c8, 0x0000067c, 0x0000009c, 0x00050084, 0x00000006, 0x000005cc,
++    0x000005c3, 0x00000060, 0x00050086, 0x00000006, 0x000005cd, 0x000005cc, 0x0000009c, 0x00040070,
++    0x00000008, 0x000005ce, 0x000005cd, 0x00050084, 0x00000006, 0x000005d1, 0x000005c6, 0x00000060,
++    0x00050086, 0x00000006, 0x000005d2, 0x000005d1, 0x00000099, 0x00040070, 0x00000008, 0x000005d3,
++    0x000005d2, 0x00050084, 0x00000006, 0x000005d6, 0x000005c8, 0x00000060, 0x00050086, 0x00000006,
++    0x000005d7, 0x000005d6, 0x0000009c, 0x00040070, 0x00000008, 0x000005d8, 0x000005d7, 0x00060050,
++    0x00000010, 0x000005d9, 0x000005ce, 0x000005d3, 0x000005d8, 0x000500c2, 0x00000006, 0x000005de,
++    0x0000067b, 0x00000087, 0x000500c2, 0x00000006, 0x000005e0, 0x0000067b, 0x0000008b, 0x000500c7,
++    0x00000006, 0x000005e1, 0x000005e0, 0x00000099, 0x000500c7, 0x00000006, 0x000005e3, 0x0000067b,
++    0x0000009c, 0x00050084, 0x00000006, 0x000005e7, 0x000005de, 0x00000060, 0x00050086, 0x00000006,
++    0x000005e8, 0x000005e7, 0x0000009c, 0x00040070, 0x00000008, 0x000005e9, 0x000005e8, 0x00050084,
++    0x00000006, 0x000005ec, 0x000005e1, 0x00000060, 0x00050086, 0x00000006, 0x000005ed, 0x000005ec,
++    0x00000099, 0x00040070, 0x00000008, 0x000005ee, 0x000005ed, 0x00050084, 0x00000006, 0x000005f1,
++    0x000005e3, 0x00000060, 0x00050086, 0x00000006, 0x000005f2, 0x000005f1, 0x0000009c, 0x00040070,
++    0x00000008, 0x000005f3, 0x000005f2, 0x00060050, 0x00000010, 0x000005f4, 0x000005e9, 0x000005ee,
++    0x000005f3, 0x0005008e, 0x00000010, 0x00000589, 0x000005d9, 0x000000bf, 0x00050081, 0x00000010,
++    0x0000058b, 0x00000589, 0x000005f4, 0x00050085, 0x00000010, 0x0000058d, 0x0000058b, 0x00000675,
++    0x0005008e, 0x00000010, 0x00000590, 0x000005f4, 0x000000bf, 0x00050081, 0x00000010, 0x00000591,
++    0x000005d9, 0x00000590, 0x00050085, 0x00000010, 0x00000593, 0x00000591, 0x00000675, 0x00070050,
++    0x000000ba, 0x00000594, 0x000005d9, 0x000005f4, 0x0000058d, 0x00000593, 0x0003003e, 0x00000578,
++    0x00000594, 0x000200f9, 0x00000595, 0x000200f8, 0x00000595, 0x000700f5, 0x00000008, 0x0000062d,
++    0x00000080, 0x00000454, 0x000005b9, 0x000005ba, 0x000700f5, 0x00000006, 0x0000062c, 0x00000084,
++    0x00000454, 0x000005bc, 0x000005ba, 0x000500b0, 0x000000d7, 0x00000598, 0x0000062c, 0x0000001a,
++    0x000400f6, 0x000005bd, 0x000005ba, 0x00000000, 0x000400fa, 0x00000598, 0x00000599, 0x000005bd,
++    0x000200f8, 0x00000599, 0x000200f9, 0x0000059a, 0x000200f8, 0x0000059a, 0x000700f5, 0x00000008,
++    0x0000064a, 0x000000da, 0x00000599, 0x0000067d, 0x0000059e, 0x000700f5, 0x00000006, 0x00000649,
++    0x00000084, 0x00000599, 0x0000067e, 0x0000059e, 0x000700f5, 0x00000006, 0x00000647, 0x00000084,
++    0x00000599, 0x000005b2, 0x0000059e, 0x000500b0, 0x000000d7, 0x0000059d, 0x00000647, 0x000000b9,
++    0x000400f6, 0x000005b3, 0x0000059e, 0x00000000, 0x000400fa, 0x0000059d, 0x0000059e, 0x000005b3,
++    0x000200f8, 0x0000059e, 0x00050041, 0x00000011, 0x000005a0, 0x00000578, 0x00000647, 0x0004003d,
++    0x00000010, 0x000005a1, 0x000005a0, 0x00050041, 0x00000011, 0x000005a3, 0x00000371, 0x0000062c,
++    0x0004003d, 0x00000010, 0x000005a4, 0x000005a3, 0x00050083, 0x00000010, 0x000005a5, 0x000005a1,
++    0x000005a4, 0x00050094, 0x00000008, 0x000005a8, 0x000005a5, 0x000005a5, 0x000500b8, 0x000000d7,
++    0x000005ab, 0x000005a8, 0x0000064a, 0x000600a9, 0x00000008, 0x0000067d, 0x000005ab, 0x000005a8,
++    0x0000064a, 0x000600a9, 0x00000006, 0x0000067e, 0x000005ab, 0x00000647, 0x00000649, 0x00050080,
++    0x00000006, 0x000005b2, 0x00000647, 0x000000f8, 0x000200f9, 0x0000059a, 0x000200f8, 0x000005b3,
++    0x00050041, 0x00000007, 0x000005b6, 0x00000374, 0x0000062c, 0x0003003e, 0x000005b6, 0x00000649,
++    0x00050081, 0x00000008, 0x000005b9, 0x0000062d, 0x0000064a, 0x000200f9, 0x000005ba, 0x000200f8,
++    0x000005ba, 0x00050080, 0x00000006, 0x000005bc, 0x0000062c, 0x000000f8, 0x000200f9, 0x00000595,
++    0x000200f8, 0x000005bd, 0x0004003d, 0x0000001d, 0x00000459, 0x00000374, 0x0003003e, 0x00000370,
++    0x00000459, 0x000200f9, 0x0000045b, 0x000200f8, 0x0000045a, 0x000200f9, 0x0000045b, 0x000200f8,
++    0x0000045b, 0x000700f5, 0x00000008, 0x0000062e, 0x0000062d, 0x000005bd, 0x000000da, 0x0000045a,
++    0x000500b8, 0x000000d7, 0x0000045f, 0x0000062e, 0x0000061f, 0x000300f7, 0x00000471, 0x00000000,
++    0x000400fa, 0x0000045f, 0x00000460, 0x00000471, 0x000200f8, 0x00000460, 0x000200f9, 0x00000463,
++    0x000200f8, 0x00000463, 0x000700f5, 0x00000006, 0x00000633, 0x00000084, 0x00000460, 0x0000046f,
++    0x00000467, 0x000500b0, 0x000000d7, 0x00000466, 0x00000633, 0x0000001a, 0x000400f6, 0x00000470,
++    0x00000467, 0x00000000, 0x000400fa, 0x00000466, 0x00000467, 0x00000470, 0x000200f8, 0x00000467,
++    0x00050041, 0x00000007, 0x0000046a, 0x00000370, 0x00000633, 0x0004003d, 0x00000006, 0x0000046b,
++    0x0000046a, 0x00050041, 0x00000007, 0x0000046c, 0x00000358, 0x00000633, 0x0003003e, 0x0000046c,
++    0x0000046b, 0x00050080, 0x00000006, 0x0000046f, 0x00000633, 0x000000f8, 0x000200f9, 0x00000463,
++    0x000200f8, 0x00000470, 0x000200f9, 0x00000471, 0x000200f8, 0x00000471, 0x000600a9, 0x00000006,
++    0x0000067f, 0x0000045f, 0x0000067b, 0x00000677, 0x000600a9, 0x00000006, 0x00000680, 0x0000045f,
++    0x0000067c, 0x00000678, 0x000200f9, 0x00000472, 0x000200f8, 0x00000472, 0x000700f5, 0x00000006,
++    0x0000063a, 0x00000677, 0x0000041e, 0x0000067f, 0x00000471, 0x000700f5, 0x00000006, 0x00000634,
++    0x00000678, 0x0000041e, 0x00000680, 0x00000471, 0x000500ab, 0x000000d7, 0x00000475, 0x00000634,
++    0x0000063a, 0x000300f7, 0x00000488, 0x00000000, 0x000400fa, 0x00000475, 0x00000476, 0x00000488,
++    0x000200f8, 0x00000476, 0x000200f9, 0x00000477, 0x000200f8, 0x00000477, 0x000700f5, 0x00000006,
++    0x00000646, 0x00000084, 0x00000476, 0x00000483, 0x0000047b, 0x000700f5, 0x00000006, 0x00000640,
++    0x00000084, 0x00000476, 0x00000486, 0x0000047b, 0x000500b0, 0x000000d7, 0x0000047a, 0x00000640,
++    0x0000001a, 0x000400f6, 0x00000487, 0x0000047b, 0x00000000, 0x000400fa, 0x0000047a, 0x0000047b,
++    0x00000487, 0x000200f8, 0x0000047b, 0x00050041, 0x00000007, 0x0000047d, 0x00000358, 0x00000640,
++    0x0004003d, 0x00000006, 0x0000047e, 0x0000047d, 0x00050084, 0x00000006, 0x00000480, 0x0000008e,
++    0x00000640, 0x000500c4, 0x00000006, 0x00000481, 0x0000047e, 0x00000480, 0x000500c5, 0x00000006,
++    0x00000483, 0x00000646, 0x00000481, 0x00050080, 0x00000006, 0x00000486, 0x00000640, 0x000000f8,
++    0x000200f9, 0x00000477, 0x000200f8, 0x00000487, 0x000200f9, 0x00000488, 0x000200f8, 0x00000488,
++    0x000700f5, 0x00000006, 0x00000645, 0x00000084, 0x00000472, 0x00000646, 0x00000487, 0x000500c4,
++    0x00000006, 0x0000048b, 0x0000063a, 0x00000069, 0x000500c5, 0x00000006, 0x0000048c, 0x00000634,
++    0x0000048b, 0x00050051, 0x00000006, 0x000002ec, 0x00000343, 0x00000000, 0x00050051, 0x00000006,
++    0x000002ed, 0x00000343, 0x00000001, 0x00070050, 0x000002d3, 0x000002f0, 0x000002ec, 0x000002ed,
++    0x0000048c, 0x00000645, 0x00060041, 0x000002f1, 0x000002f2, 0x000002d7, 0x0000004d, 0x000002e5,
++    0x0003003e, 0x000002f2, 0x000002f0, 0x000200f9, 0x000002f4, 0x000200f8, 0x000002f4, 0x000100fd,
++    0x00010038
++};
+diff --git a/runtime/gfx/vk/spv/bc3_encode_spv.h b/runtime/gfx/vk/spv/bc3_encode_spv.h
+new file mode 100644
+index 0000000..a4b7c5a
+--- /dev/null
++++ b/runtime/gfx/vk/spv/bc3_encode_spv.h
+@@ -0,0 +1,540 @@
++// Generated by tools/shaders/embed_spv.py from runtime/shaders/texture/bc3_encode.comp; do not edit.
++// source sha256 b7d7beb77a0013acafa69ee5b026bf452ec31c95aba789a48839a1ef7da9e58e
++#pragma once
++#include <stdint.h>
++static const uint32_t bc3_encode_spv[] = {
++    0x07230203, 0x00010600, 0x000d000b, 0x000009d6, 0x00000000, 0x00020011, 0x00000001, 0x0006000b,
++    0x00000001, 0x4c534c47, 0x6474732e, 0x3035342e, 0x00000000, 0x0003000e, 0x00000000, 0x00000001,
++    0x0009000f, 0x00000005, 0x00000004, 0x6e69616d, 0x00000000, 0x00000048, 0x0000005b, 0x000003cc,
++    0x00000412, 0x00060010, 0x00000004, 0x00000011, 0x00000008, 0x00000008, 0x00000001, 0x00050048,
++    0x00000046, 0x00000000, 0x00000023, 0x00000000, 0x00050048, 0x00000046, 0x00000001, 0x00000023,
++    0x00000004, 0x00050048, 0x00000046, 0x00000002, 0x00000023, 0x00000008, 0x00050048, 0x00000046,
++    0x00000003, 0x00000023, 0x0000000c, 0x00050048, 0x00000046, 0x00000004, 0x00000023, 0x00000010,
++    0x00050048, 0x00000046, 0x00000005, 0x00000023, 0x00000014, 0x00030047, 0x00000046, 0x00000002,
++    0x00040047, 0x00000058, 0x00000006, 0x00000004, 0x00040048, 0x00000059, 0x00000000, 0x00000018,
++    0x00050048, 0x00000059, 0x00000000, 0x00000023, 0x00000000, 0x00030047, 0x00000059, 0x00000002,
++    0x00040047, 0x0000005b, 0x00000022, 0x00000000, 0x00040047, 0x0000005b, 0x00000021, 0x00000000,
++    0x00040047, 0x000003cc, 0x0000000b, 0x0000001c, 0x00040047, 0x0000040f, 0x00000006, 0x00000010,
++    0x00040048, 0x00000410, 0x00000000, 0x00000019, 0x00050048, 0x00000410, 0x00000000, 0x00000023,
++    0x00000000, 0x00030047, 0x00000410, 0x00000002, 0x00040047, 0x00000412, 0x00000022, 0x00000000,
++    0x00040047, 0x00000412, 0x00000021, 0x00000001, 0x00030047, 0x00000636, 0x00000018, 0x00020013,
++    0x00000002, 0x00030021, 0x00000003, 0x00000002, 0x00040015, 0x00000006, 0x00000020, 0x00000000,
++    0x00040020, 0x00000007, 0x00000007, 0x00000006, 0x00030016, 0x00000008, 0x00000020, 0x00040017,
++    0x00000009, 0x00000008, 0x00000004, 0x00040017, 0x00000010, 0x00000008, 0x00000003, 0x00040020,
++    0x00000011, 0x00000007, 0x00000010, 0x0004002b, 0x00000006, 0x0000001a, 0x00000010, 0x0004001c,
++    0x0000001b, 0x00000010, 0x0000001a, 0x00040020, 0x0000001c, 0x00000007, 0x0000001b, 0x0004001c,
++    0x0000001d, 0x00000006, 0x0000001a, 0x00040020, 0x0000001e, 0x00000007, 0x0000001d, 0x00040017,
++    0x0000002b, 0x00000006, 0x00000002, 0x0004002b, 0x00000006, 0x00000030, 0x00000008, 0x0004001c,
++    0x00000031, 0x00000008, 0x00000030, 0x00040020, 0x00000032, 0x00000007, 0x00000031, 0x0004001c,
++    0x00000039, 0x00000008, 0x0000001a, 0x00040020, 0x0000003a, 0x00000007, 0x00000039, 0x0008001e,
++    0x00000046, 0x00000006, 0x00000006, 0x00000006, 0x00000006, 0x00000006, 0x00000006, 0x00040020,
++    0x00000047, 0x00000009, 0x00000046, 0x0004003b, 0x00000047, 0x00000048, 0x00000009, 0x00040015,
++    0x00000049, 0x00000020, 0x00000001, 0x0004002b, 0x00000049, 0x0000004a, 0x00000002, 0x00040020,
++    0x0000004b, 0x00000009, 0x00000006, 0x0004002b, 0x00000006, 0x0000004e, 0x00000001, 0x0004002b,
++    0x00000049, 0x00000052, 0x00000003, 0x0003001d, 0x00000058, 0x00000006, 0x0003001e, 0x00000059,
++    0x00000058, 0x00040020, 0x0000005a, 0x0000000c, 0x00000059, 0x0004003b, 0x0000005a, 0x0000005b,
++    0x0000000c, 0x0004002b, 0x00000049, 0x0000005c, 0x00000000, 0x00040020, 0x0000006b, 0x0000000c,
++    0x00000006, 0x0004002b, 0x00000006, 0x0000006f, 0x000000ff, 0x0004002b, 0x00000049, 0x00000073,
++    0x00000008, 0x0004002b, 0x00000049, 0x00000078, 0x00000010, 0x0004002b, 0x00000049, 0x0000007d,
++    0x00000018, 0x00040017, 0x00000083, 0x00000006, 0x00000003, 0x0004002b, 0x00000008, 0x00000087,
++    0x41f80000, 0x0004002b, 0x00000008, 0x00000088, 0x427c0000, 0x0006002c, 0x00000010, 0x00000089,
++    0x00000087, 0x00000088, 0x00000087, 0x0004002b, 0x00000008, 0x0000008b, 0x437f0000, 0x0004002b,
++    0x00000008, 0x0000008f, 0x00000000, 0x0006002c, 0x00000010, 0x00000090, 0x0000008f, 0x0000008f,
++    0x0000008f, 0x0004002b, 0x00000006, 0x00000093, 0x00000000, 0x0004002b, 0x00000049, 0x00000096,
++    0x0000000b, 0x0004002b, 0x00000049, 0x0000009a, 0x00000005, 0x0004002b, 0x00000006, 0x0000009d,
++    0x00000002, 0x0004002b, 0x00000006, 0x000000a8, 0x0000003f, 0x0004002b, 0x00000006, 0x000000ab,
++    0x0000001f, 0x0004002b, 0x00000006, 0x000000c8, 0x00000004, 0x0004001c, 0x000000c9, 0x00000010,
++    0x000000c8, 0x00040020, 0x000000ca, 0x00000007, 0x000000c9, 0x0004002b, 0x00000008, 0x000000ce,
++    0x40000000, 0x00040020, 0x000000dd, 0x00000007, 0x00000008, 0x00020014, 0x000000e6, 0x0004002b,
++    0x00000008, 0x000000e9, 0x4e6e6b28, 0x0004002b, 0x00000049, 0x00000107, 0x00000001, 0x0004002b,
++    0x00000008, 0x0000012d, 0x3d800000, 0x00040018, 0x00000130, 0x00000010, 0x00000003, 0x0006002c,
++    0x00000130, 0x00000133, 0x00000090, 0x00000090, 0x00000090, 0x0004002b, 0x00000008, 0x00000153,
++    0x3f800000, 0x0006002c, 0x00000010, 0x00000154, 0x00000153, 0x00000153, 0x00000153, 0x0004002b,
++    0x00000049, 0x0000015d, 0x00000006, 0x0004002b, 0x00000008, 0x00000166, 0x358637bd, 0x0004002b,
++    0x00000008, 0x00000170, 0x3f13b646, 0x0006002c, 0x00000010, 0x00000171, 0x00000170, 0x00000170,
++    0x00000170, 0x0004002b, 0x00000008, 0x00000177, 0xce6e6b28, 0x0004001c, 0x000001c6, 0x00000008,
++    0x000000c8, 0x0004002b, 0x00000008, 0x000001c7, 0x3f2aaaab, 0x0004002b, 0x00000008, 0x000001c8,
++    0x3eaaaaab, 0x0007002c, 0x000001c6, 0x000001c9, 0x00000153, 0x0000008f, 0x000001c7, 0x000001c8,
++    0x00040020, 0x000001cd, 0x00000007, 0x000001c6, 0x0004002b, 0x00000008, 0x000001fe, 0x38d1b717,
++    0x0004002b, 0x00000006, 0x00000290, 0x00000006, 0x0004002b, 0x00000006, 0x00000294, 0x00000007,
++    0x0004002b, 0x00000006, 0x000002af, 0x00000005, 0x0004002b, 0x00000049, 0x000002c0, 0x00000007,
++    0x0003002a, 0x000000e6, 0x000002fb, 0x0004002b, 0x00000008, 0x00000312, 0x3f000000, 0x0004002b,
++    0x00000008, 0x00000319, 0x437e8000, 0x00030029, 0x000000e6, 0x0000031e, 0x00040020, 0x0000038f,
++    0x00000007, 0x0000002b, 0x0004002b, 0x00000006, 0x0000039f, 0x00000003, 0x0004002b, 0x00000006,
++    0x000003b4, 0x0000001d, 0x0004002b, 0x00000006, 0x000003bd, 0x00000020, 0x00040020, 0x000003cb,
++    0x00000001, 0x00000083, 0x0004003b, 0x000003cb, 0x000003cc, 0x00000001, 0x00040020, 0x000003cd,
++    0x00000001, 0x00000006, 0x0004002b, 0x00000049, 0x000003d7, 0x00000004, 0x00040017, 0x0000040e,
++    0x00000006, 0x00000004, 0x0003001d, 0x0000040f, 0x0000040e, 0x0003001e, 0x00000410, 0x0000040f,
++    0x00040020, 0x00000411, 0x0000000c, 0x00000410, 0x0004003b, 0x00000411, 0x00000412, 0x0000000c,
++    0x00040020, 0x0000042c, 0x0000000c, 0x0000040e, 0x0006002c, 0x00000010, 0x000009b9, 0x0000008b,
++    0x0000008b, 0x0000008b, 0x0004002b, 0x00000008, 0x000009bb, 0x3e4ccccd, 0x0004002b, 0x00000008,
++    0x000009be, 0x3df8f8fa, 0x0004002b, 0x00000008, 0x000009bf, 0x3e7cfcfe, 0x0006002c, 0x00000010,
++    0x000009c0, 0x000009be, 0x000009bf, 0x000009be, 0x0006002c, 0x00000010, 0x000009c1, 0x000001c8,
++    0x000001c8, 0x000001c8, 0x0004002b, 0x00000008, 0x000009c3, 0x3e124925, 0x00050036, 0x00000002,
++    0x00000004, 0x00000000, 0x00000003, 0x000200f8, 0x00000005, 0x0004003b, 0x000000ca, 0x0000084a,
++    0x00000007, 0x0004003b, 0x000000ca, 0x00000797, 0x00000007, 0x0004003b, 0x0000001e, 0x0000062a,
++    0x00000007, 0x0004003b, 0x0000001c, 0x0000062b, 0x00000007, 0x0004003b, 0x0000001e, 0x0000062e,
++    0x00000007, 0x0005003b, 0x000001cd, 0x00000636, 0x00000007, 0x000001c9, 0x0004003b, 0x0000001e,
++    0x00000642, 0x00000007, 0x0004003b, 0x0000001c, 0x00000643, 0x00000007, 0x0004003b, 0x0000001e,
++    0x00000646, 0x00000007, 0x0004003b, 0x00000032, 0x0000046a, 0x00000007, 0x0004003b, 0x0000001e,
++    0x0000046c, 0x00000007, 0x0004003b, 0x0000003a, 0x0000046d, 0x00000007, 0x0004003b, 0x00000032,
++    0x0000046e, 0x00000007, 0x0004003b, 0x0000001e, 0x0000046f, 0x00000007, 0x0004003b, 0x00000032,
++    0x00000475, 0x00000007, 0x0004003b, 0x0000001e, 0x00000478, 0x00000007, 0x0004003b, 0x0000003a,
++    0x00000479, 0x00000007, 0x0004003b, 0x00000032, 0x0000047a, 0x00000007, 0x0004003b, 0x0000001e,
++    0x0000047b, 0x00000007, 0x0004003b, 0x0000038f, 0x0000047e, 0x00000007, 0x0004003b, 0x0000001c,
++    0x00000402, 0x00000007, 0x0004003b, 0x0000003a, 0x00000407, 0x00000007, 0x0004003b, 0x0000003a,
++    0x00000421, 0x00000007, 0x0004003b, 0x0000001c, 0x00000424, 0x00000007, 0x000300f7, 0x0000042f,
++    0x00000000, 0x000300fb, 0x00000093, 0x00000430, 0x000200f8, 0x00000430, 0x00050041, 0x000003cd,
++    0x000003ce, 0x000003cc, 0x00000093, 0x0004003d, 0x00000006, 0x000003cf, 0x000003ce, 0x00050041,
++    0x000003cd, 0x000003d1, 0x000003cc, 0x0000004e, 0x0004003d, 0x00000006, 0x000003d2, 0x000003d1,
++    0x00050041, 0x000003cd, 0x000003d4, 0x000003cc, 0x0000009d, 0x0004003d, 0x00000006, 0x000003d5,
++    0x000003d4, 0x00050041, 0x0000004b, 0x000003d8, 0x00000048, 0x000003d7, 0x0004003d, 0x00000006,
++    0x000003d9, 0x000003d8, 0x000500ae, 0x000000e6, 0x000003da, 0x000003cf, 0x000003d9, 0x000400a8,
++    0x000000e6, 0x000003db, 0x000003da, 0x000300f7, 0x000003dd, 0x00000000, 0x000400fa, 0x000003db,
++    0x000003dc, 0x000003dd, 0x000200f8, 0x000003dc, 0x00050084, 0x00000006, 0x000003e1, 0x000003d2,
++    0x000003d9, 0x00050041, 0x0000004b, 0x000003e2, 0x00000048, 0x0000009a, 0x0004003d, 0x00000006,
++    0x000003e3, 0x000003e2, 0x000500ae, 0x000000e6, 0x000003e4, 0x000003e1, 0x000003e3, 0x000200f9,
++    0x000003dd, 0x000200f8, 0x000003dd, 0x000700f5, 0x000000e6, 0x000003e5, 0x000003da, 0x00000430,
++    0x000003e4, 0x000003dc, 0x000300f7, 0x000003e7, 0x00000000, 0x000400fa, 0x000003e5, 0x000003e6,
++    0x000003e7, 0x000200f8, 0x000003e6, 0x000200f9, 0x0000042f, 0x000200f8, 0x000003e7, 0x000200f9,
++    0x000003ea, 0x000200f8, 0x000003ea, 0x000700f5, 0x00000006, 0x000008e0, 0x00000093, 0x000003e7,
++    0x0000040d, 0x000003eb, 0x000500b0, 0x000000e6, 0x000003f0, 0x000008e0, 0x0000001a, 0x000400f6,
++    0x000003ec, 0x000003eb, 0x00000000, 0x000400fa, 0x000003f0, 0x000003eb, 0x000003ec, 0x000200f8,
++    0x000003eb, 0x00050084, 0x00000006, 0x000003f4, 0x000003cf, 0x000000c8, 0x000500c7, 0x00000006,
++    0x000003f6, 0x000008e0, 0x0000039f, 0x00050080, 0x00000006, 0x000003f7, 0x000003f4, 0x000003f6,
++    0x00050084, 0x00000006, 0x000003f9, 0x000003d2, 0x000000c8, 0x000500c2, 0x00000006, 0x000003fb,
++    0x000008e0, 0x0000004a, 0x00050080, 0x00000006, 0x000003fc, 0x000003f9, 0x000003fb, 0x00050041,
++    0x0000004b, 0x00000436, 0x00000048, 0x0000004a, 0x0004003d, 0x00000006, 0x00000437, 0x00000436,
++    0x00050082, 0x00000006, 0x00000438, 0x00000437, 0x0000004e, 0x0007000c, 0x00000006, 0x00000439,
++    0x00000001, 0x00000026, 0x000003f7, 0x00000438, 0x00050041, 0x0000004b, 0x0000043b, 0x00000048,
++    0x00000052, 0x0004003d, 0x00000006, 0x0000043c, 0x0000043b, 0x00050082, 0x00000006, 0x0000043d,
++    0x0000043c, 0x0000004e, 0x0007000c, 0x00000006, 0x0000043e, 0x00000001, 0x00000026, 0x000003fc,
++    0x0000043d, 0x00050041, 0x0000004b, 0x0000043f, 0x00000048, 0x0000005c, 0x0004003d, 0x00000006,
++    0x00000440, 0x0000043f, 0x00050084, 0x00000006, 0x00000444, 0x000003d5, 0x0000043c, 0x00050080,
++    0x00000006, 0x00000446, 0x00000444, 0x0000043e, 0x00050084, 0x00000006, 0x00000449, 0x00000446,
++    0x00000437, 0x00050080, 0x00000006, 0x0000044a, 0x00000440, 0x00000449, 0x00050080, 0x00000006,
++    0x0000044c, 0x0000044a, 0x00000439, 0x00060041, 0x0000006b, 0x0000044d, 0x0000005b, 0x0000005c,
++    0x0000044c, 0x0004003d, 0x00000006, 0x0000044e, 0x0000044d, 0x000500c7, 0x00000006, 0x00000450,
++    0x0000044e, 0x0000006f, 0x00040070, 0x00000008, 0x00000451, 0x00000450, 0x000500c2, 0x00000006,
++    0x00000453, 0x0000044e, 0x00000073, 0x000500c7, 0x00000006, 0x00000454, 0x00000453, 0x0000006f,
++    0x00040070, 0x00000008, 0x00000455, 0x00000454, 0x000500c2, 0x00000006, 0x00000457, 0x0000044e,
++    0x00000078, 0x000500c7, 0x00000006, 0x00000458, 0x00000457, 0x0000006f, 0x00040070, 0x00000008,
++    0x00000459, 0x00000458, 0x000500c2, 0x00000006, 0x0000045b, 0x0000044e, 0x0000007d, 0x00040070,
++    0x00000008, 0x0000045c, 0x0000045b, 0x00070050, 0x00000009, 0x0000045d, 0x00000451, 0x00000455,
++    0x00000459, 0x0000045c, 0x0008004f, 0x00000010, 0x00000405, 0x0000045d, 0x0000045d, 0x00000000,
++    0x00000001, 0x00000002, 0x00050041, 0x00000011, 0x00000406, 0x00000402, 0x000008e0, 0x0003003e,
++    0x00000406, 0x00000405, 0x00050041, 0x000000dd, 0x0000040b, 0x00000407, 0x000008e0, 0x0003003e,
++    0x0000040b, 0x0000045c, 0x00050080, 0x00000006, 0x0000040d, 0x000008e0, 0x00000107, 0x000200f9,
++    0x000003ea, 0x000200f8, 0x000003ec, 0x00050041, 0x0000004b, 0x00000413, 0x00000048, 0x00000107,
++    0x0004003d, 0x00000006, 0x00000414, 0x00000413, 0x00050041, 0x0000004b, 0x00000416, 0x00000048,
++    0x0000009a, 0x0004003d, 0x00000006, 0x00000417, 0x00000416, 0x00050084, 0x00000006, 0x00000418,
++    0x000003d5, 0x00000417, 0x00050080, 0x00000006, 0x00000419, 0x00000414, 0x00000418, 0x00050084,
++    0x00000006, 0x0000041d, 0x000003d2, 0x000003d9, 0x00050080, 0x00000006, 0x0000041e, 0x00000419,
++    0x0000041d, 0x00050080, 0x00000006, 0x00000420, 0x0000041e, 0x000003cf, 0x0004003d, 0x00000039,
++    0x00000422, 0x00000407, 0x0003003e, 0x00000421, 0x00000422, 0x000200f9, 0x00000485, 0x000200f8,
++    0x00000485, 0x000700f5, 0x00000008, 0x000008fa, 0x0000008f, 0x000003ec, 0x0000098c, 0x000004ac,
++    0x000700f5, 0x00000008, 0x000008f5, 0x0000008b, 0x000003ec, 0x00000989, 0x000004ac, 0x000700f5,
++    0x000000e6, 0x000008f0, 0x000002fb, 0x000003ec, 0x000009c4, 0x000004ac, 0x000700f5, 0x000000e6,
++    0x000008eb, 0x000002fb, 0x000003ec, 0x000009c5, 0x000004ac, 0x000700f5, 0x00000008, 0x000008e3,
++    0x0000008b, 0x000003ec, 0x0000048e, 0x000004ac, 0x000700f5, 0x00000008, 0x000008e2, 0x0000008f,
++    0x000003ec, 0x00000493, 0x000004ac, 0x000700f5, 0x00000006, 0x000008e1, 0x00000093, 0x000003ec,
++    0x000004ae, 0x000004ac, 0x000500b0, 0x000000e6, 0x00000488, 0x000008e1, 0x0000001a, 0x000400f6,
++    0x000004af, 0x000004ac, 0x00000000, 0x000400fa, 0x00000488, 0x00000489, 0x000004af, 0x000200f8,
++    0x00000489, 0x00050041, 0x000000dd, 0x0000048c, 0x00000421, 0x000008e1, 0x0004003d, 0x00000008,
++    0x0000048d, 0x0000048c, 0x0007000c, 0x00000008, 0x0000048e, 0x00000001, 0x00000025, 0x000008e3,
++    0x0000048d, 0x0004003d, 0x00000008, 0x00000492, 0x0000048c, 0x0007000c, 0x00000008, 0x00000493,
++    0x00000001, 0x00000028, 0x000008e2, 0x00000492, 0x0004003d, 0x00000008, 0x00000496, 0x0000048c,
++    0x000500ba, 0x000000e6, 0x00000497, 0x00000496, 0x00000312, 0x000300f7, 0x0000049d, 0x00000000,
++    0x000400fa, 0x00000497, 0x00000498, 0x0000049d, 0x000200f8, 0x00000498, 0x0004003d, 0x00000008,
++    0x0000049b, 0x0000048c, 0x000500b8, 0x000000e6, 0x0000049c, 0x0000049b, 0x00000319, 0x000200f9,
++    0x0000049d, 0x000200f8, 0x0000049d, 0x000700f5, 0x000000e6, 0x0000049e, 0x00000497, 0x00000489,
++    0x0000049c, 0x00000498, 0x000300f7, 0x000004ab, 0x00000000, 0x000400fa, 0x0000049e, 0x0000049f,
++    0x000004aa, 0x000200f8, 0x0000049f, 0x0004003d, 0x00000008, 0x000004a3, 0x0000048c, 0x0007000c,
++    0x00000008, 0x000004a4, 0x00000001, 0x00000025, 0x000008f5, 0x000004a3, 0x0004003d, 0x00000008,
++    0x000004a8, 0x0000048c, 0x0007000c, 0x00000008, 0x000004a9, 0x00000001, 0x00000028, 0x000008fa,
++    0x000004a8, 0x000200f9, 0x000004ab, 0x000200f8, 0x000004aa, 0x000200f9, 0x000004ab, 0x000200f8,
++    0x000004ab, 0x000700f5, 0x00000008, 0x0000098c, 0x000004a9, 0x0000049f, 0x000008fa, 0x000004aa,
++    0x000700f5, 0x00000008, 0x00000989, 0x000004a4, 0x0000049f, 0x000008f5, 0x000004aa, 0x000600a9,
++    0x000000e6, 0x000009c4, 0x0000049e, 0x000008f0, 0x0000031e, 0x000600a9, 0x000000e6, 0x000009c5,
++    0x0000049e, 0x0000031e, 0x000008eb, 0x000200f9, 0x000004ac, 0x000200f8, 0x000004ac, 0x00050080,
++    0x00000006, 0x000004ae, 0x000008e1, 0x00000107, 0x000200f9, 0x00000485, 0x000200f8, 0x000004af,
++    0x0004006d, 0x00000006, 0x000004b1, 0x000008e2, 0x0004006d, 0x00000006, 0x000004b3, 0x000008e3,
++    0x00040070, 0x00000008, 0x00000530, 0x000004b1, 0x00040070, 0x00000008, 0x00000532, 0x000004b3,
++    0x00050041, 0x000000dd, 0x00000534, 0x0000046a, 0x0000005c, 0x0003003e, 0x00000534, 0x00000530,
++    0x00050041, 0x000000dd, 0x00000536, 0x0000046a, 0x00000107, 0x0003003e, 0x00000536, 0x00000532,
++    0x000500ac, 0x000000e6, 0x00000539, 0x000004b1, 0x000004b3, 0x000300f7, 0x0000056c, 0x00000000,
++    0x000400fa, 0x00000539, 0x0000053a, 0x00000552, 0x000200f8, 0x0000053a, 0x000200f9, 0x0000053b,
++    0x000200f8, 0x0000053b, 0x000700f5, 0x00000006, 0x000008e5, 0x0000004e, 0x0000053a, 0x00000550,
++    0x0000053f, 0x000500b2, 0x000000e6, 0x0000053e, 0x000008e5, 0x00000290, 0x000400f6, 0x00000551,
++    0x0000053f, 0x00000000, 0x000400fa, 0x0000053e, 0x0000053f, 0x00000551, 0x000200f8, 0x0000053f,
++    0x00050080, 0x00000006, 0x00000541, 0x0000004e, 0x000008e5, 0x00050082, 0x00000006, 0x00000543,
++    0x00000294, 0x000008e5, 0x00040070, 0x00000008, 0x00000544, 0x00000543, 0x00040070, 0x00000008,
++    0x00000548, 0x000008e5, 0x00050085, 0x00000008, 0x0000054a, 0x00000548, 0x00000532, 0x0008000c,
++    0x00000008, 0x0000054b, 0x00000001, 0x00000032, 0x00000544, 0x00000530, 0x0000054a, 0x00050085,
++    0x00000008, 0x0000054c, 0x0000054b, 0x000009c3, 0x00050041, 0x000000dd, 0x0000054d, 0x0000046a,
++    0x00000541, 0x0003003e, 0x0000054d, 0x0000054c, 0x00050080, 0x00000006, 0x00000550, 0x000008e5,
++    0x00000107, 0x000200f9, 0x0000053b, 0x000200f8, 0x00000551, 0x000200f9, 0x0000056c, 0x000200f8,
++    0x00000552, 0x000200f9, 0x00000553, 0x000200f8, 0x00000553, 0x000700f5, 0x00000006, 0x000008e4,
++    0x0000004e, 0x00000552, 0x00000568, 0x00000557, 0x000500b2, 0x000000e6, 0x00000556, 0x000008e4,
++    0x000000c8, 0x000400f6, 0x00000569, 0x00000557, 0x00000000, 0x000400fa, 0x00000556, 0x00000557,
++    0x00000569, 0x000200f8, 0x00000557, 0x00050080, 0x00000006, 0x00000559, 0x0000004e, 0x000008e4,
++    0x00050082, 0x00000006, 0x0000055b, 0x000002af, 0x000008e4, 0x00040070, 0x00000008, 0x0000055c,
++    0x0000055b, 0x00040070, 0x00000008, 0x00000560, 0x000008e4, 0x00050085, 0x00000008, 0x00000562,
++    0x00000560, 0x00000532, 0x0008000c, 0x00000008, 0x00000563, 0x00000001, 0x00000032, 0x0000055c,
++    0x00000530, 0x00000562, 0x00050085, 0x00000008, 0x00000564, 0x00000563, 0x000009bb, 0x00050041,
++    0x000000dd, 0x00000565, 0x0000046a, 0x00000559, 0x0003003e, 0x00000565, 0x00000564, 0x00050080,
++    0x00000006, 0x00000568, 0x000008e4, 0x00000107, 0x000200f9, 0x00000553, 0x000200f8, 0x00000569,
++    0x00050041, 0x000000dd, 0x0000056a, 0x0000046a, 0x0000015d, 0x0003003e, 0x0000056a, 0x0000008f,
++    0x00050041, 0x000000dd, 0x0000056b, 0x0000046a, 0x000002c0, 0x0003003e, 0x0000056b, 0x0000008b,
++    0x000200f9, 0x0000056c, 0x000200f8, 0x0000056c, 0x0004003d, 0x00000031, 0x000004b7, 0x0000046a,
++    0x0003003e, 0x0000046d, 0x00000422, 0x0003003e, 0x0000046e, 0x000004b7, 0x000200f9, 0x00000575,
++    0x000200f8, 0x00000575, 0x000700f5, 0x00000008, 0x000008e7, 0x0000008f, 0x0000056c, 0x0000059a,
++    0x0000059b, 0x000700f5, 0x00000006, 0x000008e6, 0x00000093, 0x0000056c, 0x0000059d, 0x0000059b,
++    0x000500b0, 0x000000e6, 0x00000578, 0x000008e6, 0x0000001a, 0x000400f6, 0x0000059e, 0x0000059b,
++    0x00000000, 0x000400fa, 0x00000578, 0x00000579, 0x0000059e, 0x000200f8, 0x00000579, 0x000200f9,
++    0x0000057a, 0x000200f8, 0x0000057a, 0x000700f5, 0x00000008, 0x00000976, 0x000000e9, 0x00000579,
++    0x000009c6, 0x0000057e, 0x000700f5, 0x00000006, 0x00000975, 0x00000093, 0x00000579, 0x000009c7,
++    0x0000057e, 0x000700f5, 0x00000006, 0x00000973, 0x00000093, 0x00000579, 0x00000593, 0x0000057e,
++    0x000500b0, 0x000000e6, 0x0000057d, 0x00000973, 0x00000030, 0x000400f6, 0x00000594, 0x0000057e,
++    0x00000000, 0x000400fa, 0x0000057d, 0x0000057e, 0x00000594, 0x000200f8, 0x0000057e, 0x00050041,
++    0x000000dd, 0x00000580, 0x0000046e, 0x00000973, 0x0004003d, 0x00000008, 0x00000581, 0x00000580,
++    0x00050041, 0x000000dd, 0x00000583, 0x0000046d, 0x000008e6, 0x0004003d, 0x00000008, 0x00000584,
++    0x00000583, 0x00050083, 0x00000008, 0x00000585, 0x00000581, 0x00000584, 0x00050085, 0x00000008,
++    0x00000588, 0x00000585, 0x00000585, 0x000500b8, 0x000000e6, 0x0000058a, 0x00000588, 0x00000976,
++    0x000600a9, 0x00000008, 0x000009c6, 0x0000058a, 0x00000588, 0x00000976, 0x000600a9, 0x00000006,
++    0x000009c7, 0x0000058a, 0x00000973, 0x00000975, 0x00050080, 0x00000006, 0x00000593, 0x00000973,
++    0x00000107, 0x000200f9, 0x0000057a, 0x000200f8, 0x00000594, 0x00050041, 0x00000007, 0x00000597,
++    0x0000046f, 0x000008e6, 0x0003003e, 0x00000597, 0x00000975, 0x00050081, 0x00000008, 0x0000059a,
++    0x000008e7, 0x00000976, 0x000200f9, 0x0000059b, 0x000200f8, 0x0000059b, 0x00050080, 0x00000006,
++    0x0000059d, 0x000008e6, 0x00000107, 0x000200f9, 0x00000575, 0x000200f8, 0x0000059e, 0x0004003d,
++    0x0000001d, 0x000004bb, 0x0000046f, 0x0003003e, 0x0000046c, 0x000004bb, 0x000500a7, 0x000000e6,
++    0x000004be, 0x000008eb, 0x000008f0, 0x000300f7, 0x000004e9, 0x00000000, 0x000400fa, 0x000004be,
++    0x000004bf, 0x000004e9, 0x000200f8, 0x000004bf, 0x0004006d, 0x00000006, 0x000004c1, 0x000008f5,
++    0x0004006d, 0x00000006, 0x000004c3, 0x000008fa, 0x00040070, 0x00000008, 0x000005a6, 0x000004c1,
++    0x00040070, 0x00000008, 0x000005a8, 0x000004c3, 0x00050041, 0x000000dd, 0x000005aa, 0x00000475,
++    0x0000005c, 0x0003003e, 0x000005aa, 0x000005a6, 0x00050041, 0x000000dd, 0x000005ac, 0x00000475,
++    0x00000107, 0x0003003e, 0x000005ac, 0x000005a8, 0x000500ac, 0x000000e6, 0x000005af, 0x000004c1,
++    0x000004c3, 0x000300f7, 0x000005e2, 0x00000000, 0x000400fa, 0x000005af, 0x000005b0, 0x000005c8,
++    0x000200f8, 0x000005b0, 0x000200f9, 0x000005b1, 0x000200f8, 0x000005b1, 0x000700f5, 0x00000006,
++    0x000008fd, 0x0000004e, 0x000005b0, 0x000005c6, 0x000005b5, 0x000500b2, 0x000000e6, 0x000005b4,
++    0x000008fd, 0x00000290, 0x000400f6, 0x000005c7, 0x000005b5, 0x00000000, 0x000400fa, 0x000005b4,
++    0x000005b5, 0x000005c7, 0x000200f8, 0x000005b5, 0x00050080, 0x00000006, 0x000005b7, 0x0000004e,
++    0x000008fd, 0x00050082, 0x00000006, 0x000005b9, 0x00000294, 0x000008fd, 0x00040070, 0x00000008,
++    0x000005ba, 0x000005b9, 0x00040070, 0x00000008, 0x000005be, 0x000008fd, 0x00050085, 0x00000008,
++    0x000005c0, 0x000005be, 0x000005a8, 0x0008000c, 0x00000008, 0x000005c1, 0x00000001, 0x00000032,
++    0x000005ba, 0x000005a6, 0x000005c0, 0x00050085, 0x00000008, 0x000005c2, 0x000005c1, 0x000009c3,
++    0x00050041, 0x000000dd, 0x000005c3, 0x00000475, 0x000005b7, 0x0003003e, 0x000005c3, 0x000005c2,
++    0x00050080, 0x00000006, 0x000005c6, 0x000008fd, 0x00000107, 0x000200f9, 0x000005b1, 0x000200f8,
++    0x000005c7, 0x000200f9, 0x000005e2, 0x000200f8, 0x000005c8, 0x000200f9, 0x000005c9, 0x000200f8,
++    0x000005c9, 0x000700f5, 0x00000006, 0x000008fc, 0x0000004e, 0x000005c8, 0x000005de, 0x000005cd,
++    0x000500b2, 0x000000e6, 0x000005cc, 0x000008fc, 0x000000c8, 0x000400f6, 0x000005df, 0x000005cd,
++    0x00000000, 0x000400fa, 0x000005cc, 0x000005cd, 0x000005df, 0x000200f8, 0x000005cd, 0x00050080,
++    0x00000006, 0x000005cf, 0x0000004e, 0x000008fc, 0x00050082, 0x00000006, 0x000005d1, 0x000002af,
++    0x000008fc, 0x00040070, 0x00000008, 0x000005d2, 0x000005d1, 0x00040070, 0x00000008, 0x000005d6,
++    0x000008fc, 0x00050085, 0x00000008, 0x000005d8, 0x000005d6, 0x000005a8, 0x0008000c, 0x00000008,
++    0x000005d9, 0x00000001, 0x00000032, 0x000005d2, 0x000005a6, 0x000005d8, 0x00050085, 0x00000008,
++    0x000005da, 0x000005d9, 0x000009bb, 0x00050041, 0x000000dd, 0x000005db, 0x00000475, 0x000005cf,
++    0x0003003e, 0x000005db, 0x000005da, 0x00050080, 0x00000006, 0x000005de, 0x000008fc, 0x00000107,
++    0x000200f9, 0x000005c9, 0x000200f8, 0x000005df, 0x00050041, 0x000000dd, 0x000005e0, 0x00000475,
++    0x0000015d, 0x0003003e, 0x000005e0, 0x0000008f, 0x00050041, 0x000000dd, 0x000005e1, 0x00000475,
++    0x000002c0, 0x0003003e, 0x000005e1, 0x0000008b, 0x000200f9, 0x000005e2, 0x000200f8, 0x000005e2,
++    0x0004003d, 0x00000031, 0x000004c7, 0x00000475, 0x000500b0, 0x000000e6, 0x000004ca, 0x000004c1,
++    0x000004c3, 0x000300f7, 0x000004d1, 0x00000000, 0x000400fa, 0x000004ca, 0x000004cb, 0x000004d0,
++    0x000200f8, 0x000004cb, 0x0003003e, 0x00000479, 0x00000422, 0x0003003e, 0x0000047a, 0x000004c7,
++    0x000200f9, 0x000005eb, 0x000200f8, 0x000005eb, 0x000700f5, 0x00000008, 0x000008ff, 0x0000008f,
++    0x000004cb, 0x00000610, 0x00000611, 0x000700f5, 0x00000006, 0x000008fe, 0x00000093, 0x000004cb,
++    0x00000613, 0x00000611, 0x000500b0, 0x000000e6, 0x000005ee, 0x000008fe, 0x0000001a, 0x000400f6,
++    0x00000614, 0x00000611, 0x00000000, 0x000400fa, 0x000005ee, 0x000005ef, 0x00000614, 0x000200f8,
++    0x000005ef, 0x000200f9, 0x000005f0, 0x000200f8, 0x000005f0, 0x000700f5, 0x00000008, 0x00000970,
++    0x000000e9, 0x000005ef, 0x000009c8, 0x000005f4, 0x000700f5, 0x00000006, 0x0000096f, 0x00000093,
++    0x000005ef, 0x000009c9, 0x000005f4, 0x000700f5, 0x00000006, 0x0000096d, 0x00000093, 0x000005ef,
++    0x00000609, 0x000005f4, 0x000500b0, 0x000000e6, 0x000005f3, 0x0000096d, 0x00000030, 0x000400f6,
++    0x0000060a, 0x000005f4, 0x00000000, 0x000400fa, 0x000005f3, 0x000005f4, 0x0000060a, 0x000200f8,
++    0x000005f4, 0x00050041, 0x000000dd, 0x000005f6, 0x0000047a, 0x0000096d, 0x0004003d, 0x00000008,
++    0x000005f7, 0x000005f6, 0x00050041, 0x000000dd, 0x000005f9, 0x00000479, 0x000008fe, 0x0004003d,
++    0x00000008, 0x000005fa, 0x000005f9, 0x00050083, 0x00000008, 0x000005fb, 0x000005f7, 0x000005fa,
++    0x00050085, 0x00000008, 0x000005fe, 0x000005fb, 0x000005fb, 0x000500b8, 0x000000e6, 0x00000600,
++    0x000005fe, 0x00000970, 0x000600a9, 0x00000008, 0x000009c8, 0x00000600, 0x000005fe, 0x00000970,
++    0x000600a9, 0x00000006, 0x000009c9, 0x00000600, 0x0000096d, 0x0000096f, 0x00050080, 0x00000006,
++    0x00000609, 0x0000096d, 0x00000107, 0x000200f9, 0x000005f0, 0x000200f8, 0x0000060a, 0x00050041,
++    0x00000007, 0x0000060d, 0x0000047b, 0x000008fe, 0x0003003e, 0x0000060d, 0x0000096f, 0x00050081,
++    0x00000008, 0x00000610, 0x000008ff, 0x00000970, 0x000200f9, 0x00000611, 0x000200f8, 0x00000611,
++    0x00050080, 0x00000006, 0x00000613, 0x000008fe, 0x00000107, 0x000200f9, 0x000005eb, 0x000200f8,
++    0x00000614, 0x0004003d, 0x0000001d, 0x000004cf, 0x0000047b, 0x0003003e, 0x00000478, 0x000004cf,
++    0x000200f9, 0x000004d1, 0x000200f8, 0x000004d0, 0x000200f9, 0x000004d1, 0x000200f8, 0x000004d1,
++    0x000700f5, 0x00000008, 0x00000900, 0x000008ff, 0x00000614, 0x000000e9, 0x000004d0, 0x000500b8,
++    0x000000e6, 0x000004d5, 0x00000900, 0x000008e7, 0x000300f7, 0x000004e8, 0x00000000, 0x000400fa,
++    0x000004d5, 0x000004d6, 0x000004e8, 0x000200f8, 0x000004d6, 0x000200f9, 0x000004da, 0x000200f8,
++    0x000004da, 0x000700f5, 0x00000006, 0x00000906, 0x00000093, 0x000004d6, 0x000004e6, 0x000004de,
++    0x000500b0, 0x000000e6, 0x000004dd, 0x00000906, 0x0000001a, 0x000400f6, 0x000004e7, 0x000004de,
++    0x00000000, 0x000400fa, 0x000004dd, 0x000004de, 0x000004e7, 0x000200f8, 0x000004de, 0x00050041,
++    0x00000007, 0x000004e1, 0x00000478, 0x00000906, 0x0004003d, 0x00000006, 0x000004e2, 0x000004e1,
++    0x00050041, 0x00000007, 0x000004e3, 0x0000046c, 0x00000906, 0x0003003e, 0x000004e3, 0x000004e2,
++    0x00050080, 0x00000006, 0x000004e6, 0x00000906, 0x00000107, 0x000200f9, 0x000004da, 0x000200f8,
++    0x000004e7, 0x000200f9, 0x000004e8, 0x000200f8, 0x000004e8, 0x000600a9, 0x00000006, 0x000009ca,
++    0x000004d5, 0x000004c3, 0x000004b3, 0x000600a9, 0x00000006, 0x000009cb, 0x000004d5, 0x000004c1,
++    0x000004b1, 0x000200f9, 0x000004e9, 0x000200f8, 0x000004e9, 0x000700f5, 0x00000006, 0x00000913,
++    0x000004b3, 0x0000059e, 0x000009ca, 0x000004e8, 0x000700f5, 0x00000006, 0x00000907, 0x000004b1,
++    0x0000059e, 0x000009cb, 0x000004e8, 0x000500aa, 0x000000e6, 0x000004ec, 0x00000907, 0x00000913,
++    0x000300f7, 0x000004f9, 0x00000000, 0x000400fa, 0x000004ec, 0x000004ed, 0x000004f9, 0x000200f8,
++    0x000004ed, 0x000200f9, 0x000004ee, 0x000200f8, 0x000004ee, 0x000700f5, 0x00000006, 0x0000091f,
++    0x00000093, 0x000004ed, 0x000004f7, 0x000004f2, 0x000500b0, 0x000000e6, 0x000004f1, 0x0000091f,
++    0x0000001a, 0x000400f6, 0x000004f8, 0x000004f2, 0x00000000, 0x000400fa, 0x000004f1, 0x000004f2,
++    0x000004f8, 0x000200f8, 0x000004f2, 0x00050041, 0x00000007, 0x000004f4, 0x0000046c, 0x0000091f,
++    0x0003003e, 0x000004f4, 0x00000093, 0x00050080, 0x00000006, 0x000004f7, 0x0000091f, 0x00000107,
++    0x000200f9, 0x000004ee, 0x000200f8, 0x000004f8, 0x000200f9, 0x000004f9, 0x000200f8, 0x000004f9,
++    0x000500c4, 0x00000006, 0x000004fc, 0x00000913, 0x00000073, 0x000500c5, 0x00000006, 0x000004fd,
++    0x00000907, 0x000004fc, 0x00050050, 0x0000002b, 0x000004fe, 0x000004fd, 0x00000093, 0x0003003e,
++    0x0000047e, 0x000004fe, 0x000200f9, 0x000004ff, 0x000200f8, 0x000004ff, 0x000700f5, 0x00000006,
++    0x00000924, 0x00000093, 0x000004f9, 0x00000527, 0x00000525, 0x000500b0, 0x000000e6, 0x00000502,
++    0x00000924, 0x0000001a, 0x000400f6, 0x00000528, 0x00000525, 0x00000000, 0x000400fa, 0x00000502,
++    0x00000503, 0x00000528, 0x000200f8, 0x00000503, 0x00050084, 0x00000006, 0x00000505, 0x0000039f,
++    0x00000924, 0x00050080, 0x00000006, 0x00000506, 0x0000001a, 0x00000505, 0x000500c2, 0x00000006,
++    0x00000508, 0x00000506, 0x0000009a, 0x000500c7, 0x00000006, 0x0000050a, 0x00000506, 0x000000ab,
++    0x00050041, 0x00000007, 0x0000050d, 0x0000046c, 0x00000924, 0x0004003d, 0x00000006, 0x0000050e,
++    0x0000050d, 0x000500c4, 0x00000006, 0x00000510, 0x0000050e, 0x0000050a, 0x00050041, 0x00000007,
++    0x00000511, 0x0000047e, 0x00000508, 0x0004003d, 0x00000006, 0x00000512, 0x00000511, 0x000500c5,
++    0x00000006, 0x00000513, 0x00000512, 0x00000510, 0x0003003e, 0x00000511, 0x00000513, 0x000500ac,
++    0x000000e6, 0x00000516, 0x0000050a, 0x000003b4, 0x000300f7, 0x00000524, 0x00000000, 0x000400fa,
++    0x00000516, 0x00000517, 0x00000524, 0x000200f8, 0x00000517, 0x00050080, 0x00000006, 0x00000519,
++    0x00000508, 0x0000004e, 0x0004003d, 0x00000006, 0x0000051c, 0x0000050d, 0x00050082, 0x00000006,
++    0x0000051e, 0x000003bd, 0x0000050a, 0x000500c2, 0x00000006, 0x0000051f, 0x0000051c, 0x0000051e,
++    0x00050041, 0x00000007, 0x00000520, 0x0000047e, 0x00000519, 0x0004003d, 0x00000006, 0x00000521,
++    0x00000520, 0x000500c5, 0x00000006, 0x00000522, 0x00000521, 0x0000051f, 0x0003003e, 0x00000520,
++    0x00000522, 0x000200f9, 0x00000524, 0x000200f8, 0x00000524, 0x000200f9, 0x00000525, 0x000200f8,
++    0x00000525, 0x00050080, 0x00000006, 0x00000527, 0x00000924, 0x00000107, 0x000200f9, 0x000004ff,
++    0x000200f8, 0x00000528, 0x0004003d, 0x0000002b, 0x00000529, 0x0000047e, 0x0004003d, 0x0000001b,
++    0x00000425, 0x00000402, 0x0003003e, 0x00000424, 0x00000425, 0x0003003e, 0x00000636, 0x000001c9,
++    0x000200f9, 0x0000064c, 0x000200f8, 0x0000064c, 0x000700f5, 0x00000010, 0x00000926, 0x00000090,
++    0x00000528, 0x00000655, 0x00000650, 0x000700f5, 0x00000006, 0x00000925, 0x00000093, 0x00000528,
++    0x00000658, 0x00000650, 0x000500b0, 0x000000e6, 0x0000064f, 0x00000925, 0x0000001a, 0x000400f6,
++    0x00000659, 0x00000650, 0x00000000, 0x000400fa, 0x0000064f, 0x00000650, 0x00000659, 0x000200f8,
++    0x00000650, 0x00050041, 0x00000011, 0x00000652, 0x00000424, 0x00000925, 0x0004003d, 0x00000010,
++    0x00000653, 0x00000652, 0x00050081, 0x00000010, 0x00000655, 0x00000926, 0x00000653, 0x00050080,
++    0x00000006, 0x00000658, 0x00000925, 0x00000107, 0x000200f9, 0x0000064c, 0x000200f8, 0x00000659,
++    0x0005008e, 0x00000010, 0x0000065b, 0x00000926, 0x0000012d, 0x000200f9, 0x0000065c, 0x000200f8,
++    0x0000065c, 0x000700f5, 0x00000130, 0x00000969, 0x00000133, 0x00000659, 0x00000673, 0x00000660,
++    0x000700f5, 0x00000006, 0x00000927, 0x00000093, 0x00000659, 0x00000676, 0x00000660, 0x000500b0,
++    0x000000e6, 0x0000065f, 0x00000927, 0x0000001a, 0x000400f6, 0x00000677, 0x00000660, 0x00000000,
++    0x000400fa, 0x0000065f, 0x00000660, 0x00000677, 0x000200f8, 0x00000660, 0x00050041, 0x00000011,
++    0x00000662, 0x00000424, 0x00000927, 0x0004003d, 0x00000010, 0x00000663, 0x00000662, 0x00050083,
++    0x00000010, 0x00000665, 0x00000663, 0x0000065b, 0x00050093, 0x00000130, 0x00000668, 0x00000665,
++    0x00000665, 0x00050051, 0x00000010, 0x0000066a, 0x00000969, 0x00000000, 0x00050051, 0x00000010,
++    0x0000066b, 0x00000668, 0x00000000, 0x00050081, 0x00000010, 0x0000066c, 0x0000066a, 0x0000066b,
++    0x00050051, 0x00000010, 0x0000066d, 0x00000969, 0x00000001, 0x00050051, 0x00000010, 0x0000066e,
++    0x00000668, 0x00000001, 0x00050081, 0x00000010, 0x0000066f, 0x0000066d, 0x0000066e, 0x00050051,
++    0x00000010, 0x00000670, 0x00000969, 0x00000002, 0x00050051, 0x00000010, 0x00000671, 0x00000668,
++    0x00000002, 0x00050081, 0x00000010, 0x00000672, 0x00000670, 0x00000671, 0x00060050, 0x00000130,
++    0x00000673, 0x0000066c, 0x0000066f, 0x00000672, 0x00050080, 0x00000006, 0x00000676, 0x00000927,
++    0x00000107, 0x000200f9, 0x0000065c, 0x000200f8, 0x00000677, 0x000200f9, 0x00000678, 0x000200f8,
++    0x00000678, 0x000700f5, 0x00000010, 0x0000092e, 0x00000154, 0x00000677, 0x0000096a, 0x0000068c,
++    0x000700f5, 0x00000049, 0x00000928, 0x0000005c, 0x00000677, 0x0000068e, 0x0000068c, 0x000500b1,
++    0x000000e6, 0x0000067b, 0x00000928, 0x0000015d, 0x000400f6, 0x0000068f, 0x0000068c, 0x00000000,
++    0x000400fa, 0x0000067b, 0x0000067c, 0x0000068f, 0x000200f8, 0x0000067c, 0x00050091, 0x00000010,
++    0x0000067f, 0x00000969, 0x0000092e, 0x0006000c, 0x00000008, 0x00000681, 0x00000001, 0x00000042,
++    0x0000067f, 0x000500ba, 0x000000e6, 0x00000683, 0x00000681, 0x00000166, 0x000300f7, 0x0000068a,
++    0x00000000, 0x000400fa, 0x00000683, 0x00000684, 0x00000689, 0x000200f8, 0x00000684, 0x00060050,
++    0x00000010, 0x00000687, 0x00000681, 0x00000681, 0x00000681, 0x00050088, 0x00000010, 0x00000688,
++    0x0000067f, 0x00000687, 0x000200f9, 0x0000068a, 0x000200f8, 0x00000689, 0x000200f9, 0x0000068a,
++    0x000200f8, 0x0000068a, 0x000700f5, 0x00000010, 0x0000096a, 0x00000688, 0x00000684, 0x00000171,
++    0x00000689, 0x000200f9, 0x0000068c, 0x000200f8, 0x0000068c, 0x00050080, 0x00000049, 0x0000068e,
++    0x00000928, 0x00000107, 0x000200f9, 0x00000678, 0x000200f8, 0x0000068f, 0x000200f9, 0x00000690,
++    0x000200f8, 0x00000690, 0x000700f5, 0x00000008, 0x00000930, 0x000000e9, 0x0000068f, 0x0000069e,
++    0x00000694, 0x000700f5, 0x00000008, 0x0000092f, 0x00000177, 0x0000068f, 0x000006a1, 0x00000694,
++    0x000700f5, 0x00000006, 0x00000929, 0x00000093, 0x0000068f, 0x000006a4, 0x00000694, 0x000500b0,
++    0x000000e6, 0x00000693, 0x00000929, 0x0000001a, 0x000400f6, 0x000006a5, 0x00000694, 0x00000000,
++    0x000400fa, 0x00000693, 0x00000694, 0x000006a5, 0x000200f8, 0x00000694, 0x00050041, 0x00000011,
++    0x00000696, 0x00000424, 0x00000929, 0x0004003d, 0x00000010, 0x00000697, 0x00000696, 0x00050083,
++    0x00000010, 0x00000699, 0x00000697, 0x0000065b, 0x00050094, 0x00000008, 0x0000069b, 0x00000699,
++    0x0000092e, 0x0007000c, 0x00000008, 0x0000069e, 0x00000001, 0x00000025, 0x00000930, 0x0000069b,
++    0x0007000c, 0x00000008, 0x000006a1, 0x00000001, 0x00000028, 0x0000092f, 0x0000069b, 0x00050080,
++    0x00000006, 0x000006a4, 0x00000929, 0x00000107, 0x000200f9, 0x00000690, 0x000200f8, 0x000006a5,
++    0x0005008e, 0x00000010, 0x000006a9, 0x0000092e, 0x0000092f, 0x00050081, 0x00000010, 0x000006aa,
++    0x0000065b, 0x000006a9, 0x0008000c, 0x00000010, 0x000006ad, 0x00000001, 0x0000002b, 0x000006aa,
++    0x00000090, 0x000009b9, 0x00050085, 0x00000010, 0x00000767, 0x000006ad, 0x000009c0, 0x0006000c,
++    0x00000010, 0x00000768, 0x00000001, 0x00000001, 0x00000767, 0x0008000c, 0x00000010, 0x00000769,
++    0x00000001, 0x0000002b, 0x00000768, 0x00000090, 0x00000089, 0x0004006d, 0x00000083, 0x0000076a,
++    0x00000769, 0x00050051, 0x00000006, 0x0000076c, 0x0000076a, 0x00000000, 0x000500c4, 0x00000006,
++    0x0000076d, 0x0000076c, 0x00000096, 0x00050051, 0x00000006, 0x0000076f, 0x0000076a, 0x00000001,
++    0x000500c4, 0x00000006, 0x00000770, 0x0000076f, 0x0000009a, 0x000500c5, 0x00000006, 0x00000771,
++    0x0000076d, 0x00000770, 0x00050051, 0x00000006, 0x00000773, 0x0000076a, 0x00000002, 0x000500c5,
++    0x00000006, 0x00000774, 0x00000771, 0x00000773, 0x0005008e, 0x00000010, 0x000006b2, 0x0000092e,
++    0x00000930, 0x00050081, 0x00000010, 0x000006b3, 0x0000065b, 0x000006b2, 0x0008000c, 0x00000010,
++    0x000006b6, 0x00000001, 0x0000002b, 0x000006b3, 0x00000090, 0x000009b9, 0x00050085, 0x00000010,
++    0x0000077b, 0x000006b6, 0x000009c0, 0x0006000c, 0x00000010, 0x0000077c, 0x00000001, 0x00000001,
++    0x0000077b, 0x0008000c, 0x00000010, 0x0000077d, 0x00000001, 0x0000002b, 0x0000077c, 0x00000090,
++    0x00000089, 0x0004006d, 0x00000083, 0x0000077e, 0x0000077d, 0x00050051, 0x00000006, 0x00000780,
++    0x0000077e, 0x00000000, 0x000500c4, 0x00000006, 0x00000781, 0x00000780, 0x00000096, 0x00050051,
++    0x00000006, 0x00000783, 0x0000077e, 0x00000001, 0x000500c4, 0x00000006, 0x00000784, 0x00000783,
++    0x0000009a, 0x000500c5, 0x00000006, 0x00000785, 0x00000781, 0x00000784, 0x00050051, 0x00000006,
++    0x00000787, 0x0000077e, 0x00000002, 0x000500c5, 0x00000006, 0x00000788, 0x00000785, 0x00000787,
++    0x000500b0, 0x000000e6, 0x0000078d, 0x00000774, 0x00000788, 0x000600a9, 0x00000006, 0x000009cc,
++    0x0000078d, 0x00000774, 0x00000788, 0x000600a9, 0x00000006, 0x000009cd, 0x0000078d, 0x00000788,
++    0x00000774, 0x0003003e, 0x0000062b, 0x00000425, 0x000500c2, 0x00000006, 0x000007e2, 0x000009cd,
++    0x00000096, 0x000500c2, 0x00000006, 0x000007e4, 0x000009cd, 0x0000009a, 0x000500c7, 0x00000006,
++    0x000007e5, 0x000007e4, 0x000000a8, 0x000500c7, 0x00000006, 0x000007e7, 0x000009cd, 0x000000ab,
++    0x00050084, 0x00000006, 0x000007eb, 0x000007e2, 0x0000006f, 0x00050086, 0x00000006, 0x000007ec,
++    0x000007eb, 0x000000ab, 0x00040070, 0x00000008, 0x000007ed, 0x000007ec, 0x00050084, 0x00000006,
++    0x000007f0, 0x000007e5, 0x0000006f, 0x00050086, 0x00000006, 0x000007f1, 0x000007f0, 0x000000a8,
++    0x00040070, 0x00000008, 0x000007f2, 0x000007f1, 0x00050084, 0x00000006, 0x000007f5, 0x000007e7,
++    0x0000006f, 0x00050086, 0x00000006, 0x000007f6, 0x000007f5, 0x000000ab, 0x00040070, 0x00000008,
++    0x000007f7, 0x000007f6, 0x00060050, 0x00000010, 0x000007f8, 0x000007ed, 0x000007f2, 0x000007f7,
++    0x000500c2, 0x00000006, 0x000007fd, 0x000009cc, 0x00000096, 0x000500c2, 0x00000006, 0x000007ff,
++    0x000009cc, 0x0000009a, 0x000500c7, 0x00000006, 0x00000800, 0x000007ff, 0x000000a8, 0x000500c7,
++    0x00000006, 0x00000802, 0x000009cc, 0x000000ab, 0x00050084, 0x00000006, 0x00000806, 0x000007fd,
++    0x0000006f, 0x00050086, 0x00000006, 0x00000807, 0x00000806, 0x000000ab, 0x00040070, 0x00000008,
++    0x00000808, 0x00000807, 0x00050084, 0x00000006, 0x0000080b, 0x00000800, 0x0000006f, 0x00050086,
++    0x00000006, 0x0000080c, 0x0000080b, 0x000000a8, 0x00040070, 0x00000008, 0x0000080d, 0x0000080c,
++    0x00050084, 0x00000006, 0x00000810, 0x00000802, 0x0000006f, 0x00050086, 0x00000006, 0x00000811,
++    0x00000810, 0x000000ab, 0x00040070, 0x00000008, 0x00000812, 0x00000811, 0x00060050, 0x00000010,
++    0x00000813, 0x00000808, 0x0000080d, 0x00000812, 0x0005008e, 0x00000010, 0x000007a8, 0x000007f8,
++    0x000000ce, 0x00050081, 0x00000010, 0x000007aa, 0x000007a8, 0x00000813, 0x00050085, 0x00000010,
++    0x000007ac, 0x000007aa, 0x000009c1, 0x0005008e, 0x00000010, 0x000007af, 0x00000813, 0x000000ce,
++    0x00050081, 0x00000010, 0x000007b0, 0x000007f8, 0x000007af, 0x00050085, 0x00000010, 0x000007b2,
++    0x000007b0, 0x000009c1, 0x00070050, 0x000000c9, 0x000007b3, 0x000007f8, 0x00000813, 0x000007ac,
++    0x000007b2, 0x0003003e, 0x00000797, 0x000007b3, 0x000200f9, 0x000007b4, 0x000200f8, 0x000007b4,
++    0x000700f5, 0x00000008, 0x00000934, 0x0000008f, 0x000006a5, 0x000007d8, 0x000007d9, 0x000700f5,
++    0x00000006, 0x00000933, 0x00000093, 0x000006a5, 0x000007db, 0x000007d9, 0x000500b0, 0x000000e6,
++    0x000007b7, 0x00000933, 0x0000001a, 0x000400f6, 0x000007dc, 0x000007d9, 0x00000000, 0x000400fa,
++    0x000007b7, 0x000007b8, 0x000007dc, 0x000200f8, 0x000007b8, 0x000200f9, 0x000007b9, 0x000200f8,
++    0x000007b9, 0x000700f5, 0x00000008, 0x00000965, 0x000000e9, 0x000007b8, 0x000009ce, 0x000007bd,
++    0x000700f5, 0x00000006, 0x00000964, 0x00000093, 0x000007b8, 0x000009cf, 0x000007bd, 0x000700f5,
++    0x00000006, 0x00000962, 0x00000093, 0x000007b8, 0x000007d1, 0x000007bd, 0x000500b0, 0x000000e6,
++    0x000007bc, 0x00000962, 0x000000c8, 0x000400f6, 0x000007d2, 0x000007bd, 0x00000000, 0x000400fa,
++    0x000007bc, 0x000007bd, 0x000007d2, 0x000200f8, 0x000007bd, 0x00050041, 0x00000011, 0x000007bf,
++    0x00000797, 0x00000962, 0x0004003d, 0x00000010, 0x000007c0, 0x000007bf, 0x00050041, 0x00000011,
++    0x000007c2, 0x0000062b, 0x00000933, 0x0004003d, 0x00000010, 0x000007c3, 0x000007c2, 0x00050083,
++    0x00000010, 0x000007c4, 0x000007c0, 0x000007c3, 0x00050094, 0x00000008, 0x000007c7, 0x000007c4,
++    0x000007c4, 0x000500b8, 0x000000e6, 0x000007ca, 0x000007c7, 0x00000965, 0x000600a9, 0x00000008,
++    0x000009ce, 0x000007ca, 0x000007c7, 0x00000965, 0x000600a9, 0x00000006, 0x000009cf, 0x000007ca,
++    0x00000962, 0x00000964, 0x00050080, 0x00000006, 0x000007d1, 0x00000962, 0x00000107, 0x000200f9,
++    0x000007b9, 0x000200f8, 0x000007d2, 0x00050041, 0x00000007, 0x000007d5, 0x0000062e, 0x00000933,
++    0x0003003e, 0x000007d5, 0x00000964, 0x00050081, 0x00000008, 0x000007d8, 0x00000934, 0x00000965,
++    0x000200f9, 0x000007d9, 0x000200f8, 0x000007d9, 0x00050080, 0x00000006, 0x000007db, 0x00000933,
++    0x00000107, 0x000200f9, 0x000007b4, 0x000200f8, 0x000007dc, 0x0004003d, 0x0000001d, 0x000006c1,
++    0x0000062e, 0x0003003e, 0x0000062a, 0x000006c1, 0x000200f9, 0x000006c2, 0x000200f8, 0x000006c2,
++    0x000700f5, 0x00000010, 0x0000093e, 0x00000090, 0x000007dc, 0x000006ec, 0x000006c6, 0x000700f5,
++    0x00000010, 0x0000093d, 0x00000090, 0x000007dc, 0x000006e4, 0x000006c6, 0x000700f5, 0x00000008,
++    0x00000938, 0x0000008f, 0x000007dc, 0x000006dd, 0x000006c6, 0x000700f5, 0x00000008, 0x00000937,
++    0x0000008f, 0x000007dc, 0x000006d7, 0x000006c6, 0x000700f5, 0x00000008, 0x00000936, 0x0000008f,
++    0x000007dc, 0x000006d0, 0x000006c6, 0x000700f5, 0x00000006, 0x00000935, 0x00000093, 0x000007dc,
++    0x000006ef, 0x000006c6, 0x000500b0, 0x000000e6, 0x000006c5, 0x00000935, 0x0000001a, 0x000400f6,
++    0x000006f0, 0x000006c6, 0x00000000, 0x000400fa, 0x000006c5, 0x000006c6, 0x000006f0, 0x000200f8,
++    0x000006c6, 0x00050041, 0x00000007, 0x000006c8, 0x0000062a, 0x00000935, 0x0004003d, 0x00000006,
++    0x000006c9, 0x000006c8, 0x00050041, 0x000000dd, 0x000006ca, 0x00000636, 0x000006c9, 0x0004003d,
++    0x00000008, 0x000006cb, 0x000006ca, 0x0008000c, 0x00000008, 0x000006d0, 0x00000001, 0x00000032,
++    0x000006cb, 0x000006cb, 0x00000936, 0x00050083, 0x00000008, 0x000006d2, 0x00000153, 0x000006cb,
++    0x0008000c, 0x00000008, 0x000006d7, 0x00000001, 0x00000032, 0x000006d2, 0x000006d2, 0x00000937,
++    0x0008000c, 0x00000008, 0x000006dd, 0x00000001, 0x00000032, 0x000006cb, 0x000006d2, 0x00000938,
++    0x00050041, 0x00000011, 0x000006e0, 0x00000424, 0x00000935, 0x0004003d, 0x00000010, 0x000006e1,
++    0x000006e0, 0x0005008e, 0x00000010, 0x000006e2, 0x000006e1, 0x000006cb, 0x00050081, 0x00000010,
++    0x000006e4, 0x0000093d, 0x000006e2, 0x0004003d, 0x00000010, 0x000006e9, 0x000006e0, 0x0005008e,
++    0x00000010, 0x000006ea, 0x000006e9, 0x000006d2, 0x00050081, 0x00000010, 0x000006ec, 0x0000093e,
++    0x000006ea, 0x00050080, 0x00000006, 0x000006ef, 0x00000935, 0x00000107, 0x000200f9, 0x000006c2,
++    0x000200f8, 0x000006f0, 0x00050085, 0x00000008, 0x000006f6, 0x00000938, 0x00000938, 0x0004007f,
++    0x00000008, 0x000009c2, 0x000006f6, 0x0008000c, 0x00000008, 0x000006f7, 0x00000001, 0x00000032,
++    0x00000936, 0x00000937, 0x000009c2, 0x0006000c, 0x00000008, 0x000006f9, 0x00000001, 0x00000004,
++    0x000006f7, 0x000500ba, 0x000000e6, 0x000006fa, 0x000006f9, 0x000001fe, 0x000500ab, 0x000000e6,
++    0x000006fd, 0x000009cd, 0x000009cc, 0x000500a7, 0x000000e6, 0x000006fe, 0x000006fa, 0x000006fd,
++    0x000300f7, 0x00000744, 0x00000000, 0x000400fa, 0x000006fe, 0x000006ff, 0x00000744, 0x000200f8,
++    0x000006ff, 0x0005008e, 0x00000010, 0x00000702, 0x0000093d, 0x00000937, 0x0005008e, 0x00000010,
++    0x00000705, 0x0000093e, 0x00000938, 0x00050083, 0x00000010, 0x00000706, 0x00000702, 0x00000705,
++    0x00060050, 0x00000010, 0x00000708, 0x000006f7, 0x000006f7, 0x000006f7, 0x00050088, 0x00000010,
++    0x00000709, 0x00000706, 0x00000708, 0x0005008e, 0x00000010, 0x0000070c, 0x0000093e, 0x00000936,
++    0x0005008e, 0x00000010, 0x0000070f, 0x0000093d, 0x00000938, 0x00050083, 0x00000010, 0x00000710,
++    0x0000070c, 0x0000070f, 0x00050088, 0x00000010, 0x00000713, 0x00000710, 0x00000708, 0x0008000c,
++    0x00000010, 0x00000717, 0x00000001, 0x0000002b, 0x00000709, 0x00000090, 0x000009b9, 0x00050085,
++    0x00000010, 0x0000081a, 0x00000717, 0x000009c0, 0x0006000c, 0x00000010, 0x0000081b, 0x00000001,
++    0x00000001, 0x0000081a, 0x0008000c, 0x00000010, 0x0000081c, 0x00000001, 0x0000002b, 0x0000081b,
++    0x00000090, 0x00000089, 0x0004006d, 0x00000083, 0x0000081d, 0x0000081c, 0x00050051, 0x00000006,
++    0x0000081f, 0x0000081d, 0x00000000, 0x000500c4, 0x00000006, 0x00000820, 0x0000081f, 0x00000096,
++    0x00050051, 0x00000006, 0x00000822, 0x0000081d, 0x00000001, 0x000500c4, 0x00000006, 0x00000823,
++    0x00000822, 0x0000009a, 0x000500c5, 0x00000006, 0x00000824, 0x00000820, 0x00000823, 0x00050051,
++    0x00000006, 0x00000826, 0x0000081d, 0x00000002, 0x000500c5, 0x00000006, 0x00000827, 0x00000824,
++    0x00000826, 0x0008000c, 0x00000010, 0x0000071c, 0x00000001, 0x0000002b, 0x00000713, 0x00000090,
++    0x000009b9, 0x00050085, 0x00000010, 0x0000082e, 0x0000071c, 0x000009c0, 0x0006000c, 0x00000010,
++    0x0000082f, 0x00000001, 0x00000001, 0x0000082e, 0x0008000c, 0x00000010, 0x00000830, 0x00000001,
++    0x0000002b, 0x0000082f, 0x00000090, 0x00000089, 0x0004006d, 0x00000083, 0x00000831, 0x00000830,
++    0x00050051, 0x00000006, 0x00000833, 0x00000831, 0x00000000, 0x000500c4, 0x00000006, 0x00000834,
++    0x00000833, 0x00000096, 0x00050051, 0x00000006, 0x00000836, 0x00000831, 0x00000001, 0x000500c4,
++    0x00000006, 0x00000837, 0x00000836, 0x0000009a, 0x000500c5, 0x00000006, 0x00000838, 0x00000834,
++    0x00000837, 0x00050051, 0x00000006, 0x0000083a, 0x00000831, 0x00000002, 0x000500c5, 0x00000006,
++    0x0000083b, 0x00000838, 0x0000083a, 0x000500b0, 0x000000e6, 0x00000840, 0x00000827, 0x0000083b,
++    0x000600a9, 0x00000006, 0x000009d0, 0x00000840, 0x00000827, 0x0000083b, 0x000600a9, 0x00000006,
++    0x000009d1, 0x00000840, 0x0000083b, 0x00000827, 0x000500ab, 0x000000e6, 0x00000725, 0x000009d1,
++    0x000009d0, 0x000300f7, 0x0000072d, 0x00000000, 0x000400fa, 0x00000725, 0x00000726, 0x0000072c,
++    0x000200f8, 0x00000726, 0x0003003e, 0x00000643, 0x00000425, 0x000500c2, 0x00000006, 0x00000895,
++    0x000009d1, 0x00000096, 0x000500c2, 0x00000006, 0x00000897, 0x000009d1, 0x0000009a, 0x000500c7,
++    0x00000006, 0x00000898, 0x00000897, 0x000000a8, 0x000500c7, 0x00000006, 0x0000089a, 0x000009d1,
++    0x000000ab, 0x00050084, 0x00000006, 0x0000089e, 0x00000895, 0x0000006f, 0x00050086, 0x00000006,
++    0x0000089f, 0x0000089e, 0x000000ab, 0x00040070, 0x00000008, 0x000008a0, 0x0000089f, 0x00050084,
++    0x00000006, 0x000008a3, 0x00000898, 0x0000006f, 0x00050086, 0x00000006, 0x000008a4, 0x000008a3,
++    0x000000a8, 0x00040070, 0x00000008, 0x000008a5, 0x000008a4, 0x00050084, 0x00000006, 0x000008a8,
++    0x0000089a, 0x0000006f, 0x00050086, 0x00000006, 0x000008a9, 0x000008a8, 0x000000ab, 0x00040070,
++    0x00000008, 0x000008aa, 0x000008a9, 0x00060050, 0x00000010, 0x000008ab, 0x000008a0, 0x000008a5,
++    0x000008aa, 0x000500c2, 0x00000006, 0x000008b0, 0x000009d0, 0x00000096, 0x000500c2, 0x00000006,
++    0x000008b2, 0x000009d0, 0x0000009a, 0x000500c7, 0x00000006, 0x000008b3, 0x000008b2, 0x000000a8,
++    0x000500c7, 0x00000006, 0x000008b5, 0x000009d0, 0x000000ab, 0x00050084, 0x00000006, 0x000008b9,
++    0x000008b0, 0x0000006f, 0x00050086, 0x00000006, 0x000008ba, 0x000008b9, 0x000000ab, 0x00040070,
++    0x00000008, 0x000008bb, 0x000008ba, 0x00050084, 0x00000006, 0x000008be, 0x000008b3, 0x0000006f,
++    0x00050086, 0x00000006, 0x000008bf, 0x000008be, 0x000000a8, 0x00040070, 0x00000008, 0x000008c0,
++    0x000008bf, 0x00050084, 0x00000006, 0x000008c3, 0x000008b5, 0x0000006f, 0x00050086, 0x00000006,
++    0x000008c4, 0x000008c3, 0x000000ab, 0x00040070, 0x00000008, 0x000008c5, 0x000008c4, 0x00060050,
++    0x00000010, 0x000008c6, 0x000008bb, 0x000008c0, 0x000008c5, 0x0005008e, 0x00000010, 0x0000085b,
++    0x000008ab, 0x000000ce, 0x00050081, 0x00000010, 0x0000085d, 0x0000085b, 0x000008c6, 0x00050085,
++    0x00000010, 0x0000085f, 0x0000085d, 0x000009c1, 0x0005008e, 0x00000010, 0x00000862, 0x000008c6,
++    0x000000ce, 0x00050081, 0x00000010, 0x00000863, 0x000008ab, 0x00000862, 0x00050085, 0x00000010,
++    0x00000865, 0x00000863, 0x000009c1, 0x00070050, 0x000000c9, 0x00000866, 0x000008ab, 0x000008c6,
++    0x0000085f, 0x00000865, 0x0003003e, 0x0000084a, 0x00000866, 0x000200f9, 0x00000867, 0x000200f8,
++    0x00000867, 0x000700f5, 0x00000008, 0x00000942, 0x0000008f, 0x00000726, 0x0000088b, 0x0000088c,
++    0x000700f5, 0x00000006, 0x00000941, 0x00000093, 0x00000726, 0x0000088e, 0x0000088c, 0x000500b0,
++    0x000000e6, 0x0000086a, 0x00000941, 0x0000001a, 0x000400f6, 0x0000088f, 0x0000088c, 0x00000000,
++    0x000400fa, 0x0000086a, 0x0000086b, 0x0000088f, 0x000200f8, 0x0000086b, 0x000200f9, 0x0000086c,
++    0x000200f8, 0x0000086c, 0x000700f5, 0x00000008, 0x0000095f, 0x000000e9, 0x0000086b, 0x000009d2,
++    0x00000870, 0x000700f5, 0x00000006, 0x0000095e, 0x00000093, 0x0000086b, 0x000009d3, 0x00000870,
++    0x000700f5, 0x00000006, 0x0000095c, 0x00000093, 0x0000086b, 0x00000884, 0x00000870, 0x000500b0,
++    0x000000e6, 0x0000086f, 0x0000095c, 0x000000c8, 0x000400f6, 0x00000885, 0x00000870, 0x00000000,
++    0x000400fa, 0x0000086f, 0x00000870, 0x00000885, 0x000200f8, 0x00000870, 0x00050041, 0x00000011,
++    0x00000872, 0x0000084a, 0x0000095c, 0x0004003d, 0x00000010, 0x00000873, 0x00000872, 0x00050041,
++    0x00000011, 0x00000875, 0x00000643, 0x00000941, 0x0004003d, 0x00000010, 0x00000876, 0x00000875,
++    0x00050083, 0x00000010, 0x00000877, 0x00000873, 0x00000876, 0x00050094, 0x00000008, 0x0000087a,
++    0x00000877, 0x00000877, 0x000500b8, 0x000000e6, 0x0000087d, 0x0000087a, 0x0000095f, 0x000600a9,
++    0x00000008, 0x000009d2, 0x0000087d, 0x0000087a, 0x0000095f, 0x000600a9, 0x00000006, 0x000009d3,
++    0x0000087d, 0x0000095c, 0x0000095e, 0x00050080, 0x00000006, 0x00000884, 0x0000095c, 0x00000107,
++    0x000200f9, 0x0000086c, 0x000200f8, 0x00000885, 0x00050041, 0x00000007, 0x00000888, 0x00000646,
++    0x00000941, 0x0003003e, 0x00000888, 0x0000095e, 0x00050081, 0x00000008, 0x0000088b, 0x00000942,
++    0x0000095f, 0x000200f9, 0x0000088c, 0x000200f8, 0x0000088c, 0x00050080, 0x00000006, 0x0000088e,
++    0x00000941, 0x00000107, 0x000200f9, 0x00000867, 0x000200f8, 0x0000088f, 0x0004003d, 0x0000001d,
++    0x0000072b, 0x00000646, 0x0003003e, 0x00000642, 0x0000072b, 0x000200f9, 0x0000072d, 0x000200f8,
++    0x0000072c, 0x000200f9, 0x0000072d, 0x000200f8, 0x0000072d, 0x000700f5, 0x00000008, 0x00000943,
++    0x00000942, 0x0000088f, 0x000000e9, 0x0000072c, 0x000500b8, 0x000000e6, 0x00000731, 0x00000943,
++    0x00000934, 0x000300f7, 0x00000743, 0x00000000, 0x000400fa, 0x00000731, 0x00000732, 0x00000743,
++    0x000200f8, 0x00000732, 0x000200f9, 0x00000735, 0x000200f8, 0x00000735, 0x000700f5, 0x00000006,
++    0x00000948, 0x00000093, 0x00000732, 0x00000741, 0x00000739, 0x000500b0, 0x000000e6, 0x00000738,
++    0x00000948, 0x0000001a, 0x000400f6, 0x00000742, 0x00000739, 0x00000000, 0x000400fa, 0x00000738,
++    0x00000739, 0x00000742, 0x000200f8, 0x00000739, 0x00050041, 0x00000007, 0x0000073c, 0x00000642,
++    0x00000948, 0x0004003d, 0x00000006, 0x0000073d, 0x0000073c, 0x00050041, 0x00000007, 0x0000073e,
++    0x0000062a, 0x00000948, 0x0003003e, 0x0000073e, 0x0000073d, 0x00050080, 0x00000006, 0x00000741,
++    0x00000948, 0x00000107, 0x000200f9, 0x00000735, 0x000200f8, 0x00000742, 0x000200f9, 0x00000743,
++    0x000200f8, 0x00000743, 0x000600a9, 0x00000006, 0x000009d4, 0x00000731, 0x000009d0, 0x000009cc,
++    0x000600a9, 0x00000006, 0x000009d5, 0x00000731, 0x000009d1, 0x000009cd, 0x000200f9, 0x00000744,
++    0x000200f8, 0x00000744, 0x000700f5, 0x00000006, 0x0000094f, 0x000009cc, 0x000006f0, 0x000009d4,
++    0x00000743, 0x000700f5, 0x00000006, 0x00000949, 0x000009cd, 0x000006f0, 0x000009d5, 0x00000743,
++    0x000500ab, 0x000000e6, 0x00000747, 0x00000949, 0x0000094f, 0x000300f7, 0x0000075a, 0x00000000,
++    0x000400fa, 0x00000747, 0x00000748, 0x0000075a, 0x000200f8, 0x00000748, 0x000200f9, 0x00000749,
++    0x000200f8, 0x00000749, 0x000700f5, 0x00000006, 0x0000095b, 0x00000093, 0x00000748, 0x00000755,
++    0x0000074d, 0x000700f5, 0x00000006, 0x00000955, 0x00000093, 0x00000748, 0x00000758, 0x0000074d,
++    0x000500b0, 0x000000e6, 0x0000074c, 0x00000955, 0x0000001a, 0x000400f6, 0x00000759, 0x0000074d,
++    0x00000000, 0x000400fa, 0x0000074c, 0x0000074d, 0x00000759, 0x000200f8, 0x0000074d, 0x00050041,
++    0x00000007, 0x0000074f, 0x0000062a, 0x00000955, 0x0004003d, 0x00000006, 0x00000750, 0x0000074f,
++    0x00050084, 0x00000006, 0x00000752, 0x0000009d, 0x00000955, 0x000500c4, 0x00000006, 0x00000753,
++    0x00000750, 0x00000752, 0x000500c5, 0x00000006, 0x00000755, 0x0000095b, 0x00000753, 0x00050080,
++    0x00000006, 0x00000758, 0x00000955, 0x00000107, 0x000200f9, 0x00000749, 0x000200f8, 0x00000759,
++    0x000200f9, 0x0000075a, 0x000200f8, 0x0000075a, 0x000700f5, 0x00000006, 0x0000095a, 0x00000093,
++    0x00000744, 0x0000095b, 0x00000759, 0x000500c4, 0x00000006, 0x0000075d, 0x0000094f, 0x00000078,
++    0x000500c5, 0x00000006, 0x0000075e, 0x00000949, 0x0000075d, 0x00050051, 0x00000006, 0x00000427,
++    0x00000529, 0x00000000, 0x00050051, 0x00000006, 0x00000428, 0x00000529, 0x00000001, 0x00070050,
++    0x0000040e, 0x0000042b, 0x00000427, 0x00000428, 0x0000075e, 0x0000095a, 0x00060041, 0x0000042c,
++    0x0000042d, 0x00000412, 0x0000005c, 0x00000420, 0x0003003e, 0x0000042d, 0x0000042b, 0x000200f9,
++    0x0000042f, 0x000200f8, 0x0000042f, 0x000100fd, 0x00010038
++};
+diff --git a/runtime/gfx/vk/tex/vk_astc.c b/runtime/gfx/vk/tex/vk_astc.c
+index f3f46eb..bfbf20b 100644
+--- a/runtime/gfx/vk/tex/vk_astc.c
++++ b/runtime/gfx/vk/tex/vk_astc.c
+@@ -17,6 +17,8 @@
+ 
+ #include "astc_decode_spv.h"
+ #include "bc1_encode_spv.h"
++#include "bc2_encode_spv.h"
++#include "bc3_encode_spv.h"
+ #include "bc7_encode_spv.h"
+ #include "cfg.h"
+ #include "host.h"
+@@ -103,12 +105,14 @@ static struct {
+     VkPipeline pipe;
+     VkPipeline enc;               // bc7_encode.comp, same layout (bindings 0 and 1); NULL: no BC7 re-encoding
+     VkPipeline enc1;              // bc1_encode.comp, same layout; NULL: no BC1
++    VkPipeline enc3, enc2;        // bc3_encode.comp / bc2_encode.comp, same layout; only the one MKW_TEX_COMPRESSION asks for
+     int bc7;                      // vk_astc_bc7's answer on dev; -1 not decided
++    int alt;                      // vk_astc_alt's answer on dev (0, 3 or 4); -1 not decided
+     PFN_vkCmdPushDescriptorSetKHR push;
+     VkBuffer tab;                 // device-local copy of the tables
+     VmaAllocation tab_alloc;
+     int tab_uploaded;
+-} G = {.mode = -1, .bc7 = -1};
++} G = {.mode = -1, .bc7 = -1, .alt = -1};
+ static uint64_t n_dispatch, n_texels;
+ 
+ // MKW_ASTC_TIME=1 (or vk_astc_time_enable): timestamps around the dispatches of each scratch chunk (the decode
+@@ -305,9 +309,36 @@ static int create_pipeline(VkCtx *c) {
+         if (vkCreateComputePipelines(c->device, VK_NULL_HANDLE, 1, &ci, NULL, &G.enc1) != VK_SUCCESS) G.enc1 = VK_NULL_HANDLE;
+         vkDestroyShaderModule(c->device, m, NULL);
+     }
++    // BC3 or BC2 for the textures with alpha instead of BC7 (MKW_TEX_COMPRESSION): only the one that was asked for
++    int tc = vk_tex_compression();
++    if (tc == VK_TEXCOMP_BC3 || tc == VK_TEXCOMP_BC2) {
++        VkPipeline *dst = tc == VK_TEXCOMP_BC3 ? &G.enc3 : &G.enc2;
++        mi.codeSize = tc == VK_TEXCOMP_BC3 ? sizeof bc3_encode_spv : sizeof bc2_encode_spv;
++        mi.pCode = tc == VK_TEXCOMP_BC3 ? bc3_encode_spv : bc2_encode_spv;
++        if (vkCreateShaderModule(c->device, &mi, NULL, &m) == VK_SUCCESS) {
++            ci.stage.module = m;
++            if (vkCreateComputePipelines(c->device, VK_NULL_HANDLE, 1, &ci, NULL, dst) != VK_SUCCESS) *dst = VK_NULL_HANDLE;
++            vkDestroyShaderModule(c->device, m, NULL);
++        }
++    }
+     return 1;
+ }
+ 
++// MKW_TEX_COMPRESSION (Settings > Graphics > Texture compression; "auto" by default): what the ASTC textures the device
++// cannot sample are stored as after the GPU decoder. auto: BC1 for the opaque ones, BC7 for the rest (the console's look
++// within BC7 mode 6's limits); bc3 / bc2: BC1 for the opaque ones, BC3 / BC2 where BC7 would be (the same bytes a texel,
++// a cheaper encode, no BC7 needed on the way); bc7: BC7 for all (no BC1); off: RGBA8, no recompression.
++// MKW_ASTC_BC7=0 and MKW_ASTC_BC1=0 still switch off what they always did.
++int vk_tex_compression(void) {
++    static int v = -1;
++    if (v < 0) {
++        const char *e = cfg_value("MKW_TEX_COMPRESSION");
++        v = !e ? VK_TEXCOMP_AUTO : !strcmp(e, "bc3") ? VK_TEXCOMP_BC3 : !strcmp(e, "bc2") ? VK_TEXCOMP_BC2
++          : !strcmp(e, "bc7") ? VK_TEXCOMP_BC7 : !strcmp(e, "off") ? VK_TEXCOMP_OFF : VK_TEXCOMP_AUTO;
++    }
++    return v;
++}
++
+ // MKW_ASTC_BC7 (default 1; 0 off): ASTC images of 256x256 or more become BC7 images, filled by the decoder and then bc7_encode.comp. The RGBA8
+ // copies of the textures took 2.3 GB of a 3.4 GB heap on a course (run113) and pushed render targets out of memory.
+ int vk_astc_bc7(void) {
+@@ -322,13 +353,35 @@ int vk_astc_bc7(void) {
+     vkGetPhysicalDeviceFormatProperties(c->phys, VK_FORMAT_BC7_SRGB_BLOCK, &p);
+     VkFormatFeatureFlags need = VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT | VK_FORMAT_FEATURE_TRANSFER_DST_BIT;
+     plat_mutex_lock(&g_lock);
+-    G.bc7 = !(e && *e && !atoi(e)) && G.enc && (p.optimalTilingFeatures & need) == need;
++    G.bc7 = !(e && *e && !atoi(e)) && vk_tex_compression() != VK_TEXCOMP_OFF && G.enc && (p.optimalTilingFeatures & need) == need;
+     v = G.bc7;
+     plat_mutex_unlock(&g_lock);
+     rt_log("vk: ASTC textures re-encoded as BC7: %s", v ? "yes" : "no");
+     return v;
+ }
+ 
++// 3 when the textures with alpha are to be BC3 images, 4 for BC2, 0 for BC7 (vk_tex_compression, the encoder pipeline
++// built, and the device samples the format and takes a copy into it).
++int vk_astc_alt(void) {
++    VkCtx *c = vk_ctx();
++    if (!c || !vk_astc_bc7()) return 0;
++    plat_mutex_lock_shared(&g_lock);
++    int v = G.dev == c->device ? G.alt : -1;
++    plat_mutex_unlock_shared(&g_lock);
++    if (v >= 0) return v;
++    int tc = vk_tex_compression(), want = tc == VK_TEXCOMP_BC3 ? 3 : tc == VK_TEXCOMP_BC2 ? 4 : 0;
++    VkFormat f = want == 3 ? VK_FORMAT_BC3_SRGB_BLOCK : VK_FORMAT_BC2_SRGB_BLOCK;
++    VkFormatProperties p = {0};
++    if (want) vkGetPhysicalDeviceFormatProperties(c->phys, f, &p);
++    VkFormatFeatureFlags need = VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT | VK_FORMAT_FEATURE_TRANSFER_DST_BIT;
++    plat_mutex_lock(&g_lock);
++    G.alt = want && (p.optimalTilingFeatures & need) == need && (want == 3 ? G.enc3 : G.enc2) ? want : 0;
++    v = G.alt;
++    plat_mutex_unlock(&g_lock);
++    if (want) rt_log("vk: ASTC textures with alpha re-encoded as %s: %s", want == 3 ? "BC3" : "BC2", v ? "yes" : "no (BC7)");
++    return v;
++}
++
+ static int native_device(VkCtx *c) { return c->has_astc_ldr; }
+ 
+ static const char *mode_name(int m) {
+@@ -500,10 +553,10 @@ static int astc_record(VkCommandBuffer cb, VkBuffer src, const VkAstcRegion *rg,
+     VkPipeline pipe = G.dev == c->device ? G.pipe : VK_NULL_HANDLE;
+     plat_mutex_unlock_shared(&g_lock);
+     if (!pipe) return 0;
+-    // bc7: 1 the image is BC7, 2 BC1 (TexVkFormat.astc_bc7). MKW_ASTC=check reads back the RGBA8 the decoder wrote,
++    // bc7: 1 the image is BC7, 2 BC1, 3 BC3, 4 BC2 (TexVkFormat.astc_bc7). MKW_ASTC=check reads back the RGBA8 the decoder wrote,
+     // before the re-encoding: turning that off for it put RGBA8 rows into BC7 images (the menus scrambled, vis22).
+     if (!vk_astc_bc7()) bc7 = 0;
+-    VkPipeline enc = bc7 == 2 ? G.enc1 : bc7 ? G.enc : VK_NULL_HANDLE;
++    VkPipeline enc = bc7 == 2 ? G.enc1 : bc7 == 3 ? G.enc3 : bc7 == 4 ? G.enc2 : bc7 ? G.enc : VK_NULL_HANDLE;
+     VkDeviceSize blk = bc7 == 2 ? 8 : 16;
+     if (bc7 && !enc) return 0;
+     // chunks of consecutive regions; scratch = the largest chunk's blocks, then its texels
+@@ -645,7 +698,7 @@ static int astc_record(VkCommandBuffer cb, VkBuffer src, const VkAstcRegion *rg,
+         }
+         if (slot >= 0)
+             vkCmdWriteTimestamp2(cb, VK_PIPELINE_STAGE_2_ALL_COMMANDS_BIT, tpool, 2 * (uint32_t)slot + 1);
+-        if (enc) {   // RGBA8 texels -> BC7 or BC1 blocks, copied instead of the texels
++        if (enc) {   // RGBA8 texels -> BC7, BC1, BC3 or BC2 blocks, copied instead of the texels
+             mem_barrier(cb, VK_PIPELINE_STAGE_2_COMPUTE_SHADER_BIT, VK_ACCESS_2_SHADER_STORAGE_WRITE_BIT,
+                         VK_PIPELINE_STAGE_2_COMPUTE_SHADER_BIT, VK_ACCESS_2_SHADER_STORAGE_READ_BIT);
+             vkCmdBindPipeline(cb, VK_PIPELINE_BIND_POINT_COMPUTE, enc);
+@@ -712,6 +765,8 @@ void vk_astc_release(void) {
+         if (G.pipe) vkDestroyPipeline(c->device, G.pipe, NULL);
+         if (G.enc) vkDestroyPipeline(c->device, G.enc, NULL);
+         if (G.enc1) vkDestroyPipeline(c->device, G.enc1, NULL);
++        if (G.enc3) vkDestroyPipeline(c->device, G.enc3, NULL);
++        if (G.enc2) vkDestroyPipeline(c->device, G.enc2, NULL);
+         if (G.layout) vkDestroyPipelineLayout(c->device, G.layout, NULL);
+         if (G.dsl) vkDestroyDescriptorSetLayout(c->device, G.dsl, NULL);
+         if (G.tab) vmaDestroyBuffer(c->vma, G.tab, G.tab_alloc);
+@@ -722,6 +777,7 @@ void vk_astc_release(void) {
+     G.dev = VK_NULL_HANDLE;
+     G.mode = -1;
+     G.bc7 = -1;
++    G.alt = -1;
+     G.failed = 0;
+     plat_mutex_unlock(&g_lock);
+ }
+diff --git a/runtime/gfx/vk/tex/vk_tex_image.c b/runtime/gfx/vk/tex/vk_tex_image.c
+index 2ead288..c7865c4 100644
+--- a/runtime/gfx/vk/tex/vk_tex_image.c
++++ b/runtime/gfx/vk/tex/vk_tex_image.c
+@@ -508,10 +508,13 @@ Tex *create_tex(const tex_t *t, const TexKey *k, int defer_init) {
+     // image 0.0039 -> 0.0063 from the game's (bca5), no GPU fault at the default 768 MiB of tiles. run-race41 hung
+     // the GPU with it and MKW_SPARSE_MIB=1024 (31/10/2026).
+     static int bc1_on = -1;
+-    if (bc1_on < 0) bc1_on = !cfg_get("MKW_ASTC_BC1") || !*cfg_get("MKW_ASTC_BC1") || atoi(cfg_get("MKW_ASTC_BC1"));
++    if (bc1_on < 0) {
++        bc1_on = !cfg_get("MKW_ASTC_BC1") || !*cfg_get("MKW_ASTC_BC1") || atoi(cfg_get("MKW_ASTC_BC1"));
++        if (vk_tex_compression() == VK_TEXCOMP_BC7) bc1_on = 0;   // Settings > Graphics > Texture compression: BC7 only
++    }
+     if (f.astc_bc7 && bc1_on) {
+         // why an image stays BC7, counted (bc1-t, 08/11/2026: texture memory as without BC1)
+-        static volatile int32_t why[6], alpha_one;   // BC1, 4096 or more, no CPU storage, GPU-only, sparse, alpha
++        static volatile int32_t why[6], alpha_one, alt_n;   // BC1, 4096 or more, no CPU storage, GPU-only, sparse, alpha
+         static volatile int64_t alpha_ns;            // the decodes' time (the replay thread's, at image creation)
+         int w = d->width >= 4096 || d->height >= 4096 ? 1 : !t->mem ? 2 : nvn_gpu_only(k->addr) ? 3
+               : d->flags & NVN_TEXTURE_FLAGS_SPARSE ? 4 : !astc_opaque(t->mem, t->L.size) ? 5 : 0;
+@@ -523,14 +526,24 @@ Tex *create_tex(const tex_t *t, const TexKey *k, int defer_init) {
+         if (!w) {
+             f.astc_bc7 = 2;
+             f.vk = f.astc_srgb ? VK_FORMAT_BC1_RGB_SRGB_BLOCK : VK_FORMAT_BC1_RGB_UNORM_BLOCK;
++        } else if (w == 5) {
++            // Alpha, and nothing else that keeps an image BC7 (sparse arrays and the images the GPU fills must match the
++            // BC7 they are copied from): BC3 or BC2 when Texture compression asks for it (vk_tex_compression).
++            int alt = vk_astc_alt();
++            if (alt) {
++                f.astc_bc7 = (uint8_t)alt;
++                f.vk = alt == 3 ? (f.astc_srgb ? VK_FORMAT_BC3_SRGB_BLOCK : VK_FORMAT_BC3_UNORM_BLOCK)
++                                : (f.astc_srgb ? VK_FORMAT_BC2_SRGB_BLOCK : VK_FORMAT_BC2_UNORM_BLOCK);
++                plat_inc32(&alt_n);
++            }
+         }
+         plat_inc32(&why[w]);
+         int32_t all = 0;
+         for (int i = 0; i < 6; i++) all += why[i];
+         if (all % 256 == 0)
+             rt_log("vk: ASTC BC1 (MKW_ASTC_BC1): %d of %d images; BC7 for 4096+ %d, no CPU storage %d, GPU-only %d, "
+-                   "sparse %d, alpha %d (BC1 for alpha 1 decoded in every texel %d, %.0f ms decoding)", why[0], all,
+-                   why[1], why[2], why[3], why[4], why[5], alpha_one, alpha_ns / 1e6);
++                   "sparse %d, alpha %d (BC1 for alpha 1 decoded in every texel %d, %.0f ms decoding; BC3 or BC2 for alpha %d)", why[0],
++                   all, why[1], why[2], why[3], why[4], why[5], alpha_one, alpha_ns / 1e6, alt_n);
+     }
+     if (!tex_vk_format_supported(&f)) {
+         log_limited(&n_unsupported, "texture format %#x: VkFormat %d lacks features %#x", d->format, (int)f.vk, (unsigned)f.need);
+diff --git a/runtime/gfx/vk/tex/vk_tex_texel.c b/runtime/gfx/vk/tex/vk_tex_texel.c
+index 700b680..6d7cd93 100644
+--- a/runtime/gfx/vk/tex/vk_tex_texel.c
++++ b/runtime/gfx/vk/tex/vk_tex_texel.c
+@@ -201,6 +201,8 @@ static int decoded_block(VkFormat f, uint32_t *bw, uint32_t *bpb) {
+     switch (f) {
+     case VK_FORMAT_R8G8B8A8_UNORM: case VK_FORMAT_R8G8B8A8_SRGB: *bw = 1, *bpb = 4; return 1;
+     case VK_FORMAT_BC1_RGB_UNORM_BLOCK: case VK_FORMAT_BC1_RGB_SRGB_BLOCK: *bw = 4, *bpb = 8; return 1;
++    case VK_FORMAT_BC2_UNORM_BLOCK: case VK_FORMAT_BC2_SRGB_BLOCK:
++    case VK_FORMAT_BC3_UNORM_BLOCK: case VK_FORMAT_BC3_SRGB_BLOCK:
+     case VK_FORMAT_BC7_UNORM_BLOCK: case VK_FORMAT_BC7_SRGB_BLOCK: *bw = 4, *bpb = 16; return 1;
+     default: return 0;
+     }
+diff --git a/runtime/shaders/texture/README.md b/runtime/shaders/texture/README.md
+index e4c385a..7cd42f0 100644
+--- a/runtime/shaders/texture/README.md
++++ b/runtime/shaders/texture/README.md
+@@ -7,3 +7,6 @@ Texture decoding and recompression on the GPU (`gfx/vk/tex/vk_astc.c`).
+ | `astc_decode.comp` | Compute ASTC decoder into RGBA8 |
+ | `bc7_encode.comp` | Mode 6 BC7 encoder: recompresses the decoded ASTC to 1 byte per texel instead of 4 |
+ | `bc1_encode.comp` | BC1 encoder: half a byte per texel, for ASTC without alpha |
++| `bc3_encode.comp` | BC3 (DXT5) encoder: BC1 colour and interpolated alpha, 1 byte per texel; the alternative to BC7 for ASTC with alpha (Settings > Graphics > Texture compression: BC1 + BC3) |
++| `bc2_encode.comp` | BC2 (DXT3) encoder: BC1 colour and 4-bit alpha, 1 byte per texel; the same, as BC1 + BC2 |
++| `bcn_rgba.glsl` | The body `bc3_encode.comp` and `bc2_encode.comp` share (`#include`d after each sets `BC_ALPHA_MODE`) |
+diff --git a/runtime/shaders/texture/bc2_encode.comp b/runtime/shaders/texture/bc2_encode.comp
+new file mode 100644
+index 0000000..4662c4c
+--- /dev/null
++++ b/runtime/shaders/texture/bc2_encode.comp
+@@ -0,0 +1,4 @@
++// RGBA8 texels -> BC2 (DXT3) blocks: BC1 colour plus explicit 4-bit alpha. See bcn_rgba.glsl.
++#version 460
++#define BC_ALPHA_MODE 2
++#include "bcn_rgba.glsl"
+diff --git a/runtime/shaders/texture/bc3_encode.comp b/runtime/shaders/texture/bc3_encode.comp
+new file mode 100644
+index 0000000..380069c
+--- /dev/null
++++ b/runtime/shaders/texture/bc3_encode.comp
+@@ -0,0 +1,4 @@
++// RGBA8 texels -> BC3 (DXT5) blocks: BC1 colour plus interpolated 8-bit alpha. See bcn_rgba.glsl.
++#version 460
++#define BC_ALPHA_MODE 3
++#include "bcn_rgba.glsl"
+diff --git a/runtime/shaders/texture/bcn_rgba.glsl b/runtime/shaders/texture/bcn_rgba.glsl
+new file mode 100644
+index 0000000..94ef98a
+--- /dev/null
++++ b/runtime/shaders/texture/bcn_rgba.glsl
+@@ -0,0 +1,206 @@
++// Shared body of bc3_encode.comp (BC_ALPHA_MODE 3) and bc2_encode.comp (BC_ALPHA_MODE 2): RGBA8 texels -> 16-byte
++// BC3 (DXT5) or BC2 (DXT3) blocks. Used after the ASTC compute decoder (vk_astc.c) for textures with alpha when the
++// Texture compression setting (MKW_TEX_COMPRESSION) asks for BC3 or BC2 where it would otherwise use BC7. Same size as
++// BC7 (1 byte a texel); the point is a cheaper encode and a format every GPU with BC support decodes the same way.
++//   Colour: the BC1 fit of bc1_encode.comp (principal axis, one least-squares refinement), four-colour mode, which BC2
++//           and BC3 always use whatever the endpoint order.
++//   BC2 alpha: 4 bits a texel, the nearest of 0, 17, 34 ... 255.
++//   BC3 alpha: two 8-bit endpoints and 3-bit indices. Two palettes are tried and the smaller squared error wins:
++//           (A) a0 = max > a1 = min, six values between them (an exact 255 or 0 is kept when it is an endpoint);
++//           (B) a0 <= a1 over the texels that are neither 0 nor 255, four values between, plus an exact 0 and 255, for
++//           the blocks of a cut-out's edge. Alpha 0 and 255 are exact in both.
++// Bit layout: Khronos Data Format Specification 1.3, BC2 and BC3 sections. The block is the alpha half first
++// (uvec4.xy), then the BC1 colour half (uvec4.zw).
++#ifndef BC_ALPHA_MODE
++#error "BC_ALPHA_MODE must be 2 (BC2) or 3 (BC3)"
++#endif
++
++layout(local_size_x = 8, local_size_y = 8, local_size_z = 1) in;
++
++layout(std430, set = 0, binding = 0) readonly buffer Texels { uint px[]; };    // RGBA8, R in the low byte
++layout(std430, set = 0, binding = 1) writeonly buffer Blocks { uvec4 blk[]; };
++
++layout(push_constant) uniform Params {
++    uint in_base;    // first texel of the region (uint index)
++    uint out_base;   // first block of the region (uvec4 index)
++    uint width, height;
++    uint bx, bslice;   // blocks per row, blocks per slice
++};
++
++vec4 texel(uint x, uint y, uint z) {   // edge texels repeat past the image (blocks of a small mip)
++    x = min(x, width - 1u), y = min(y, height - 1u);
++    uint v = px[in_base + (z * height + y) * width + x];
++    return vec4(v & 255u, (v >> 8) & 255u, (v >> 16) & 255u, v >> 24);
++}
++
++uint pack565(vec3 c) {
++    uvec3 q = uvec3(clamp(round(c * vec3(31.0, 63.0, 31.0) / 255.0), vec3(0.0), vec3(31.0, 63.0, 31.0)));
++    return (q.r << 11) | (q.g << 5) | q.b;
++}
++
++vec3 unpack565(uint v) {
++    uvec3 q = uvec3(v >> 11, (v >> 5) & 63u, v & 31u);
++    return vec3(q.r * 255u / 31u, q.g * 255u / 63u, q.b * 255u / 31u);   // as BC1 decoders expand (bit replication)
++}
++
++// Indices of the four palette colours nearest to each texel, and their summed error.
++float fit(vec3 c[16], uint e0, uint e1, out uint idx[16]) {
++    vec3 a = unpack565(e0), b = unpack565(e1);
++    vec3 pal[4] = vec3[](a, b, (2.0 * a + b) / 3.0, (a + 2.0 * b) / 3.0);
++    float total = 0.0;
++    for (uint i = 0u; i < 16u; i++) {
++        float best = 1e9;
++        uint bi = 0u;
++        for (uint k = 0u; k < 4u; k++) {
++            vec3 d = pal[k] - c[i];
++            float err = dot(d, d);
++            if (err < best) best = err, bi = k;
++        }
++        idx[i] = bi;
++        total += best;
++    }
++    return total;
++}
++
++void order(inout uint e0, inout uint e1) {
++    if (e0 < e1) { uint t = e0; e0 = e1; e1 = t; }
++}
++
++// The colour half: two uints, endpoints then 2-bit indices (bc1_encode.comp).
++uvec2 encode_colour(vec3 c[16]) {
++    vec3 mean = vec3(0.0);
++    for (uint i = 0u; i < 16u; i++) mean += c[i];
++    mean *= 1.0 / 16.0;
++    mat3 cov = mat3(0.0);
++    for (uint i = 0u; i < 16u; i++) {
++        vec3 d = c[i] - mean;
++        cov += outerProduct(d, d);
++    }
++    vec3 axis = vec3(1.0, 1.0, 1.0);
++    for (int k = 0; k < 6; k++) {
++        axis = cov * axis;
++        float l = length(axis);
++        axis = l > 1e-6 ? axis / l : vec3(0.577);
++    }
++    float tmin = 1e9, tmax = -1e9;
++    for (uint i = 0u; i < 16u; i++) {
++        float t = dot(c[i] - mean, axis);
++        tmin = min(tmin, t), tmax = max(tmax, t);
++    }
++    uint e0 = pack565(clamp(mean + axis * tmax, 0.0, 255.0)), e1 = pack565(clamp(mean + axis * tmin, 0.0, 255.0));
++    order(e0, e1);
++    uint idx[16];
++    float err = fit(c, e0, e1, idx);
++    const float W[4] = float[](1.0, 0.0, 2.0 / 3.0, 1.0 / 3.0);
++    float aa = 0.0, bb = 0.0, ab = 0.0;
++    vec3 ax = vec3(0.0), bx_ = vec3(0.0);
++    for (uint i = 0u; i < 16u; i++) {
++        float w = W[idx[i]];
++        aa += w * w, bb += (1.0 - w) * (1.0 - w), ab += w * (1.0 - w);
++        ax += w * c[i], bx_ += (1.0 - w) * c[i];
++    }
++    float det = aa * bb - ab * ab;
++    if (abs(det) > 1e-4 && e0 != e1) {
++        vec3 r0 = (ax * bb - bx_ * ab) / det, r1 = (bx_ * aa - ax * ab) / det;
++        uint f0 = pack565(clamp(r0, 0.0, 255.0)), f1 = pack565(clamp(r1, 0.0, 255.0));
++        order(f0, f1);
++        uint idx2[16];
++        float err2 = f0 != f1 ? fit(c, f0, f1, idx2) : 1e9;
++        if (err2 < err) {
++            e0 = f0, e1 = f1;
++            for (uint i = 0u; i < 16u; i++) idx[i] = idx2[i];
++        }
++    }
++    uint bits = 0u;
++    if (e0 != e1)
++        for (uint i = 0u; i < 16u; i++) bits |= idx[i] << (2u * i);
++    return uvec2(e0 | (e1 << 16), bits);
++}
++
++#if BC_ALPHA_MODE == 2
++
++// BC2: texel i (row-major) in bits 4i.. of the 64-bit alpha half.
++uvec2 encode_alpha(float al[16]) {
++    uvec2 r = uvec2(0u);
++    for (uint i = 0u; i < 16u; i++) r[i >> 3] |= ((uint(al[i]) + 8u) / 17u) << (4u * (i & 7u));
++    return r;
++}
++
++#else
++
++// The eight palette values of the endpoints a0, a1 (a0 > a1: six between; otherwise four between, then 0 and 255).
++void palette(uint a0, uint a1, out float p[8]) {
++    float f0 = float(a0), f1 = float(a1);
++    p[0] = f0, p[1] = f1;
++    if (a0 > a1) {
++        for (uint k = 1u; k <= 6u; k++) p[1u + k] = (float(7u - k) * f0 + float(k) * f1) / 7.0;
++    } else {
++        for (uint k = 1u; k <= 4u; k++) p[1u + k] = (float(5u - k) * f0 + float(k) * f1) / 5.0;
++        p[6] = 0.0, p[7] = 255.0;
++    }
++}
++
++float alpha_fit(float al[16], float p[8], out uint idx[16]) {
++    float total = 0.0;
++    for (uint i = 0u; i < 16u; i++) {
++        float best = 1e9;
++        uint bi = 0u;
++        for (uint k = 0u; k < 8u; k++) {
++            float d = p[k] - al[i];
++            if (d * d < best) best = d * d, bi = k;
++        }
++        idx[i] = bi;
++        total += best;
++    }
++    return total;
++}
++
++// BC3: byte 0 = a0, byte 1 = a1, then 16 3-bit indices from bit 16 of the 64-bit alpha half.
++uvec2 encode_alpha(float al[16]) {
++    float amin = 255.0, amax = 0.0, mid_min = 255.0, mid_max = 0.0;
++    bool has_mid = false, has_end = false;
++    for (uint i = 0u; i < 16u; i++) {
++        amin = min(amin, al[i]), amax = max(amax, al[i]);
++        if (al[i] > 0.5 && al[i] < 254.5) has_mid = true, mid_min = min(mid_min, al[i]), mid_max = max(mid_max, al[i]);
++        else has_end = true;
++    }
++    uint a0 = uint(amax), a1 = uint(amin);   // (A) a0 >= a1; equal: a flat block, the 4+2 mode, every index 0
++    float pa[8];
++    palette(a0, a1, pa);
++    uint idx[16];
++    float err = alpha_fit(al, pa, idx);
++    if (has_mid && has_end) {   // (B) the endpoints bracket the texels that are not 0 or 255
++        uint b0 = uint(mid_min), b1 = uint(mid_max);
++        float pb[8];
++        palette(b0, b1, pb);
++        uint idx2[16];
++        float err2 = b0 < b1 ? alpha_fit(al, pb, idx2) : 1e9;   // b0 == b1 would be palette A's own flat mode
++        if (err2 < err) {
++            a0 = b0, a1 = b1, err = err2;
++            for (uint i = 0u; i < 16u; i++) idx[i] = idx2[i];
++        }
++    }
++    if (a0 == a1)
++        for (uint i = 0u; i < 16u; i++) idx[i] = 0u;
++    uvec2 r = uvec2(a0 | (a1 << 8), 0u);
++    for (uint i = 0u; i < 16u; i++) {
++        uint bit = 16u + 3u * i, w = bit >> 5, s = bit & 31u;
++        r[w] |= idx[i] << s;
++        if (s > 29u) r[w + 1u] |= idx[i] >> (32u - s);
++    }
++    return r;
++}
++
++#endif
++
++void main() {
++    uint bxi = gl_GlobalInvocationID.x, byi = gl_GlobalInvocationID.y, z = gl_GlobalInvocationID.z;
++    if (bxi >= bx || byi * bx >= bslice) return;
++    vec3 c[16];
++    float al[16];
++    for (uint i = 0u; i < 16u; i++) {
++        vec4 t = texel(bxi * 4u + (i & 3u), byi * 4u + (i >> 2), z);
++        c[i] = t.rgb, al[i] = t.a;
++    }
++    blk[out_base + z * bslice + byi * bx + bxi] = uvec4(encode_alpha(al), encode_colour(c));
++}
+diff --git a/runtime/ui/menu/settings_tabs.cpp b/runtime/ui/menu/settings_tabs.cpp
+index 488bf92..b7ba53c 100644
+--- a/runtime/ui/menu/settings_tabs.cpp
++++ b/runtime/ui/menu/settings_tabs.cpp
+@@ -398,6 +398,11 @@ static void tab_graphics(float scale) {
+     }
+     static const UiTextId texq[] = {UI_MENU_TEX_QUALITY_FULL, UI_MENU_TEX_QUALITY_HALF, UI_MENU_TEX_QUALITY_QUARTER};
+     opt_choice("MKW_TEX_QUALITY", UI_MENU_TEX_QUALITY, texq, 3, UI_MENU_TEX_QUALITY_DESC);
++    {   // how the ASTC textures are stored on a card without ASTC (gfx/vk/tex/vk_astc.c vk_tex_compression)
++        static const char *const vals[] = {"auto", "bc3", "bc2", "bc7", "off"};
++        const char *names[5] = {menu_text(UI_MENU_AUTO), "BC1 + BC3", "BC1 + BC2", "BC7", menu_text(UI_MENU_OFF)};
++        opt_choice_list("MKW_TEX_COMPRESSION", UI_MENU_TEX_COMPRESSION, vals, names, 5, UI_MENU_TEX_COMPRESSION_DESC);
++    }
+     {   // the game's LODDistanceRatio (sdk/fs/romfs_res.c), 2 on the console
+         static const char *const vals[] = {"1", "1.5", "2", "3", "4"};
+         const char *names[5] = {menu_text(UI_MENU_DETAIL_LOW), menu_text(UI_MENU_DETAIL_MEDIUM),
+diff --git a/tests/runtime/README.md b/tests/runtime/README.md
+index 03de895..edf28d0 100644
+--- a/tests/runtime/README.md
++++ b/tests/runtime/README.md
+@@ -5,6 +5,7 @@ Pieces of `runtime/` built alone: audio, controllers, memory caps, settings and
+ | File | What it checks |
+ |---|---|
+ | `test_ui_text.py` | The menu's text catalogs (`i18n/`): the English template has every id of `ui_text.h`, each `.po` is up to date with it, and each translation keeps the English's printf conversions in order (a swapped `%s`/`%d` would make printf read the wrong argument) |
++| `test_tex_compression.py` | The Texture compression setting (`MKW_TEX_COMPRESSION`): the settings table, the reader in `vk_astc.c` and the menu row agree on its values, and the BC3 and BC2 encoders' embedded SPIR-V matches their sources |
+ | `test_switch2.py` | The Switch 2 controllers' Bluetooth LE protocol (`runtime/input/switch2_proto.h`): mkw-neo's test (`t_switch2.c`, reports recorded from real Joy-Con 2s) built against our copy |
+ | `test_cfg.py` | `cfg.c` keeps one table: every key once, one row per line, the key-only rows in order (a key missing from the list made the menu's `HDR` setting drop as unknown, #168) |
+ | `test_cfg_bool.py` | `cfg_bool` (`cfg.c`), built alone with stubbed table lookups: `off`, `false`, `no` are false and `on`, `true`, `yes` true in any case, other numbers true, an unknown word gives the row's default |
+diff --git a/tests/runtime/test_tex_compression.py b/tests/runtime/test_tex_compression.py
+new file mode 100644
+index 0000000..4187ea8
+--- /dev/null
++++ b/tests/runtime/test_tex_compression.py
+@@ -0,0 +1,50 @@
++"""Settings > Graphics > Texture compression (MKW_TEX_COMPRESSION): the values the settings table, the reader in
++gfx/vk/tex/vk_astc.c and the menu row agree on, and the embedded SPIR-V of the BC3 and BC2 encoders is the one their
++sources compile to. Nothing here needs a GPU or the game; the encoders' output was checked on a software Vulkan device
++against an independent BC2/BC3 decoder when they were added (runtime/shaders/texture/README.md).
++
++Usage: uv run pytest tests
++"""
++
++import hashlib
++import re
++from pathlib import Path
++
++ROOT = Path(__file__).resolve().parents[2]
++CFG = (ROOT / "runtime/core/base/cfg.c").read_text()
++ASTC = (ROOT / "runtime/gfx/vk/tex/vk_astc.c").read_text()
++MENU = (ROOT / "runtime/ui/menu/settings_tabs.cpp").read_text()
++
++
++def row() -> tuple[str, list[str]]:
++    m = re.search(r'S\("TEX_COMPRESSION", "graphics", "([^"]*)", "([^"]*)"', CFG)
++    assert m, "no TEX_COMPRESSION row in cfg.c"
++    return m.group(1), m.group(2).split("|")
++
++
++def test_default_is_the_current_behaviour():
++    default, values = row()
++    assert default == "auto"  # BC1 for opaque ASTC, BC7 for the rest: what the port did before the setting
++    assert default in values
++
++
++def test_reader_handles_every_value():
++    _, values = row()
++    for v in values:
++        if v != "auto":  # auto is the fall-through
++            assert f'!strcmp(e, "{v}")' in ASTC, v
++
++
++def test_menu_offers_every_value():
++    _, values = row()
++    block = MENU[MENU.index('vals[] = {"auto", "bc3"') :][:200]
++    for v in values:
++        assert f'"{v}"' in block, v
++
++
++def test_bc3_bc2_spirv_is_current():
++    for name in ("bc3_encode", "bc2_encode"):
++        src = ROOT / f"runtime/shaders/texture/{name}.comp"
++        hdr = (ROOT / f"runtime/gfx/vk/spv/{name}_spv.h").read_text()
++        assert hashlib.sha256(src.read_bytes()).hexdigest() in hdr, f"{name}: run tools/shaders/embed_spv.py"
++        assert (ROOT / "runtime/shaders/texture/bcn_rgba.glsl").exists()

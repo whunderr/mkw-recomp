@@ -1,0 +1,4 @@
+// RGBA8 texels -> BC2 (DXT3) blocks: BC1 colour plus explicit 4-bit alpha. See bcn_rgba.glsl.
+#version 460
+#define BC_ALPHA_MODE 2
+#include "bcn_rgba.glsl"

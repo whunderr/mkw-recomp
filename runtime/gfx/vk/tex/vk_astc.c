@@ -17,6 +17,8 @@
 
 #include "astc_decode_spv.h"
 #include "bc1_encode_spv.h"
+#include "bc2_encode_spv.h"
+#include "bc3_encode_spv.h"
 #include "bc7_encode_spv.h"
 #include "cfg.h"
 #include "host.h"
@@ -103,12 +105,14 @@ static struct {
     VkPipeline pipe;
     VkPipeline enc;               // bc7_encode.comp, same layout (bindings 0 and 1); NULL: no BC7 re-encoding
     VkPipeline enc1;              // bc1_encode.comp, same layout; NULL: no BC1
+    VkPipeline enc3, enc2;        // bc3_encode.comp / bc2_encode.comp, same layout; only the one MKW_TEX_COMPRESSION asks for
     int bc7;                      // vk_astc_bc7's answer on dev; -1 not decided
+    int alt;                      // vk_astc_alt's answer on dev (0, 3 or 4); -1 not decided
     PFN_vkCmdPushDescriptorSetKHR push;
     VkBuffer tab;                 // device-local copy of the tables
     VmaAllocation tab_alloc;
     int tab_uploaded;
-} G = {.mode = -1, .bc7 = -1};
+} G = {.mode = -1, .bc7 = -1, .alt = -1};
 static uint64_t n_dispatch, n_texels;
 
 // MKW_ASTC_TIME=1 (or vk_astc_time_enable): timestamps around the dispatches of each scratch chunk (the decode
@@ -305,7 +309,34 @@ static int create_pipeline(VkCtx *c) {
         if (vkCreateComputePipelines(c->device, VK_NULL_HANDLE, 1, &ci, NULL, &G.enc1) != VK_SUCCESS) G.enc1 = VK_NULL_HANDLE;
         vkDestroyShaderModule(c->device, m, NULL);
     }
+    // BC3 or BC2 for the textures with alpha instead of BC7 (MKW_TEX_COMPRESSION): only the one that was asked for
+    int tc = vk_tex_compression();
+    if (tc == VK_TEXCOMP_BC3 || tc == VK_TEXCOMP_BC2) {
+        VkPipeline *dst = tc == VK_TEXCOMP_BC3 ? &G.enc3 : &G.enc2;
+        mi.codeSize = tc == VK_TEXCOMP_BC3 ? sizeof bc3_encode_spv : sizeof bc2_encode_spv;
+        mi.pCode = tc == VK_TEXCOMP_BC3 ? bc3_encode_spv : bc2_encode_spv;
+        if (vkCreateShaderModule(c->device, &mi, NULL, &m) == VK_SUCCESS) {
+            ci.stage.module = m;
+            if (vkCreateComputePipelines(c->device, VK_NULL_HANDLE, 1, &ci, NULL, dst) != VK_SUCCESS) *dst = VK_NULL_HANDLE;
+            vkDestroyShaderModule(c->device, m, NULL);
+        }
+    }
     return 1;
+}
+
+// MKW_TEX_COMPRESSION (Settings > Graphics > Texture compression; "auto" by default): what the ASTC textures the device
+// cannot sample are stored as after the GPU decoder. auto: BC1 for the opaque ones, BC7 for the rest (the console's look
+// within BC7 mode 6's limits); bc3 / bc2: BC1 for the opaque ones, BC3 / BC2 where BC7 would be (the same bytes a texel,
+// a cheaper encode, no BC7 needed on the way); bc7: BC7 for all (no BC1); off: RGBA8, no recompression.
+// MKW_ASTC_BC7=0 and MKW_ASTC_BC1=0 still switch off what they always did.
+int vk_tex_compression(void) {
+    static int v = -1;
+    if (v < 0) {
+        const char *e = cfg_value("MKW_TEX_COMPRESSION");
+        v = !e ? VK_TEXCOMP_AUTO : !strcmp(e, "bc3") ? VK_TEXCOMP_BC3 : !strcmp(e, "bc2") ? VK_TEXCOMP_BC2
+          : !strcmp(e, "bc7") ? VK_TEXCOMP_BC7 : !strcmp(e, "off") ? VK_TEXCOMP_OFF : VK_TEXCOMP_AUTO;
+    }
+    return v;
 }
 
 // MKW_ASTC_BC7 (default 1; 0 off): ASTC images of 256x256 or more become BC7 images, filled by the decoder and then bc7_encode.comp. The RGBA8
@@ -322,10 +353,32 @@ int vk_astc_bc7(void) {
     vkGetPhysicalDeviceFormatProperties(c->phys, VK_FORMAT_BC7_SRGB_BLOCK, &p);
     VkFormatFeatureFlags need = VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT | VK_FORMAT_FEATURE_TRANSFER_DST_BIT;
     plat_mutex_lock(&g_lock);
-    G.bc7 = !(e && *e && !atoi(e)) && G.enc && (p.optimalTilingFeatures & need) == need;
+    G.bc7 = !(e && *e && !atoi(e)) && vk_tex_compression() != VK_TEXCOMP_OFF && G.enc && (p.optimalTilingFeatures & need) == need;
     v = G.bc7;
     plat_mutex_unlock(&g_lock);
     rt_log("vk: ASTC textures re-encoded as BC7: %s", v ? "yes" : "no");
+    return v;
+}
+
+// 3 when the textures with alpha are to be BC3 images, 4 for BC2, 0 for BC7 (vk_tex_compression, the encoder pipeline
+// built, and the device samples the format and takes a copy into it).
+int vk_astc_alt(void) {
+    VkCtx *c = vk_ctx();
+    if (!c || !vk_astc_bc7()) return 0;
+    plat_mutex_lock_shared(&g_lock);
+    int v = G.dev == c->device ? G.alt : -1;
+    plat_mutex_unlock_shared(&g_lock);
+    if (v >= 0) return v;
+    int tc = vk_tex_compression(), want = tc == VK_TEXCOMP_BC3 ? 3 : tc == VK_TEXCOMP_BC2 ? 4 : 0;
+    VkFormat f = want == 3 ? VK_FORMAT_BC3_SRGB_BLOCK : VK_FORMAT_BC2_SRGB_BLOCK;
+    VkFormatProperties p = {0};
+    if (want) vkGetPhysicalDeviceFormatProperties(c->phys, f, &p);
+    VkFormatFeatureFlags need = VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT | VK_FORMAT_FEATURE_TRANSFER_DST_BIT;
+    plat_mutex_lock(&g_lock);
+    G.alt = want && (p.optimalTilingFeatures & need) == need && (want == 3 ? G.enc3 : G.enc2) ? want : 0;
+    v = G.alt;
+    plat_mutex_unlock(&g_lock);
+    if (want) rt_log("vk: ASTC textures with alpha re-encoded as %s: %s", want == 3 ? "BC3" : "BC2", v ? "yes" : "no (BC7)");
     return v;
 }
 
@@ -500,10 +553,10 @@ static int astc_record(VkCommandBuffer cb, VkBuffer src, const VkAstcRegion *rg,
     VkPipeline pipe = G.dev == c->device ? G.pipe : VK_NULL_HANDLE;
     plat_mutex_unlock_shared(&g_lock);
     if (!pipe) return 0;
-    // bc7: 1 the image is BC7, 2 BC1 (TexVkFormat.astc_bc7). MKW_ASTC=check reads back the RGBA8 the decoder wrote,
+    // bc7: 1 the image is BC7, 2 BC1, 3 BC3, 4 BC2 (TexVkFormat.astc_bc7). MKW_ASTC=check reads back the RGBA8 the decoder wrote,
     // before the re-encoding: turning that off for it put RGBA8 rows into BC7 images (the menus scrambled, vis22).
     if (!vk_astc_bc7()) bc7 = 0;
-    VkPipeline enc = bc7 == 2 ? G.enc1 : bc7 ? G.enc : VK_NULL_HANDLE;
+    VkPipeline enc = bc7 == 2 ? G.enc1 : bc7 == 3 ? G.enc3 : bc7 == 4 ? G.enc2 : bc7 ? G.enc : VK_NULL_HANDLE;
     VkDeviceSize blk = bc7 == 2 ? 8 : 16;
     if (bc7 && !enc) return 0;
     // chunks of consecutive regions; scratch = the largest chunk's blocks, then its texels
@@ -645,7 +698,7 @@ static int astc_record(VkCommandBuffer cb, VkBuffer src, const VkAstcRegion *rg,
         }
         if (slot >= 0)
             vkCmdWriteTimestamp2(cb, VK_PIPELINE_STAGE_2_ALL_COMMANDS_BIT, tpool, 2 * (uint32_t)slot + 1);
-        if (enc) {   // RGBA8 texels -> BC7 or BC1 blocks, copied instead of the texels
+        if (enc) {   // RGBA8 texels -> BC7, BC1, BC3 or BC2 blocks, copied instead of the texels
             mem_barrier(cb, VK_PIPELINE_STAGE_2_COMPUTE_SHADER_BIT, VK_ACCESS_2_SHADER_STORAGE_WRITE_BIT,
                         VK_PIPELINE_STAGE_2_COMPUTE_SHADER_BIT, VK_ACCESS_2_SHADER_STORAGE_READ_BIT);
             vkCmdBindPipeline(cb, VK_PIPELINE_BIND_POINT_COMPUTE, enc);
@@ -712,6 +765,8 @@ void vk_astc_release(void) {
         if (G.pipe) vkDestroyPipeline(c->device, G.pipe, NULL);
         if (G.enc) vkDestroyPipeline(c->device, G.enc, NULL);
         if (G.enc1) vkDestroyPipeline(c->device, G.enc1, NULL);
+        if (G.enc3) vkDestroyPipeline(c->device, G.enc3, NULL);
+        if (G.enc2) vkDestroyPipeline(c->device, G.enc2, NULL);
         if (G.layout) vkDestroyPipelineLayout(c->device, G.layout, NULL);
         if (G.dsl) vkDestroyDescriptorSetLayout(c->device, G.dsl, NULL);
         if (G.tab) vmaDestroyBuffer(c->vma, G.tab, G.tab_alloc);
@@ -722,6 +777,7 @@ void vk_astc_release(void) {
     G.dev = VK_NULL_HANDLE;
     G.mode = -1;
     G.bc7 = -1;
+    G.alt = -1;
     G.failed = 0;
     plat_mutex_unlock(&g_lock);
 }

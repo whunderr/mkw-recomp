@@ -70,7 +70,7 @@ typedef struct TexVkFormat {
     uint8_t astc_bw, astc_bh;     // nonzero: ASTC decoded into vk (RGBA8, same colour space) by vk_astc.c or tex_astc.c;
                                   // zero for native ASTC (vk == ideal, raw blocks as for BC)
     uint8_t astc_srgb;
-    uint8_t astc_bc7;             // the decoded texels are encoded again as BC7 (vk is BC7: vk_astc_bc7)
+    uint8_t astc_bc7;             // the decoded texels are encoded again: 1 BC7 (vk is BC7: vk_astc_bc7), 2 BC1, 3 BC3, 4 BC2
     uint8_t depth, stencil;       // aspect flags of depth / stencil formats
     const char *note;             // why a fallback or an expansion was chosen; NULL when the mapping is direct
     const char *reason;           // unmapped formats only: why there is no Vulkan format
